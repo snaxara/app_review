@@ -32,7 +32,7 @@ Use este arquivo **só como roteiro de conferência**. Ordem sugerida: **templat
 - [ ] Se a tabela **dividir entre páginas**: **Layout da tabela → Repetir linhas de cabeçalho**.
 - [ ] Se couber: **ajustar largura** ou fonte do **corpo** para **10 pt** (permitido “menor se necessário”).
 - [ ] **Fonte** em Resultados: texto padrão do checklist — *“Fonte: Resultados originais da pesquisa”* (sem dados inventados).
-- [ ] Conferir no manual Item 1.5 se **título e fonte da tabela levam ou não ponto final** e **igualar todas** as tabelas.
+- [ ] **Item 1.5 (manual / checklist ESALQ):** título e **Fonte** de **figuras e tabelas** **sem ponto final**; **igualar todas** as legendas no Word.
 
 ---
 
