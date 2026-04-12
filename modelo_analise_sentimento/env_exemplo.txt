@@ -1,0 +1,10 @@
+# Configuração de Ambiente - Modelo de Análise de Sentimento
+# Renomeie este arquivo para .env e preencha com suas credenciais
+
+# OpenAI API Key (obrigatório para categorização funcional)
+# Obtenha sua chave em: https://platform.openai.com/
+OPENAI_API_KEY=sua_chave_openai_aqui
+
+# Modelo GPT a ser usado (opcional, padrão: gpt-4o)
+# Opções: gpt-4o, gpt-4o-mini, gpt-4-turbo
+OPENAI_MODEL=gpt-4o

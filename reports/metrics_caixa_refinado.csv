@@ -1,0 +1,94 @@
+﻿Issue;BusinessCapability;Level;CapabilityType;BusinessValue;TotalEpisodes
+Acesso limitado a agências;Acesso Geográfico;2;Supporting;Low;1
+Atendimento;Atendimento ao Cliente;2;Supporting;Medium;1
+Falta de atendimento adequado;Atendimento ao Cliente;2;Supporting;Medium;1
+Falta de suporte na agência;Atendimento ao Cliente;2;Supporting;Medium;1
+Longa espera para atendimento;Atendimento ao Cliente;2;Supporting;Medium;1
+Suporte não respondeu;Atendimento ao Cliente;2;Supporting;Medium;1
+Acesso a Chamadas Telefônicas;Autenticação e Acesso;1;Core;High;1
+Acesso intermitente ao aplicativo;Autenticação e Acesso;1;Core;High;1
+Bloqueio de Senha;Autenticação e Acesso;1;Core;High;1
+Cadastro de Biometria;Autenticação e Acesso;1;Core;High;1
+Criação de Nova Senha;Autenticação e Acesso;1;Core;High;1
+Não consegue entrar com a senha;Autenticação e Acesso;1;Core;High;1
+Pede senha duas vezes;Autenticação e Acesso;1;Core;High;1
+Senha Eletrônica;Autenticação e Acesso;1;Core;High;1
+Senha bloqueada;Autenticação e Acesso;1;Core;High;1
+Demora no Saldo;Consulta de Saldo e Extrato;2;Core;High;1
+Dificuldade em acessar saldo;Consulta de Saldo e Extrato;2;Core;High;1
+Dificuldade em obter extrato completo;Consulta de Saldo e Extrato;2;Core;High;1
+Erro ao tirar extratos dos meses de 2025;Consulta de Saldo e Extrato;2;Core;High;1
+Não consigo visualizar extrato;Consulta de Saldo e Extrato;2;Core;High;1
+Não me acho no extrato;Consulta de Saldo e Extrato;2;Core;High;1
+Quebra da relação do saldo com botão de visualização;Consulta de Saldo e Extrato;2;Core;High;1
+Ajuste no limite de PIX;Empréstimos e Crédito;2;Core;High;1
+Cartão cancelado;Empréstimos e Crédito;2;Core;High;1
+Dificuldade em encontrar empréstimo;Empréstimos e Crédito;2;Core;High;1
+Dificuldade em encontrar informações sobre empréstimos;Empréstimos e Crédito;2;Core;High;1
+Erro ao fazer simulação de empréstimo;Empréstimos e Crédito;2;Core;High;1
+Não consegue cadastrar cartão virtual;Empréstimos e Crédito;2;Core;High;1
+Acesso à Conta;Gestão de Cadastro e Conta;2;Supporting;Medium;1
+Cadastro Novo;Gestão de Cadastro e Conta;2;Supporting;Medium;1
+Cadastro Repetido;Gestão de Cadastro e Conta;2;Supporting;Medium;1
+Erro ao acessar a conta;Gestão de Cadastro e Conta;2;Supporting;Medium;1
+Erro ao acessar conta;Gestão de Cadastro e Conta;2;Supporting;Medium;1
+Erro na hora de acessar a conta;Gestão de Cadastro e Conta;2;Supporting;Medium;1
+Impossibilidade de abrir conta digital;Gestão de Cadastro e Conta;2;Supporting;Medium;1
+Impossível realizar cadastro;Gestão de Cadastro e Conta;2;Supporting;Medium;1
+Incapacidade de contatar a ouvidoria;Gestão de Cadastro e Conta;2;Supporting;Medium;1
+Não consegue acessar conta;Gestão de Cadastro e Conta;2;Supporting;Medium;1
+Não consegue entrar na conta;Gestão de Cadastro e Conta;2;Supporting;Medium;1
+Não consigo abrir conta;Gestão de Cadastro e Conta;2;Supporting;Medium;1
+Não consigo acessar minha conta;Gestão de Cadastro e Conta;2;Supporting;Medium;1
+Não serve para pagar conta;Gestão de Cadastro e Conta;2;Supporting;Medium;1
+Transferência de Conta;Gestão de Cadastro e Conta;2;Supporting;Medium;1
+Vinculação de Conta;Gestão de Cadastro e Conta;2;Supporting;Medium;1
+Cobranças indevidas;Gestão de Tarifas;2;Supporting;Medium;1
+Desconto automático da conta do cartão;Gestão de Tarifas;2;Supporting;Medium;1
+Insatisfação com o serviço;Interface e Experiência do Usuário;1;Supporting;Medium;2
+Insatisfação com a única opção de desbloqueio;Interface e Experiência do Usuário;1;Supporting;Medium;1
+Insatisfação com o Banco;Interface e Experiência do Usuário;1;Supporting;Medium;1
+Insatisfação com o serviço bancário;Interface e Experiência do Usuário;1;Supporting;Medium;1
+Notificação recebida mas sem resultado;Notificações e Alertas;2;Supporting;Medium;1
+Permissões excessivas de notificação e localização;Notificações e Alertas;2;Supporting;Medium;1
+Atraso no pagamento de DAE;Pagamentos e Boletos;2;Core;High;1
+Não consegue baixar boleto;Pagamentos e Boletos;2;Core;High;1
+Não consigo pagar boletos;Pagamentos e Boletos;2;Core;High;1
+Não se consegue pagar um boleto em dia de Domingo ou feriado;Pagamentos e Boletos;2;Core;High;1
+Pagamento de QR Code de Imagens;Pagamentos e Boletos;2;Core;High;1
+Lentidão;Performance e Estabilidade;1;Supporting;High;7
+App trava;Performance e Estabilidade;1;Supporting;High;2
+Fora do ar;Performance e Estabilidade;1;Supporting;High;2
+Não abre o aplicativo;Performance e Estabilidade;1;Supporting;High;2
+Aplicativo da loteria não abre;Performance e Estabilidade;1;Supporting;High;1
+Aplicativo lento;Performance e Estabilidade;1;Supporting;High;1
+Aplicativo não abre;Performance e Estabilidade;1;Supporting;High;1
+App não abre após atualização;Performance e Estabilidade;1;Supporting;High;1
+Bugs no aplicativo;Performance e Estabilidade;1;Supporting;High;1
+Erro ao abrir o aplicativo;Performance e Estabilidade;1;Supporting;High;1
+Leitor de códigos de barras não funciona;Performance e Estabilidade;1;Supporting;High;1
+Lentidão no Aplicativo;Performance e Estabilidade;1;Supporting;High;1
+Muito fora do ar;Performance e Estabilidade;1;Supporting;High;1
+Muito lento;Performance e Estabilidade;1;Supporting;High;1
+Não abre aplicativo;Performance e Estabilidade;1;Supporting;High;1
+Não abre no Google Play;Performance e Estabilidade;1;Supporting;High;1
+Não funciona na carteira do Google;Performance e Estabilidade;1;Supporting;High;1
+Sistema lento;Performance e Estabilidade;1;Supporting;High;1
+Trava;Performance e Estabilidade;1;Supporting;High;1
+Trava direto;Performance e Estabilidade;1;Supporting;High;1
+Bloqueio de Senha;Segurança e Proteção;1;Core;High;1
+Criação de Nova Senha;Segurança e Proteção;1;Core;High;1
+Insegurança na devolução de PIX;Segurança e Proteção;1;Core;High;1
+Não consegue entrar com a senha;Segurança e Proteção;1;Core;High;1
+Pede senha duas vezes;Segurança e Proteção;1;Core;High;1
+Senha Eletrônica;Segurança e Proteção;1;Core;High;1
+Senha bloqueada;Segurança e Proteção;1;Core;High;1
+Consequências da demora na devolução de PIX;Transferências PIX;2;Core;High;1
+Demora para resolver problema com o aplicativo via PIX;Transferências PIX;2;Core;High;1
+Devolução de PIX demorada;Transferências PIX;2;Core;High;1
+Dificuldade em fazer PIX;Transferências PIX;2;Core;High;1
+Erro ao colar chave PIX;Transferências PIX;2;Core;High;1
+Não aparece o envio de PIX;Transferências PIX;2;Core;High;1
+Não consigo fazer PIX;Transferências PIX;2;Core;High;1
+Problema com envio de PIX;Transferências PIX;2;Core;High;1
+Risco de golpe em contestação de PIX;Transferências PIX;2;Core;High;1

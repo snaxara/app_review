@@ -1,0 +1,178 @@
+================================================================================
+RELATÓRIO DE CORRELAÇÃO: ISSUES ↔ BUSINESS CAPABILITIES
+================================================================================
+Data de geração: 2026-01-15 23:14:01
+
+RESUMO GERAL
+--------------------------------------------------------------------------------
+Total de Issues únicas: 60
+Total de BusinessCapabilities: 12
+Total de Episódios (comentários): 61
+
+ESTATÍSTICAS POR BUSINESS CAPABILITY
+--------------------------------------------------------------------------------
+
+Performance e Estabilidade
+  Nível: 1 | Tipo: Supporting | Valor: High
+  Total de Issues: 25 (41.67%)
+  Total de Episódios: 25 (40.98%)
+  Média de Episódios por Issue: 1.00
+  Top 5 Issues mais frequentes:
+    1. App trava: 1 episódio(s)
+    2. Atraso na Compensação de IPVA: 1 episódio(s)
+    3. Ausência de agência: 1 episódio(s)
+    4. Cartão físico não chegou: 1 episódio(s)
+    5. Comparação com custo de itens básicos: 1 episódio(s)
+
+Gestão de Cadastro e Conta
+  Nível: 2 | Tipo: Supporting | Valor: Medium
+  Total de Issues: 7 (11.67%)
+  Total de Episódios: 7 (11.48%)
+  Média de Episódios por Issue: 1.00
+  Top 5 Issues mais frequentes:
+    1. App não abre: 1 episódio(s)
+    2. App não abre em dias específicos: 1 episódio(s)
+    3. Conta bloqueada: 1 episódio(s)
+    4. Dificuldade de contato: 1 episódio(s)
+    5. Erro ao acessar conta: 1 episódio(s)
+
+Atendimento ao Cliente
+  Nível: 2 | Tipo: Supporting | Valor: Medium
+  Total de Issues: 6 (10.00%)
+  Total de Episódios: 6 (9.84%)
+  Média de Episódios por Issue: 1.00
+  Top 5 Issues mais frequentes:
+    1. Atendimento automatizado insatisfatório: 1 episódio(s)
+    2. Atendimento ruim: 1 episódio(s)
+    3. Atendimento telefônico péssimo: 1 episódio(s)
+    4. Enrolada no chat: 1 episódio(s)
+    5. Falta de suporte: 1 episódio(s)
+
+Segurança e Proteção
+  Nível: 1 | Tipo: Core | Valor: High
+  Total de Issues: 6 (10.00%)
+  Total de Episódios: 6 (9.84%)
+  Média de Episódios por Issue: 1.00
+  Top 5 Issues mais frequentes:
+    1. Espionagem: 1 episódio(s)
+    2. Excesso de segurança ao fazer PIX: 1 episódio(s)
+    3. Falta de Camadas de Segurança: 1 episódio(s)
+    4. Falta de Transparência: 1 episódio(s)
+    5. Falta de confiança: 1 episódio(s)
+
+Gestão de Tarifas
+  Nível: 2 | Tipo: Supporting | Valor: Medium
+  Total de Issues: 3 (5.00%)
+  Total de Episódios: 3 (4.92%)
+  Média de Episódios por Issue: 1.00
+  Top 5 Issues mais frequentes:
+    1. Cobrança de tarifas: 1 episódio(s)
+    2. Desconto considerado insuficiente: 1 episódio(s)
+    3. Tarifa de 16,00: 1 episódio(s)
+
+Investimentos
+  Nível: 2 | Tipo: Strategic | Valor: High
+  Total de Issues: 3 (5.00%)
+  Total de Episódios: 3 (4.92%)
+  Média de Episódios por Issue: 1.00
+  Top 5 Issues mais frequentes:
+    1. Dificuldade em fazer investimento: 1 episódio(s)
+    2. Inconsistência de dados com B3: 1 episódio(s)
+    3. Setor de investimento não atualizado: 1 episódio(s)
+
+Autenticação e Acesso
+  Nível: 1 | Tipo: Core | Valor: High
+  Total de Issues: 2 (3.33%)
+  Total de Episódios: 2 (3.28%)
+  Média de Episódios por Issue: 1.00
+  Top 5 Issues mais frequentes:
+    1. Dificuldade de acesso ao aplicativo: 1 episódio(s)
+    2. Falta de acesso para consulta: 1 episódio(s)
+
+Consulta de Saldo e Extrato
+  Nível: 2 | Tipo: Core | Valor: High
+  Total de Issues: 2 (3.33%)
+  Total de Episódios: 2 (3.28%)
+  Média de Episódios por Issue: 1.00
+  Top 5 Issues mais frequentes:
+    1. Não consigo acessar saldo: 1 episódio(s)
+    2. Saldo não reconhecido: 1 episódio(s)
+
+Interface e Experiência do Usuário
+  Nível: 1 | Tipo: Supporting | Valor: Medium
+  Total de Issues: 2 (3.33%)
+  Total de Episódios: 2 (3.28%)
+  Média de Episódios por Issue: 1.00
+  Top 5 Issues mais frequentes:
+    1. Falta de Modo Escuro: 1 episódio(s)
+    2. Vergonha pelo Modo Escuro Ausente: 1 episódio(s)
+
+Pagamentos e Boletos
+  Nível: 2 | Tipo: Core | Valor: High
+  Total de Issues: 2 (3.33%)
+  Total de Episódios: 2 (3.28%)
+  Média de Episódios por Issue: 1.00
+  Top 5 Issues mais frequentes:
+    1. App trava na hora de receber o pagamento: 1 episódio(s)
+    2. Erro ao fazer pagamento: 1 episódio(s)
+
+Transferências PIX
+  Nível: 2 | Tipo: Core | Valor: High
+  Total de Issues: 1 (1.67%)
+  Total de Episódios: 2 (3.28%)
+  Média de Episódios por Issue: 2.00
+  Top 5 Issues mais frequentes:
+    1. Problemas com PIX: 2 episódio(s)
+
+Empréstimos e Crédito
+  Nível: 2 | Tipo: Core | Valor: High
+  Total de Issues: 1 (1.67%)
+  Total de Episódios: 1 (1.64%)
+  Média de Episódios por Issue: 1.00
+  Top 5 Issues mais frequentes:
+    1. Acompanhamento pelo app: 1 episódio(s)
+
+================================================================================
+TOP 10 ISSUES MAIS CRÍTICAS (por número de episódios)
+--------------------------------------------------------------------------------
+1. Problemas com PIX: 2 episódio(s)
+   Relacionada a: Transferências PIX
+2. Acompanhamento pelo app: 1 episódio(s)
+   Relacionada a: Empréstimos e Crédito
+3. App não abre: 1 episódio(s)
+   Relacionada a: Gestão de Cadastro e Conta
+4. App não abre em dias específicos: 1 episódio(s)
+   Relacionada a: Gestão de Cadastro e Conta
+5. App trava: 1 episódio(s)
+   Relacionada a: Performance e Estabilidade
+6. App trava na hora de receber o pagamento: 1 episódio(s)
+   Relacionada a: Pagamentos e Boletos
+7. Atendimento automatizado insatisfatório: 1 episódio(s)
+   Relacionada a: Atendimento ao Cliente
+8. Atendimento ruim: 1 episódio(s)
+   Relacionada a: Atendimento ao Cliente
+9. Atendimento telefônico péssimo: 1 episódio(s)
+   Relacionada a: Atendimento ao Cliente
+10. Atraso na Compensação de IPVA: 1 episódio(s)
+   Relacionada a: Performance e Estabilidade
+
+================================================================================
+DISTRIBUIÇÃO POR NÍVEL DE CAPABILITY
+--------------------------------------------------------------------------------
+Nível 1: 35 Issues (58.33%) | 35 Episódios (57.38%)
+Nível 2: 25 Issues (41.67%) | 26 Episódios (42.62%)
+
+================================================================================
+DISTRIBUIÇÃO POR TIPO DE CAPABILITY
+--------------------------------------------------------------------------------
+Core: 14 Issues (23.33%) | 15 Episódios (24.59%)
+Strategic: 3 Issues (5.00%) | 3 Episódios (4.92%)
+Supporting: 43 Issues (71.67%) | 43 Episódios (70.49%)
+
+================================================================================
+DISTRIBUIÇÃO POR VALOR DE NEGÓCIO
+--------------------------------------------------------------------------------
+High: 42 Issues (70.00%) | 43 Episódios (70.49%)
+Medium: 18 Issues (30.00%) | 18 Episódios (29.51%)
+
+================================================================================

@@ -1,0 +1,410 @@
+{
+  "generated_at": "2026-01-19T19:23:09.358627",
+  "summary": {
+    "total_issues": 87,
+    "total_capabilities": 13,
+    "total_episodes": 103
+  },
+  "capability_statistics": {
+    "Acesso Geográfico": {
+      "total_issues": 1,
+      "total_episodes": 1,
+      "avg_episodes_per_issue": 1.0,
+      "level": 2,
+      "capability_type": "Supporting",
+      "business_value": "Low",
+      "top_issues": [
+        {
+          "Issue": "Acesso limitado a agências",
+          "TotalEpisodes": 1
+        }
+      ]
+    },
+    "Atendimento ao Cliente": {
+      "total_issues": 5,
+      "total_episodes": 5,
+      "avg_episodes_per_issue": 1.0,
+      "level": 2,
+      "capability_type": "Supporting",
+      "business_value": "Medium",
+      "top_issues": [
+        {
+          "Issue": "Atendimento",
+          "TotalEpisodes": 1
+        },
+        {
+          "Issue": "Falta de atendimento adequado",
+          "TotalEpisodes": 1
+        },
+        {
+          "Issue": "Falta de suporte na agência",
+          "TotalEpisodes": 1
+        },
+        {
+          "Issue": "Longa espera para atendimento",
+          "TotalEpisodes": 1
+        },
+        {
+          "Issue": "Suporte não respondeu",
+          "TotalEpisodes": 1
+        }
+      ]
+    },
+    "Autenticação e Acesso": {
+      "total_issues": 9,
+      "total_episodes": 9,
+      "avg_episodes_per_issue": 1.0,
+      "level": 1,
+      "capability_type": "Core",
+      "business_value": "High",
+      "top_issues": [
+        {
+          "Issue": "Acesso a Chamadas Telefônicas",
+          "TotalEpisodes": 1
+        },
+        {
+          "Issue": "Acesso intermitente ao aplicativo",
+          "TotalEpisodes": 1
+        },
+        {
+          "Issue": "Bloqueio de Senha",
+          "TotalEpisodes": 1
+        },
+        {
+          "Issue": "Cadastro de Biometria",
+          "TotalEpisodes": 1
+        },
+        {
+          "Issue": "Criação de Nova Senha",
+          "TotalEpisodes": 1
+        }
+      ]
+    },
+    "Consulta de Saldo e Extrato": {
+      "total_issues": 7,
+      "total_episodes": 7,
+      "avg_episodes_per_issue": 1.0,
+      "level": 2,
+      "capability_type": "Core",
+      "business_value": "High",
+      "top_issues": [
+        {
+          "Issue": "Demora no Saldo",
+          "TotalEpisodes": 1
+        },
+        {
+          "Issue": "Dificuldade em acessar saldo",
+          "TotalEpisodes": 1
+        },
+        {
+          "Issue": "Dificuldade em obter extrato completo",
+          "TotalEpisodes": 1
+        },
+        {
+          "Issue": "Erro ao tirar extratos dos meses de 2025",
+          "TotalEpisodes": 1
+        },
+        {
+          "Issue": "Não consigo visualizar extrato",
+          "TotalEpisodes": 1
+        }
+      ]
+    },
+    "Empréstimos e Crédito": {
+      "total_issues": 6,
+      "total_episodes": 6,
+      "avg_episodes_per_issue": 1.0,
+      "level": 2,
+      "capability_type": "Core",
+      "business_value": "High",
+      "top_issues": [
+        {
+          "Issue": "Ajuste no limite de PIX",
+          "TotalEpisodes": 1
+        },
+        {
+          "Issue": "Cartão cancelado",
+          "TotalEpisodes": 1
+        },
+        {
+          "Issue": "Dificuldade em encontrar empréstimo",
+          "TotalEpisodes": 1
+        },
+        {
+          "Issue": "Dificuldade em encontrar informações sobre empréstimos",
+          "TotalEpisodes": 1
+        },
+        {
+          "Issue": "Erro ao fazer simulação de empréstimo",
+          "TotalEpisodes": 1
+        }
+      ]
+    },
+    "Gestão de Cadastro e Conta": {
+      "total_issues": 16,
+      "total_episodes": 16,
+      "avg_episodes_per_issue": 1.0,
+      "level": 2,
+      "capability_type": "Supporting",
+      "business_value": "Medium",
+      "top_issues": [
+        {
+          "Issue": "Acesso à Conta",
+          "TotalEpisodes": 1
+        },
+        {
+          "Issue": "Cadastro Novo",
+          "TotalEpisodes": 1
+        },
+        {
+          "Issue": "Cadastro Repetido",
+          "TotalEpisodes": 1
+        },
+        {
+          "Issue": "Erro ao acessar a conta",
+          "TotalEpisodes": 1
+        },
+        {
+          "Issue": "Erro ao acessar conta",
+          "TotalEpisodes": 1
+        }
+      ]
+    },
+    "Gestão de Tarifas": {
+      "total_issues": 2,
+      "total_episodes": 2,
+      "avg_episodes_per_issue": 1.0,
+      "level": 2,
+      "capability_type": "Supporting",
+      "business_value": "Medium",
+      "top_issues": [
+        {
+          "Issue": "Cobranças indevidas",
+          "TotalEpisodes": 1
+        },
+        {
+          "Issue": "Desconto automático da conta do cartão",
+          "TotalEpisodes": 1
+        }
+      ]
+    },
+    "Interface e Experiência do Usuário": {
+      "total_issues": 4,
+      "total_episodes": 5,
+      "avg_episodes_per_issue": 1.25,
+      "level": 1,
+      "capability_type": "Supporting",
+      "business_value": "Medium",
+      "top_issues": [
+        {
+          "Issue": "Insatisfação com o serviço",
+          "TotalEpisodes": 2
+        },
+        {
+          "Issue": "Insatisfação com a única opção de desbloqueio",
+          "TotalEpisodes": 1
+        },
+        {
+          "Issue": "Insatisfação com o Banco",
+          "TotalEpisodes": 1
+        },
+        {
+          "Issue": "Insatisfação com o serviço bancário",
+          "TotalEpisodes": 1
+        }
+      ]
+    },
+    "Notificações e Alertas": {
+      "total_issues": 2,
+      "total_episodes": 2,
+      "avg_episodes_per_issue": 1.0,
+      "level": 2,
+      "capability_type": "Supporting",
+      "business_value": "Medium",
+      "top_issues": [
+        {
+          "Issue": "Notificação recebida mas sem resultado",
+          "TotalEpisodes": 1
+        },
+        {
+          "Issue": "Permissões excessivas de notificação e localização",
+          "TotalEpisodes": 1
+        }
+      ]
+    },
+    "Pagamentos e Boletos": {
+      "total_issues": 5,
+      "total_episodes": 5,
+      "avg_episodes_per_issue": 1.0,
+      "level": 2,
+      "capability_type": "Core",
+      "business_value": "High",
+      "top_issues": [
+        {
+          "Issue": "Atraso no pagamento de DAE",
+          "TotalEpisodes": 1
+        },
+        {
+          "Issue": "Não consegue baixar boleto",
+          "TotalEpisodes": 1
+        },
+        {
+          "Issue": "Não consigo pagar boletos",
+          "TotalEpisodes": 1
+        },
+        {
+          "Issue": "Não se consegue pagar um boleto em dia de Domingo ou feriado",
+          "TotalEpisodes": 1
+        },
+        {
+          "Issue": "Pagamento de QR Code de Imagens",
+          "TotalEpisodes": 1
+        }
+      ]
+    },
+    "Performance e Estabilidade": {
+      "total_issues": 20,
+      "total_episodes": 29,
+      "avg_episodes_per_issue": 1.45,
+      "level": 1,
+      "capability_type": "Supporting",
+      "business_value": "High",
+      "top_issues": [
+        {
+          "Issue": "Lentidão",
+          "TotalEpisodes": 7
+        },
+        {
+          "Issue": "App trava",
+          "TotalEpisodes": 2
+        },
+        {
+          "Issue": "Fora do ar",
+          "TotalEpisodes": 2
+        },
+        {
+          "Issue": "Não abre o aplicativo",
+          "TotalEpisodes": 2
+        },
+        {
+          "Issue": "Aplicativo da loteria não abre",
+          "TotalEpisodes": 1
+        }
+      ]
+    },
+    "Segurança e Proteção": {
+      "total_issues": 7,
+      "total_episodes": 7,
+      "avg_episodes_per_issue": 1.0,
+      "level": 1,
+      "capability_type": "Core",
+      "business_value": "High",
+      "top_issues": [
+        {
+          "Issue": "Bloqueio de Senha",
+          "TotalEpisodes": 1
+        },
+        {
+          "Issue": "Criação de Nova Senha",
+          "TotalEpisodes": 1
+        },
+        {
+          "Issue": "Insegurança na devolução de PIX",
+          "TotalEpisodes": 1
+        },
+        {
+          "Issue": "Não consegue entrar com a senha",
+          "TotalEpisodes": 1
+        },
+        {
+          "Issue": "Pede senha duas vezes",
+          "TotalEpisodes": 1
+        }
+      ]
+    },
+    "Transferências PIX": {
+      "total_issues": 9,
+      "total_episodes": 9,
+      "avg_episodes_per_issue": 1.0,
+      "level": 2,
+      "capability_type": "Core",
+      "business_value": "High",
+      "top_issues": [
+        {
+          "Issue": "Consequências da demora na devolução de PIX",
+          "TotalEpisodes": 1
+        },
+        {
+          "Issue": "Demora para resolver problema com o aplicativo via PIX",
+          "TotalEpisodes": 1
+        },
+        {
+          "Issue": "Devolução de PIX demorada",
+          "TotalEpisodes": 1
+        },
+        {
+          "Issue": "Dificuldade em fazer PIX",
+          "TotalEpisodes": 1
+        },
+        {
+          "Issue": "Erro ao colar chave PIX",
+          "TotalEpisodes": 1
+        }
+      ]
+    }
+  },
+  "distribution": {
+    "Acesso Geográfico": {
+      "issues_percentage": 1.0752688172043012,
+      "episodes_percentage": 0.9708737864077669
+    },
+    "Atendimento ao Cliente": {
+      "issues_percentage": 5.376344086021505,
+      "episodes_percentage": 4.854368932038835
+    },
+    "Autenticação e Acesso": {
+      "issues_percentage": 9.67741935483871,
+      "episodes_percentage": 8.737864077669903
+    },
+    "Consulta de Saldo e Extrato": {
+      "issues_percentage": 7.526881720430108,
+      "episodes_percentage": 6.796116504854369
+    },
+    "Empréstimos e Crédito": {
+      "issues_percentage": 6.451612903225806,
+      "episodes_percentage": 5.825242718446602
+    },
+    "Gestão de Cadastro e Conta": {
+      "issues_percentage": 17.20430107526882,
+      "episodes_percentage": 15.53398058252427
+    },
+    "Gestão de Tarifas": {
+      "issues_percentage": 2.1505376344086025,
+      "episodes_percentage": 1.9417475728155338
+    },
+    "Interface e Experiência do Usuário": {
+      "issues_percentage": 4.301075268817205,
+      "episodes_percentage": 4.854368932038835
+    },
+    "Notificações e Alertas": {
+      "issues_percentage": 2.1505376344086025,
+      "episodes_percentage": 1.9417475728155338
+    },
+    "Pagamentos e Boletos": {
+      "issues_percentage": 5.376344086021505,
+      "episodes_percentage": 4.854368932038835
+    },
+    "Performance e Estabilidade": {
+      "issues_percentage": 21.50537634408602,
+      "episodes_percentage": 28.155339805825243
+    },
+    "Segurança e Proteção": {
+      "issues_percentage": 7.526881720430108,
+      "episodes_percentage": 6.796116504854369
+    },
+    "Transferências PIX": {
+      "issues_percentage": 9.67741935483871,
+      "episodes_percentage": 8.737864077669903
+    }
+  }
+}

@@ -1,0 +1,203 @@
+================================================================================
+RELATORIO DE CORRELACAO: ISSUES <-> BUSINESS CAPABILITIES
+================================================================================
+Data de geração: 2026-01-19 19:23:09
+
+RESUMO GERAL
+--------------------------------------------------------------------------------
+Total de Issues únicas: 87
+Total de BusinessCapabilities: 13
+Total de Episódios (comentários): 103
+
+ESTATÍSTICAS POR BUSINESS CAPABILITY
+--------------------------------------------------------------------------------
+
+Performance e Estabilidade
+  Nível: 1 | Tipo: Supporting | Valor: High
+  Total de Issues: 20 (21.51%)
+  Total de Episódios: 29 (28.16%)
+  Média de Episódios por Issue: 1.45
+  Top 5 Issues mais frequentes:
+    1. Lentidão: 7 episódio(s)
+    2. App trava: 2 episódio(s)
+    3. Fora do ar: 2 episódio(s)
+    4. Não abre o aplicativo: 2 episódio(s)
+    5. Aplicativo da loteria não abre: 1 episódio(s)
+
+Gestão de Cadastro e Conta
+  Nível: 2 | Tipo: Supporting | Valor: Medium
+  Total de Issues: 16 (17.20%)
+  Total de Episódios: 16 (15.53%)
+  Média de Episódios por Issue: 1.00
+  Top 5 Issues mais frequentes:
+    1. Acesso à Conta: 1 episódio(s)
+    2. Cadastro Novo: 1 episódio(s)
+    3. Cadastro Repetido: 1 episódio(s)
+    4. Erro ao acessar a conta: 1 episódio(s)
+    5. Erro ao acessar conta: 1 episódio(s)
+
+Autenticação e Acesso
+  Nível: 1 | Tipo: Core | Valor: High
+  Total de Issues: 9 (9.68%)
+  Total de Episódios: 9 (8.74%)
+  Média de Episódios por Issue: 1.00
+  Top 5 Issues mais frequentes:
+    1. Acesso a Chamadas Telefônicas: 1 episódio(s)
+    2. Acesso intermitente ao aplicativo: 1 episódio(s)
+    3. Bloqueio de Senha: 1 episódio(s)
+    4. Cadastro de Biometria: 1 episódio(s)
+    5. Criação de Nova Senha: 1 episódio(s)
+
+Transferências PIX
+  Nível: 2 | Tipo: Core | Valor: High
+  Total de Issues: 9 (9.68%)
+  Total de Episódios: 9 (8.74%)
+  Média de Episódios por Issue: 1.00
+  Top 5 Issues mais frequentes:
+    1. Consequências da demora na devolução de PIX: 1 episódio(s)
+    2. Demora para resolver problema com o aplicativo via PIX: 1 episódio(s)
+    3. Devolução de PIX demorada: 1 episódio(s)
+    4. Dificuldade em fazer PIX: 1 episódio(s)
+    5. Erro ao colar chave PIX: 1 episódio(s)
+
+Consulta de Saldo e Extrato
+  Nível: 2 | Tipo: Core | Valor: High
+  Total de Issues: 7 (7.53%)
+  Total de Episódios: 7 (6.80%)
+  Média de Episódios por Issue: 1.00
+  Top 5 Issues mais frequentes:
+    1. Demora no Saldo: 1 episódio(s)
+    2. Dificuldade em acessar saldo: 1 episódio(s)
+    3. Dificuldade em obter extrato completo: 1 episódio(s)
+    4. Erro ao tirar extratos dos meses de 2025: 1 episódio(s)
+    5. Não consigo visualizar extrato: 1 episódio(s)
+
+Segurança e Proteção
+  Nível: 1 | Tipo: Core | Valor: High
+  Total de Issues: 7 (7.53%)
+  Total de Episódios: 7 (6.80%)
+  Média de Episódios por Issue: 1.00
+  Top 5 Issues mais frequentes:
+    1. Bloqueio de Senha: 1 episódio(s)
+    2. Criação de Nova Senha: 1 episódio(s)
+    3. Insegurança na devolução de PIX: 1 episódio(s)
+    4. Não consegue entrar com a senha: 1 episódio(s)
+    5. Pede senha duas vezes: 1 episódio(s)
+
+Empréstimos e Crédito
+  Nível: 2 | Tipo: Core | Valor: High
+  Total de Issues: 6 (6.45%)
+  Total de Episódios: 6 (5.83%)
+  Média de Episódios por Issue: 1.00
+  Top 5 Issues mais frequentes:
+    1. Ajuste no limite de PIX: 1 episódio(s)
+    2. Cartão cancelado: 1 episódio(s)
+    3. Dificuldade em encontrar empréstimo: 1 episódio(s)
+    4. Dificuldade em encontrar informações sobre empréstimos: 1 episódio(s)
+    5. Erro ao fazer simulação de empréstimo: 1 episódio(s)
+
+Atendimento ao Cliente
+  Nível: 2 | Tipo: Supporting | Valor: Medium
+  Total de Issues: 5 (5.38%)
+  Total de Episódios: 5 (4.85%)
+  Média de Episódios por Issue: 1.00
+  Top 5 Issues mais frequentes:
+    1. Atendimento: 1 episódio(s)
+    2. Falta de atendimento adequado: 1 episódio(s)
+    3. Falta de suporte na agência: 1 episódio(s)
+    4. Longa espera para atendimento: 1 episódio(s)
+    5. Suporte não respondeu: 1 episódio(s)
+
+Interface e Experiência do Usuário
+  Nível: 1 | Tipo: Supporting | Valor: Medium
+  Total de Issues: 4 (4.30%)
+  Total de Episódios: 5 (4.85%)
+  Média de Episódios por Issue: 1.25
+  Top 5 Issues mais frequentes:
+    1. Insatisfação com o serviço: 2 episódio(s)
+    2. Insatisfação com a única opção de desbloqueio: 1 episódio(s)
+    3. Insatisfação com o Banco: 1 episódio(s)
+    4. Insatisfação com o serviço bancário: 1 episódio(s)
+
+Pagamentos e Boletos
+  Nível: 2 | Tipo: Core | Valor: High
+  Total de Issues: 5 (5.38%)
+  Total de Episódios: 5 (4.85%)
+  Média de Episódios por Issue: 1.00
+  Top 5 Issues mais frequentes:
+    1. Atraso no pagamento de DAE: 1 episódio(s)
+    2. Não consegue baixar boleto: 1 episódio(s)
+    3. Não consigo pagar boletos: 1 episódio(s)
+    4. Não se consegue pagar um boleto em dia de Domingo ou feriado: 1 episódio(s)
+    5. Pagamento de QR Code de Imagens: 1 episódio(s)
+
+Gestão de Tarifas
+  Nível: 2 | Tipo: Supporting | Valor: Medium
+  Total de Issues: 2 (2.15%)
+  Total de Episódios: 2 (1.94%)
+  Média de Episódios por Issue: 1.00
+  Top 5 Issues mais frequentes:
+    1. Cobranças indevidas: 1 episódio(s)
+    2. Desconto automático da conta do cartão: 1 episódio(s)
+
+Notificações e Alertas
+  Nível: 2 | Tipo: Supporting | Valor: Medium
+  Total de Issues: 2 (2.15%)
+  Total de Episódios: 2 (1.94%)
+  Média de Episódios por Issue: 1.00
+  Top 5 Issues mais frequentes:
+    1. Notificação recebida mas sem resultado: 1 episódio(s)
+    2. Permissões excessivas de notificação e localização: 1 episódio(s)
+
+Acesso Geográfico
+  Nível: 2 | Tipo: Supporting | Valor: Low
+  Total de Issues: 1 (1.08%)
+  Total de Episódios: 1 (0.97%)
+  Média de Episódios por Issue: 1.00
+  Top 5 Issues mais frequentes:
+    1. Acesso limitado a agências: 1 episódio(s)
+
+================================================================================
+TOP 10 ISSUES MAIS CRÍTICAS (por número de episódios)
+--------------------------------------------------------------------------------
+1. Lentidão: 7 episódio(s)
+   Relacionada a: Performance e Estabilidade
+2. App trava: 2 episódio(s)
+   Relacionada a: Performance e Estabilidade
+3. Bloqueio de Senha: 2 episódio(s)
+   Relacionada a: Autenticação e Acesso, Segurança e Proteção
+4. Criação de Nova Senha: 2 episódio(s)
+   Relacionada a: Autenticação e Acesso, Segurança e Proteção
+5. Fora do ar: 2 episódio(s)
+   Relacionada a: Performance e Estabilidade
+6. Insatisfação com o serviço: 2 episódio(s)
+   Relacionada a: Interface e Experiência do Usuário
+7. Não abre o aplicativo: 2 episódio(s)
+   Relacionada a: Performance e Estabilidade
+8. Não consegue entrar com a senha: 2 episódio(s)
+   Relacionada a: Autenticação e Acesso, Segurança e Proteção
+9. Pede senha duas vezes: 2 episódio(s)
+   Relacionada a: Autenticação e Acesso, Segurança e Proteção
+10. Senha Eletrônica: 2 episódio(s)
+   Relacionada a: Autenticação e Acesso, Segurança e Proteção
+
+================================================================================
+DISTRIBUIÇÃO POR NÍVEL DE CAPABILITY
+--------------------------------------------------------------------------------
+Nível 1: 34 Issues (39.08%) | 50 Episódios (48.54%)
+Nível 2: 53 Issues (60.92%) | 53 Episódios (51.46%)
+
+================================================================================
+DISTRIBUIÇÃO POR TIPO DE CAPABILITY
+--------------------------------------------------------------------------------
+Core: 37 Issues (42.53%) | 43 Episódios (41.75%)
+Supporting: 50 Issues (57.47%) | 60 Episódios (58.25%)
+
+================================================================================
+DISTRIBUIÇÃO POR VALOR DE NEGÓCIO
+--------------------------------------------------------------------------------
+High: 57 Issues (65.52%) | 72 Episódios (69.90%)
+Low: 1 Issues (1.15%) | 1 Episódios (0.97%)
+Medium: 29 Issues (33.33%) | 30 Episódios (29.13%)
+
+================================================================================

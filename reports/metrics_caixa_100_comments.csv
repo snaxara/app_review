@@ -1,0 +1,186 @@
+﻿Issue;BusinessCapability;Level;CapabilityType;BusinessValue;TotalEpisodes
+Acesso limitado a agências;Acesso Geográfico;2;Supporting;Low;1
+Falta de Agência;Acesso Geográfico;2;Supporting;Low;1
+Atendimento;Atendimento ao Cliente;2;Supporting;Medium;2
+Acesso ao atendimento online;Atendimento ao Cliente;2;Supporting;Medium;1
+Atendimento automatizado insatisfatório;Atendimento ao Cliente;2;Supporting;Medium;1
+Central de atendimento apenas por telefone fixo;Atendimento ao Cliente;2;Supporting;Medium;1
+Dificuldade em contatar suporte;Atendimento ao Cliente;2;Supporting;Medium;1
+Dificuldade em contato com atendimento;Atendimento ao Cliente;2;Supporting;Medium;1
+Enrolada no chat;Atendimento ao Cliente;2;Supporting;Medium;1
+Falta de Suporte;Atendimento ao Cliente;2;Supporting;Medium;1
+Falta de atendimento adequado;Atendimento ao Cliente;2;Supporting;Medium;1
+Falta de suporte de ajuda;Atendimento ao Cliente;2;Supporting;Medium;1
+Falta de suporte na agência;Atendimento ao Cliente;2;Supporting;Medium;1
+Insatisfação com o atendimento bancário;Atendimento ao Cliente;2;Supporting;Medium;1
+Insatisfação com o suporte;Atendimento ao Cliente;2;Supporting;Medium;1
+Longa espera para atendimento;Atendimento ao Cliente;2;Supporting;Medium;1
+Mais de 15 minutos de espera sem atendimento;Atendimento ao Cliente;2;Supporting;Medium;1
+Problema de atendimento ao cliente;Atendimento ao Cliente;2;Supporting;Medium;1
+Suporte 24 horas;Atendimento ao Cliente;2;Supporting;Medium;1
+Suporte não responde;Atendimento ao Cliente;2;Supporting;Medium;1
+Suporte técnico ineficaz;Atendimento ao Cliente;2;Supporting;Medium;1
+Acesso a Chamadas Telefônicas;Autenticação e Acesso;1;Core;High;1
+Acesso ao site pede para entrar no app;Autenticação e Acesso;1;Core;High;1
+Acesso através do Playstore;Autenticação e Acesso;1;Core;High;1
+Acesso intermitente ao aplicativo;Autenticação e Acesso;1;Core;High;1
+Biometria pede senha frequentemente;Autenticação e Acesso;1;Core;High;1
+Bloqueio de Senha;Autenticação e Acesso;1;Core;High;1
+Cadastro de Nova Biometria;Autenticação e Acesso;1;Core;High;1
+Criação de Nova Senha;Autenticação e Acesso;1;Core;High;1
+Erro ao entrar na conta;Autenticação e Acesso;1;Core;High;1
+Inserção manual da senha;Autenticação e Acesso;1;Core;High;1
+Mensagem com senha não recebida;Autenticação e Acesso;1;Core;High;1
+Não consegue entrar com a senha;Autenticação e Acesso;1;Core;High;1
+Não reconhece biometria;Autenticação e Acesso;1;Core;High;1
+Pede senha duas vezes;Autenticação e Acesso;1;Core;High;1
+Problema de acesso ao aplicativo;Autenticação e Acesso;1;Core;High;1
+Problema de acesso ao app;Autenticação e Acesso;1;Core;High;1
+Senha Eletrônica;Autenticação e Acesso;1;Core;High;1
+Senha bloqueada;Autenticação e Acesso;1;Core;High;1
+Demora no Saldo;Consulta de Saldo e Extrato;2;Core;High;1
+Dificuldade em acessar saldo;Consulta de Saldo e Extrato;2;Core;High;1
+Dificuldade em obter extrato completo;Consulta de Saldo e Extrato;2;Core;High;1
+Erro ao tirar extratos dos meses de 2025;Consulta de Saldo e Extrato;2;Core;High;1
+Extrato difícil de entender;Consulta de Saldo e Extrato;2;Core;High;1
+Falta de Acesso ao Extrato da Poupança;Consulta de Saldo e Extrato;2;Core;High;1
+Falta de Extrato da Poupança;Consulta de Saldo e Extrato;2;Core;High;1
+Não consigo acessar saldo;Consulta de Saldo e Extrato;2;Core;High;1
+Não consigo visualizar extrato;Consulta de Saldo e Extrato;2;Core;High;1
+Não me acho no extrato;Consulta de Saldo e Extrato;2;Core;High;1
+Saldo e extrato do cartão borrados;Consulta de Saldo e Extrato;2;Core;High;1
+Saldo não reconhecido;Consulta de Saldo e Extrato;2;Core;High;1
+Acompanhamento pelo app;Empréstimos e Crédito;2;Core;High;1
+Cartão cancelado;Empréstimos e Crédito;2;Core;High;1
+Dificuldade em encontrar empréstimo;Empréstimos e Crédito;2;Core;High;1
+Dificuldade em encontrar informações sobre empréstimos;Empréstimos e Crédito;2;Core;High;1
+Dificuldade em fazer pedido de cartão;Empréstimos e Crédito;2;Core;High;1
+Dificuldade em realizar empréstimo;Empréstimos e Crédito;2;Core;High;1
+Dificuldade em utilizar a função crédito;Empréstimos e Crédito;2;Core;High;1
+Erro ao fazer simulação de empréstimo;Empréstimos e Crédito;2;Core;High;1
+Limite de Crédito;Empréstimos e Crédito;2;Core;High;1
+Limite de crédito impossível de usar;Empréstimos e Crédito;2;Core;High;1
+Limite do cartão;Empréstimos e Crédito;2;Core;High;1
+Não consigo refinanciar;Empréstimos e Crédito;2;Core;High;1
+Não está cadastrando o cartão virtual;Empréstimos e Crédito;2;Core;High;1
+Reativação da função de crédito do cartão;Empréstimos e Crédito;2;Core;High;1
+Solicitação de envio de dados para novo cartão;Empréstimos e Crédito;2;Core;High;1
+Valores do saldo e limite do cartão;Empréstimos e Crédito;2;Core;High;1
+Erro ao acessar conta;Gestão de Cadastro e Conta;2;Supporting;Medium;2
+Não consigo entrar na conta;Gestão de Cadastro e Conta;2;Supporting;Medium;2
+Acesso à Conta;Gestão de Cadastro e Conta;2;Supporting;Medium;1
+Bug ao acessar conta;Gestão de Cadastro e Conta;2;Supporting;Medium;1
+Cadastro Novo;Gestão de Cadastro e Conta;2;Supporting;Medium;1
+Cadastro Repetido;Gestão de Cadastro e Conta;2;Supporting;Medium;1
+Cancelamento de conta;Gestão de Cadastro e Conta;2;Supporting;Medium;1
+Conta Bloqueada;Gestão de Cadastro e Conta;2;Supporting;Medium;1
+Erro ao acessar a conta;Gestão de Cadastro e Conta;2;Supporting;Medium;1
+Erro na hora de acessar a conta;Gestão de Cadastro e Conta;2;Supporting;Medium;1
+Impossibilidade de realizar cadastro;Gestão de Cadastro e Conta;2;Supporting;Medium;1
+Não consegue acessar a conta;Gestão de Cadastro e Conta;2;Supporting;Medium;1
+Não consegue entrar na conta;Gestão de Cadastro e Conta;2;Supporting;Medium;1
+Não consegui atualizar meus dados;Gestão de Cadastro e Conta;2;Supporting;Medium;1
+Não consigo abrir conta;Gestão de Cadastro e Conta;2;Supporting;Medium;1
+Não consigo acessar minha conta;Gestão de Cadastro e Conta;2;Supporting;Medium;1
+Não consigo usar a conta;Gestão de Cadastro e Conta;2;Supporting;Medium;1
+Não serve para pagar conta;Gestão de Cadastro e Conta;2;Supporting;Medium;1
+Problema de acesso à conta;Gestão de Cadastro e Conta;2;Supporting;Medium;1
+Transferência de Conta;Gestão de Cadastro e Conta;2;Supporting;Medium;1
+ba minha conta;Gestão de Cadastro e Conta;2;Supporting;Medium;1
+Cobrança de tarifas;Gestão de Tarifas;2;Supporting;Medium;1
+Desconto automático da conta do cartão;Gestão de Tarifas;2;Supporting;Medium;1
+Desconto considerado baixo;Gestão de Tarifas;2;Supporting;Medium;1
+Tarifa de 16,00;Gestão de Tarifas;2;Supporting;Medium;1
+Desativar contatos de agenda para fazer PIX;Interface e Experiência do Usuário;1;Supporting;Medium;1
+Estorno de Contratos;Interface e Experiência do Usuário;1;Supporting;Medium;1
+Experiência cansativa devido a propagandas;Interface e Experiência do Usuário;1;Supporting;Medium;1
+Experiência frustrante;Interface e Experiência do Usuário;1;Supporting;Medium;1
+Falta de Modo Escuro;Interface e Experiência do Usuário;1;Supporting;Medium;1
+Frustração com o aplicativo;Interface e Experiência do Usuário;1;Supporting;Medium;1
+Insatisfação Geral;Interface e Experiência do Usuário;1;Supporting;Medium;1
+Insatisfação com a instituição;Interface e Experiência do Usuário;1;Supporting;Medium;1
+Insatisfação com a única opção de desbloqueio;Interface e Experiência do Usuário;1;Supporting;Medium;1
+Insatisfação com o Serviço;Interface e Experiência do Usuário;1;Supporting;Medium;1
+Insatisfação com o serviço bancário;Interface e Experiência do Usuário;1;Supporting;Medium;1
+Nova aparência da tela inicial do app;Interface e Experiência do Usuário;1;Supporting;Medium;1
+Tela inicial antiga do app;Interface e Experiência do Usuário;1;Supporting;Medium;1
+Dificuldade em fazer investimento;Investimentos;2;Strategic;High;1
+Inconsistência de dados com B3;Investimentos;2;Strategic;High;1
+Propostas de contratos indesejados;Investimentos;2;Strategic;High;1
+Setor de investimento não atualizado;Investimentos;2;Strategic;High;1
+Notificação recebida, mas sem dinheiro;Notificações e Alertas;2;Supporting;Medium;1
+Permissões excessivas de notificação e localização;Notificações e Alertas;2;Supporting;Medium;1
+Atraso em Pagamentos;Pagamentos e Boletos;2;Core;High;1
+Atraso no pagamento de DAE;Pagamentos e Boletos;2;Core;High;1
+Boletos atrasados;Pagamentos e Boletos;2;Core;High;1
+Compensação de Documento;Pagamentos e Boletos;2;Core;High;1
+Demora na Compensação de IPVA;Pagamentos e Boletos;2;Core;High;1
+Dificuldade para fazer pagamentos;Pagamentos e Boletos;2;Core;High;1
+Impossibilidade de fazer pagamentos;Pagamentos e Boletos;2;Core;High;1
+Não consegue baixar boleto;Pagamentos e Boletos;2;Core;High;1
+Não consigo pagar boletos;Pagamentos e Boletos;2;Core;High;1
+Não envia boleto por e-mail ou SMS;Pagamentos e Boletos;2;Core;High;1
+Não gera boleto para pagamento;Pagamentos e Boletos;2;Core;High;1
+Não se consegue pagar um boleto em dia de Domingo ou feriado;Pagamentos e Boletos;2;Core;High;1
+Lentidão;Performance e Estabilidade;1;Supporting;High;13
+App trava;Performance e Estabilidade;1;Supporting;High;6
+App não abre;Performance e Estabilidade;1;Supporting;High;5
+Não abre o aplicativo;Performance e Estabilidade;1;Supporting;High;4
+Bugs no aplicativo;Performance e Estabilidade;1;Supporting;High;3
+Fora do ar;Performance e Estabilidade;1;Supporting;High;2
+Aplicativo da loteria não abre;Performance e Estabilidade;1;Supporting;High;1
+Aplicativo lento;Performance e Estabilidade;1;Supporting;High;1
+Aplicativo não abre;Performance e Estabilidade;1;Supporting;High;1
+App não abre após atualização;Performance e Estabilidade;1;Supporting;High;1
+App não funcionando;Performance e Estabilidade;1;Supporting;High;1
+App trava na hora de receber o pagamento;Performance e Estabilidade;1;Supporting;High;1
+Atualização do aplicativo não funciona;Performance e Estabilidade;1;Supporting;High;1
+Atualizações com falhas;Performance e Estabilidade;1;Supporting;High;1
+Dinheiro travado;Performance e Estabilidade;1;Supporting;High;1
+Erro ao abrir;Performance e Estabilidade;1;Supporting;High;1
+Leitor de códigos de barras não funciona;Performance e Estabilidade;1;Supporting;High;1
+Lentidão ao fazer PIX;Performance e Estabilidade;1;Supporting;High;1
+Lentidão para abrir o app;Performance e Estabilidade;1;Supporting;High;1
+Link não abre;Performance e Estabilidade;1;Supporting;High;1
+Muito lento;Performance e Estabilidade;1;Supporting;High;1
+Não abre;Performance e Estabilidade;1;Supporting;High;1
+Não abre aplicativo;Performance e Estabilidade;1;Supporting;High;1
+Não abre no Google Play;Performance e Estabilidade;1;Supporting;High;1
+Não abre o app;Performance e Estabilidade;1;Supporting;High;1
+Não abre para nenhuma função;Performance e Estabilidade;1;Supporting;High;1
+Não funciona na carteira do Google;Performance e Estabilidade;1;Supporting;High;1
+Performance;Performance e Estabilidade;1;Supporting;High;1
+Sistema Lento;Performance e Estabilidade;1;Supporting;High;1
+Trava;Performance e Estabilidade;1;Supporting;High;1
+Trava ao acessar;Performance e Estabilidade;1;Supporting;High;1
+Trava direto;Performance e Estabilidade;1;Supporting;High;1
+Travas e reinícios durante transferência de PIX;Performance e Estabilidade;1;Supporting;High;1
+Biometria pede senha frequentemente;Segurança e Proteção;1;Core;High;1
+Bloqueio de Senha;Segurança e Proteção;1;Core;High;1
+Criação de Nova Senha;Segurança e Proteção;1;Core;High;1
+Desconfiança no processo de devolução do PIX;Segurança e Proteção;1;Core;High;1
+Espionagem;Segurança e Proteção;1;Core;High;1
+Excesso de segurança ao fazer PIX;Segurança e Proteção;1;Core;High;1
+Falta de Camadas de Segurança;Segurança e Proteção;1;Core;High;1
+Falta de Transparência;Segurança e Proteção;1;Core;High;1
+Insegurança em Relação ao Acesso;Segurança e Proteção;1;Core;High;1
+Inserção manual da senha;Segurança e Proteção;1;Core;High;1
+Mensagem com senha não recebida;Segurança e Proteção;1;Core;High;1
+Monitoramento;Segurança e Proteção;1;Core;High;1
+Não consegue entrar com a senha;Segurança e Proteção;1;Core;High;1
+Pede senha duas vezes;Segurança e Proteção;1;Core;High;1
+Privacidade;Segurança e Proteção;1;Core;High;1
+Senha Eletrônica;Segurança e Proteção;1;Core;High;1
+Senha bloqueada;Segurança e Proteção;1;Core;High;1
+Tentativas de Intrusão;Segurança e Proteção;1;Core;High;1
+Não consegue fazer PIX;Transferências PIX;2;Core;High;2
+Consequências da demora na devolução do PIX;Transferências PIX;2;Core;High;1
+Demora para resolver problema com o aplicativo via PIX;Transferências PIX;2;Core;High;1
+Devolução de PIX demorada;Transferências PIX;2;Core;High;1
+Dificuldade em fazer PIX;Transferências PIX;2;Core;High;1
+Erro ao colar chave PIX;Transferências PIX;2;Core;High;1
+Erro ao fazer PIX;Transferências PIX;2;Core;High;1
+Impossibilidade de fazer PIX;Transferências PIX;2;Core;High;1
+Não aparece o envio de PIX;Transferências PIX;2;Core;High;1
+Não consigo fazer PIX;Transferências PIX;2;Core;High;1
+Risco de golpe em contestação de PIX;Transferências PIX;2;Core;High;1

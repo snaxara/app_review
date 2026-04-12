@@ -1,0 +1,201 @@
+id;reviewId;content;score;sentiment_label;sentiment_score;PIX_Pessoa1;PIX_Pessoa2;Login/Autenticação_Pessoa1;Login/Autenticação_Pessoa2;Performance_Pessoa1;Performance_Pessoa2;Interface/Usabilidade_Pessoa1;Interface/Usabilidade_Pessoa2;Empréstimos/Crédito_Pessoa1;Empréstimos/Crédito_Pessoa2;Pagamentos/Boletos_Pessoa1;Pagamentos/Boletos_Pessoa2;Saldo/Extrato_Pessoa1;Saldo/Extrato_Pessoa2;Atendimento_Pessoa1;Atendimento_Pessoa2;Cadastro/Conta_Pessoa1;Cadastro/Conta_Pessoa2;Investimentos_Pessoa1;Investimentos_Pessoa2;Segurança_Pessoa1;Segurança_Pessoa2;Notificações_Pessoa1;Notificações_Pessoa2;Questões geográficas_Pessoa1;Questões geográficas_Pessoa2;Placas/Veículos_Pessoa1;Placas/Veículos_Pessoa2;Outros_Pessoa1;Outros_Pessoa2;Observacoes_Pessoa1;Observacoes_Pessoa2;conjunto
+96;7012f418-a857-4c46-bb8d-5ddf92564f46;Dois dias que não consigo abrir o app.;2;negative;0.8133549690246582;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+16;75b09ed6-79fd-4833-b5f8-0f7734a2f6a6;Ruim 👎até hoje não recebi meu cartão.;1;negative;0.94341379404068;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+31;1aa715da-8bca-4ba9-b826-0c7985150427;O app não funciona;1;negative;0.7441776990890503;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+159;811d5f4f-5b56-44a3-9b08-fbcb50a08996;muitos erros;1;negative;0.769813597202301;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+129;4595cd73-57f6-4cee-a85b-0c7e8c714fcc;pecimo;1;negative;0.4085492193698883;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+116;c6913270-48bd-4488-8598-80fd38e6f5f6;Ruim demais;1;negative;0.9516921043395996;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+70;9c19f9be-924c-4e5d-bc4d-dccf1b0c8713;Não consegui mais entrar no aplicativo não sei mais o fazer porque não consigo redefinir a senha pra entrar no aplicativo gostaria de ter ajuda pra fazer isso;3;negative;0.7995517253875732;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+171;9337fdee-228d-4424-a36b-838778cdb095;presica travar menos;4;negative;0.5695603489875793;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;teste
+175;0eecc830-5322-4586-9a79-c92c51f37e39;Não sei o que aconteceu com o aplicativo eu não consegui entrar no aplicativo;2;negative;0.6444578170776367;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;teste
+46;af1fd563-1b1f-4f23-abcd-543ae40ffbba;Depois da última atualização o App está travando todas as vezes quando fecho. Para utilizar novamente preciso desinstalar ou reiniciar meu celular. Preciso que vejam o que está acontecendo.;2;negative;0.7263994216918945;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+67;7ee2a19e-6541-4f18-acc4-0fd7156a75b0;Não abre o aplicativo trva;1;negative;0.8400322794914246;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+183;1e9a719f-b1ff-4d71-afba-a9f14cc7dd74;O app não volta e nem abri precisa reiniciar o celular pra o app abri;1;negative;0.550438642501831;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;teste
+166;c85f9019-9fd8-4941-9022-86eeeea1a0d1;não consigo fazer pix depois dessa última atualização por favor arrumem isso está dando erro no reconhecimento facial;1;negative;0.8993043899536133;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;teste
+79;efea3f23-c778-40ae-aabd-a84104af5a9e;Da última atualização pra cá meu app não funciona;5;negative;0.6304453611373901;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+187;c9767313-5623-48e6-b8f9-0cf2fccefa4b;Bota a opção de persona as cores o tema do app. Ou deixa todo vermelho. Está feito. Como vou compartilhar meu Pix não tem a opção. Deixa o app melhor pelo amor de Deus;2;negative;0.8072283267974854;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;teste
+178;dad0390a-9dfb-4f29-9446-0664b3d22965;Boa tarde não consigo entra no app já desinstalei e já estalei de novo e nada de conseguir entra no app;1;negative;0.8105376362800598;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;teste
+57;5afb6dd5-0d02-4427-b602-6c59a9155862;O aplicativo está muito ruim péssimo trava não dá pra acessar não dá pra entrar na conta vê se conserta isso.;1;negative;0.9283332824707032;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+153;d8860dd7-1b83-4d48-b3bc-4ea624879521;As vezes que mais preciso fazer um pix está fora do ar;3;negative;0.5931119918823242;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+83;9c30fcfe-000e-46bb-a5df-46a5d624aa07;O aplicativo é um saco e toda vez que tento habilitar a funções de transferência me aparece erro 74832 e digo cadê o suporte necessário para isso? É meu dinheiro e fico totalmente a mercê de um banco e seu aplicativo horrível!;1;negative;0.9609201550483704;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+69;55849d11-d884-4948-b73f-46b7765cbe1c;Banco lixo;1;negative;0.9337388277053832;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+125;1bc7bdb6-a316-4ded-8d26-d7ba6d6dfd52;Tá péssimo;1;negative;0.9412646293640136;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+17;ae07a29b-8a55-41de-a95e-4210239ac846;Não consigo entrar na minha conta;1;negative;0.7727315425872803;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+149;fa8ec45d-b398-4fbb-b02b-ea0c0fa6fa66;Não estou conseguindo acessar a minha conta está horrível;3;negative;0.9439395070075988;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+94;2e8c0876-0a05-432b-a9a6-2dfe99539124;Péssimo.;1;negative;0.9389439821243286;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+66;f816ea37-493b-43e0-9a3f-92d2cfb6d73a;Ele ytrava muito tenho que ficar desestalando sempre que vou usar o APP do banco.;2;negative;0.6626929640769958;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+61;8370a8a1-c25d-4772-a5f4-756eea73101f;Sistema péssimo fui ontem sair para jantar fui usar app indispensável uma vergonha como banco segunda feira conta encerrda;1;negative;0.9608795046806335;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+85;4feeb5f0-512c-4cb3-aaab-58d6f8e969a3;Péssimo banco péssimo não recomendo a ninguém faz tempo que tenho a conta e até hoge nda de liberar crêdito nda;1;negative;0.938730537891388;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+68;34edd4b1-34bf-413e-92e1-72cfefd03488;Péssimo tempo de reposta e fica caindo direto;1;negative;0.9376067519187928;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+126;7f998de8-2e29-4f5d-96e9-c0837502dd36;Sistema de habilitação de id péssimo. Simplesmente não reconhece nosso aparelho. Pra habilitar ficar pedindo pra baixarmos o app mesmo isso já tendo sido feito;1;negative;0.9537705183029176;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+133;550efdc9-23a9-4043-b41d-74e0c62bb9c0;Não recebo nenhuma notificação de pix;1;negative;0.6513975858688354;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+10;d4c20ab3-76df-4e52-9f41-fc6c2320470b;Não consigo abrir o aplicativo. Tenho sempre que reiniciar o celular. Concordo com todas as avaliações dada aqui;2;negative;0.7409014105796814;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+19;70395b56-6ffd-46a5-96d5-e5691a42b179;está péssimo;5;negative;0.9502964615821838;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+56;1c82ce15-36f3-4f5c-8a2c-6d4661b30a27;não consigo acessar a conta.;5;negative;0.7792287468910217;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+76;93e2c887-9a18-4489-9f9c-b1d992abb4fb;Não consigo resgatar e reaplicar meus investimentos desde sexta-feira Aplicativo instável;3;negative;0.9074631333351136;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+151;356123c7-a999-4be2-9f82-599fef432041;É incrível que sempre que eu preciso pagar alguma coisa com esse app ele não tá funcionando. Precisando pedir meh almoço e cadê que eu consigo fazer pix? Depois eles perdem o cliente pra outro banco e acham ruim;1;negative;0.9352765083312988;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+105;f163c7fb-977c-4b32-8720-c349f2c3c566;Não fecha. Que saco;2;negative;0.9620850086212158;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+136;497fb1a7-a5f3-474c-9432-f4c89c66a442;Constantemente com problema.;1;negative;0.780950665473938;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+138;8a2cb131-03be-4002-a07a-5a1a2979d069;Travando feito louco;2;negative;0.7710453271865845;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+165;cb8d670d-0ec3-451d-9411-3a8355e43a2c;Horrível;1;negative;0.9091299772262572;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;teste
+77;3f656324-f2f8-43aa-91b0-48be8e6d9a67;Muita falha pra entrar no aplicativo;1;negative;0.8743294477462769;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+80;6ced7077-345f-41b9-8e46-70fac9b9b1b3;Faz dias que não consigo acesso ao aplicativo sem opção de fala com alguém pra resolver horas no SAC falando com ura até cair a ligação sem contato com suporte;1;negative;0.7673110365867615;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+198;84d092c8-71e1-49ca-94c1-ef2098f02bbf;Só cliente e venho por esse meio espor minha satisfação sobre o app Santander pelo amor de deus esse aplicativo e péssimo não tem velocidade para as informações em que nós clientes tenta fazer.o Pix e uma demora que chega até desisti de fazer o pix vamos melhorar Santander Deus me livre;1;negative;0.9107905030250548;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;teste
+39;da25160b-0c30-49c4-8046-fea77687bd06;os extratos não atualizam;4;negative;0.7138354182243347;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+25;636f8d51-11ea-488e-a72e-af3ee45ffd97;Porque o aplicativo não manda uma notificação quando entre e sai valor na conta. Eu tenho que ficar indo no aplicativo toda hora pra ver se entro salário ou pix recebidos;2;negative;0.581911563873291;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+123;771dfda6-9f88-43c2-8cc8-48280fb19e41;Está horrível.. agora pra entrar no app estou tendo que reiniciar o Cel todo hora.. pq não abre se não fizer isso.;2;negative;0.9409144520759584;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+196;1acb1d89-5bd8-4c9d-9e42-97565ea702d5;Nega empréstimo mesmo com garantia um absurdo;1;negative;0.6948478817939758;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;teste
+30;2dc395fe-0793-437b-bd71-0507093320f2;Estarei encerrando minha conta quando preciso usar o app ele não está disponível além do banco reduzir meu limite do cheque especial. Lamentável;1;negative;0.9284735321998596;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+20;0d1f65b9-d268-4d6e-80da-9e43b74ad752;App simplesmente parou de funcionar não consigo receber e nem mandar pix não consigo sacar dinheiro na poupança e nem nda por favor arrume isso logo muita gente precisa dessas opções;5;negative;0.9044066667556764;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+144;d8515e25-fe04-4194-a9ea-117eae2b32fd;Estou com problema com banco total insatisfeito pq ninguém resolve o problema;1;negative;0.9179169535636902;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+87;bbb79a70-91ac-441c-aad1-a13f3bd1907d;péssimas;1;negative;0.8938239812850952;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+115;30544a41-4b61-4713-b8ff-9eda15bf2215;Travou do nada sem querer eu fizesse nada um app atrasado;1;negative;0.802909255027771;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+174;d255f1b2-e21e-4364-8fd2-79d1c898d67e;Esta dificil de abrir o aplicativo..pessimo toda hora esta travando;1;negative;0.9343164563179016;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;teste
+6;b5d20a2a-a5b2-4822-9ac1-0a122b7eb03a;muito cocota liberar o meu limite;5;negative;0.5840694904327393;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+127;8a0ac917-2d68-405d-b9a0-41eea21aba73;Esse pior que ruim não consigo acessar nada péssimo....... por esse motivo muitos não quer Santander.;1;negative;0.9120091199874878;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+118;49208721-f488-4a36-97d1-ff0caa6643ad;Péssimo Atendimento.;1;negative;0.9375282526016236;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+74;585237d2-4986-4caf-93a1-8cbd75aacca8;Estou muito insatisfeito com esse banco;1;negative;0.9525147676467896;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+141;82afa9a9-4cac-4b26-80f0-d726c37ef3a9;O problema é quando eu quero abrir o aplicativo tenho que reiniciar o celular;5;negative;0.6399570107460022;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+99;c6a78ca5-3c50-4970-a9f8-52e2df29b735;Demora demais em tudo inclusivé para acessar a conta.;3;negative;0.7655880451202393;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+173;0b2ec8a1-ab5d-4ef0-a289-e14db823b4c9;O aplicativo era ótimo. Depois da ultima atualização só vem deixando na mão ..... Ta horrível;1;negative;0.9521283507347108;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;teste
+97;f55c2453-f9af-4f57-a23e-9725e8674fe7;Esse última semana tá terrível;1;negative;0.5870699882507324;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+170;c99a8bfc-0c2e-4192-8da0-e4b7c338dc37;Difícil abrir sempre com problemas.;3;negative;0.8426483273506165;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;teste
+98;c42468ac-7a32-4936-92fb-3d8447f9534c;Vejo as minhas contas no computador e nesse caso preciso do ID e sempre preciso desinstalar e de novo instalar o app. Por isso?;1;negative;0.5802704095840454;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+32;90f67af5-28ee-4acd-8267-1707fb8cca74;Não consigo usar o aplicativo tá difícil viu;1;negative;0.893892228603363;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+13;6dc80921-73f8-4a5a-97e7-fb281dbb856b;Preciso bloquear um cartão urgente e não acho o caminho.;1;negative;0.7778688073158264;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+36;f2f41309-af23-45d7-a2e2-d442225a67f7;Tá na hora de melhorarem esse app. Buga quase sempre.;2;negative;0.8981863856315613;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+120;bce647b0-6dd8-414c-9156-1e4b4ef21965;lixo de aplicativo. Toda hora em manutenção. Deixa você na mão se precisar fazer pagamentos.;1;negative;0.9442929029464722;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+43;157da739-6990-4f97-9e3e-c3065b220fcd;Muito ruim e complicado de mexer;1;negative;0.9302826523780824;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+190;3080655d-5cf5-46e1-85b8-57d3bee473a5;Já foi melhor;4;negative;0.4300882518291473;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;teste
+91;2e0038ee-02da-4d6f-bf7d-3b1f56584adf;lento e fecha várias vezes antes de fazer login;3;negative;0.6496349573135376;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+137;a6979ef1-9eda-4de6-90de-0174c5ac58a0;A última atualização deixou o app péssimo. Não consigo acessar mais minha conta pelo app. Fica inviável continuar utilizando esse banco...;1;negative;0.9438862800598145;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+52;fee48144-1126-4ac1-b296-10470d9befb3;Tem um bug que não consigo mais acessar meus investimentos;1;negative;0.8342539072036743;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+128;d3c417da-7087-4160-99af-19826980ed91;Muito fraco não dá alerta de pix;1;negative;0.9209185242652892;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+163;86d14aa2-05e5-4d00-b3f5-6e52145536f3;App está dando erro desinstalei para ver se resolve e agora não instala não é nada que precise atualizar já verifiquei ele simplesmente não acessa a conta e agora nem instalando está;1;negative;0.8255651593208313;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;teste
+42;555dd951-abfd-4a72-8fe9-776487592d67;Péssimo atendimento por ligação;1;negative;0.9119341969490052;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+119;dd235820-336a-41c5-8d0f-69424cccfbe3;Aplicativo está travando muito tenho que reiniciar o celular toda vez que preciso entrar no aplicativo 😡;1;negative;0.8976495862007141;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+114;ee441c3a-69c1-454e-9db0-8c6a75ac38fc;Muito ruim;1;negative;0.937163770198822;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+27;ec423076-5457-4497-97d9-62d9cfadd954;Pessimo....quero incerrar a conta..;1;negative;0.9519102573394777;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+140;cde7ec31-b0ed-4803-8a3b-b6988cce4a64;péssimo tarifa muito alta e cobra juros sem vc tá usando não recomendo;1;negative;0.9455516338348388;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+101;7a92a424-0ce6-4019-9c84-b0e20ea2beb4;nunca consigo entrar no aplicativo pq diz que a senha expirou e quando tento fazer uma nova senha o serviço está indisponível. ligo para o banco e a ligação caiu e não ligam de volta. resumindo o aplicativo é inútil;1;negative;0.896630048751831;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+112;86f4b030-18ef-46c2-991c-34469d6e75cd;Esse aplicativo é muito ruim não tem nenhuma opção de encerramento de conta e o banco parece q fica obrigando o usuário a ficar com a conta e o usuário fica preso no aplicativo sem saber o q que fazer.;1;negative;0.9444044232368468;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+3;301a63c3-def6-49b7-b7e6-0d0b70043bd1;Minha senha do aplicativo esta bloqueado;5;negative;0.7525505423545837;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+78;b40083b1-f8df-42ac-a851-28aa939ae509;Está péssimo para abrir;2;negative;0.942437708377838;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+47;5d6152ee-91b9-4088-9777-c4bf07521e43;É o pior banco que não aprova ninguém no cartão de crédito nem no limite de cheque especial Santander pior banco nota zero 0000000🤮🤮🤮🤮🤮🤮🤮🤮🤮🤮🤮🤮;1;negative;0.9265508651733398;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+188;4ee7f6b3-f77b-4346-922a-480c63b562d7;Este aplicativo está impedindo de eu abrir uma conta no Santander primeira que é sobrepor aos outros aplicativos depois quer vasculhar o celular da gente todo e tenho que autorizar outros empresas parceiros pode usar meus dados também com pode isso um absurdo esse aplicativo não tenho que autorizar isso e o aplicativo obriga a fazer se quiser usar ele o app então prefiro não abrir minha conta no Santander infelizmente;1;negative;0.9399687051773072;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;teste
+192;a9f445f0-c51f-4ca4-85a4-9f97468ac760;Eu não sei oq tá acontecendo mas tá ficando complicado assar o aplicativo Santander déjà de ontem não tô conseguindo entrar no aplicativo Santander oq tá acontecendo;5;negative;0.858708918094635;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;teste
+86;6dd18c52-1856-4a3a-9899-4b3fb5a2c87d;o app até que funciona! mas é muito lento pra abrir no celular...;4;negative;0.6609416604042053;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+162;6588228d-69e9-48aa-aa35-50b75ebcdb54;Só ter dinheiro na conta que o app para de funcionar do nada;1;negative;0.5767810344696045;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;teste
+37;baa63806-2cd6-4ded-99e3-89bdaf069631;Aplicativo está péssimo não se consegue resolver nada a mensagem tente mais tarde é constante;1;negative;0.9192308783531188;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+191;93c1ebc8-53af-412d-8b69-7af4b4d069ce;Faz uma semana que está difícil lidar com este aplicativo se quiser pagar contas tem que desinstalar e instalar de novo assim não dá até quando vamos ter dificuldade com o aplicativo!;4;negative;0.91206693649292;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;teste
+62;dd51cf42-da2c-46b1-a2f5-f8420f3e2cc1;banco lixo;1;negative;0.9257372617721558;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+23;6837ea71-29f2-4471-9898-92ea67eab427;aplicativo com deficiência travando muito;2;negative;0.890265703201294;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+142;45e15266-4bed-4a05-a1c7-b497af3b3341;Era muito bom mas de um tempo pra cá nem Pix consigo fazer tá horrível;2;negative;0.9139556884765624;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+102;7e0cef3f-94d3-45d6-96eb-afd381ab51e7;Um lixo;1;negative;0.956828773021698;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+34;93aba473-6e3b-4a19-aa37-97c0ff448b14;travando direto;3;negative;0.7928915023803711;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+12;f34faed6-853d-4788-bc84-bc52143086aa;App horrível não entra não dá pra acessar Tem que desinstalar e instalar novamente pra poder conseguir entrar no app;1;negative;0.9002485871315002;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+195;2e9d7d67-40e5-4df1-be97-c28a7d37ef79;o extrato de investimento não atende as minhas expectativas;4;negative;0.8967322111129761;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;teste
+160;074e27c7-e128-462a-8455-393052664195;Orrivel banco fdp fica quase sempre indisponível;1;negative;0.9529715180397034;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+7;d0c80d8f-65b7-48e7-8650-dc20e4b6b3e7;O app para de funcionar e me da o erro lclrp0005 e não me deixa entrar na conta. péssimo serviço;1;negative;0.9347462058067322;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+28;bffa989b-a9e1-47eb-8e3e-873580318783;por q o APP tá horrível de abri;1;negative;0.9444770216941832;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+121;6d47afed-a32d-43df-bed1-e101f641b55e;Arrumem isso ai nao estou conseguindo logar;1;negative;0.8569921255111694;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+5;dc2e6193-002d-4d74-8ec8-50f51f170e42;Ruim.;3;negative;0.9420103430747986;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+33;9c3b0310-9f8e-4a75-a593-6f0992d6b73b;Não consigo acessar minha conta toda vez tenho que reiniciar o celular;1;negative;0.8120984435081482;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+143;184dffef-7cf7-419a-94b8-8a1b561237de;App não está funcionando 05/07. Fica dando falha na comunicação toda vez q tento fazer alguma transação.;1;negative;0.7456524968147278;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+146;19dc3a18-5045-4d18-a184-2e6650270dc0;O APP péssimo.;1;negative;0.9566561579704284;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+110;c04c6f60-c238-4158-b7a2-672469327317;Travando muito;1;negative;0.5557739734649658;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+145;c5ff5280-ba25-4c9e-a52f-e74522074d10;Não estou conseguindo acessar minha conta;5;negative;0.7992730736732483;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+11;c09706e8-33db-4ebf-bae5-eef7bcc50ea7;App com problema de biometria facial e chave pix;2;negative;0.6853336691856384;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+63;a46ebcd8-6e1f-4174-ac4b-f332ba9c4751;Como demora a abrir;4;negative;0.7204197645187378;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+113;6b7bf6e0-4913-4118-8ae7-7ac703e53d38;Esse é o pior app comparado a outros bancos. Travando ou tá fora do ar....;3;negative;0.9523491859436036;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+147;2fde9996-9b9b-4cf0-9741-b238399def79;O aplicativo está muito lento e trava demais;2;negative;0.9130645394325256;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+167;a27b3258-cf25-4e9c-962c-a5c3561d6503;Quero normaliza meu app;5;negative;0.5199074149131775;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;teste
+1;8a6111bc-d637-495d-972a-b7086929e2bd;Fica apresentado erro e não entra na conta.;1;negative;0.6553788185119629;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+199;5be2f689-03ee-47bb-8837-97b6f5c340c9;péssimo;1;negative;0.8811744451522827;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;teste
+154;87f800ff-13c4-4252-baca-97f0cf69314f;O aplicativo não está funcionando só fica dizendo que a senha expirou e o aplicativo nem abre.;1;negative;0.756010115146637;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+71;6e483819-3283-4e65-ac1d-82ca1aedb9ac;Muito ruim. Trava muito;1;negative;0.9568081498146056;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+124;c03b3740-34f1-4010-af46-c380c2aff904;Uma droga este aplicativo vive travando quando mais preciso fazer pix;1;negative;0.9220364093780518;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+65;b31f7f27-5de4-46ab-833e-688cfd84a6f4;Há dias que o aplicativo não está funcionando direito. Já reclamei através do atendente e nada ficou resolvido. Descaso total com o cliente. José Carlos;1;negative;0.938267946243286;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+45;73e5ca73-0c9f-4db8-a44a-69de5ac78def;Péssimo os telefones não funcionam e os atendentes educados;1;negative;0.9399229884147644;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+164;ebf43056-796b-4de4-b103-734b6501fb61;Não estou conseguindo acessar o APP;5;negative;0.7660025954246521;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;teste
+29;40ae017d-29a8-436e-91a1-cc4bda8e5b8c;Tem que desinstalar e instalar dinovo trava todo dia.;3;negative;0.7644397616386414;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+41;091dc8cb-f5ed-4657-8d10-f90d22631328;De uns dias pra cá o App simplesmente não funciona...fica dando erro dizendo q está sendo solucionado em breve;1;negative;0.815442681312561;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+109;22cc5ee6-e534-4534-8459-a8e490ae65a3;😤;1;negative;0.669657826423645;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+156;b6f34019-ef97-46bd-9379-0985162184e8;pior banco do planeta;1;negative;0.9316446781158448;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+157;9d2e8130-27ca-4c02-8147-2912e8cee3b5;O aplicativo não tem funcionado e deixando a desejar. Só trava e precisa ficar reiniciando o celular. PÉSSIMO;1;negative;0.9267366528511048;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+26;3e06a0ef-a004-4833-b16f-3d43fe89230a;falta transparências;2;negative;0.9311620593070984;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+24;74e1e021-7e4b-4ebc-ae68-587b3df50cc3;A configuração de notificações não serve para nada!!! Toda hora recebo mensagens de produtos que nem quero saber!!! Uma falta de respeito!!!;2;negative;0.9360225796699524;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+185;03efcf48-c2f3-440b-ab72-0db05f90cd89;QUANDO CHEGA A NOITE NÃO CONSIGO ENTRAR NO APP NEM FAZER PIX É A TREVA;4;negative;0.8716766238212585;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;teste
+148;dd9915f5-d1d7-4c06-8902-8f69b6b19424;Estou tendo problemas com app.;1;negative;0.7819619178771973;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+82;122d53a2-4aec-4096-8e55-d901280cdb17;toda hr tenho que desinstalar e instalar N está funcionando;5;negative;0.7644367814064026;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+40;27c041d7-c77b-4ab0-a47b-de8ea9e9690c;Dindin raspadinha só enganação!;5;negative;0.8488636612892151;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+169;9e6e9ee2-7a47-43df-91c1-f933dd15b932;Péssimo .;1;negative;0.9233561754226683;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;teste
+48;025d2c64-9588-4397-aadc-bc8c681d958c;Não está funcionando.;2;negative;0.8264951705932617;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+95;1bd4b742-57d5-40d3-903d-8f0b82c7a17c;Estou com dificuldade para acessar o APP;1;negative;0.7706656455993652;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+155;8b3eb118-c14a-4015-acab-647b36da8d60;Nossa eu não tô conseguindo entrar no app do banco meus boletos vão vencer e não consigo entrar;1;negative;0.8926510810852051;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+44;c5b1d7c1-1cf2-42f1-b497-bce4e6934d91;Fui entrar no aplicativo e simplesmente não funciona o aplicativo e fica loop pedindo redefinição de senha.;1;negative;0.7902179956436157;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+139;45f2e050-d587-4283-8274-0cfaa3996184;Não estou gostando desse aplicativo do banco tá travando demora pra abrir tava bom agora tá muito ruim vou cancelar minha conta só passou raiva não abre;1;negative;0.943040132522583;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+4;bb5a6350-18a1-443a-b2c1-51f87c948666;Péssimo pra abrir toda vez tenho q reiniciar o celular;5;negative;0.9178723692893982;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+106;a86697d9-c2aa-4977-bb6d-a4adf4667031;Simplesmente coloco dinheiro na conta e some do nada coloquei um dinheiro ontem pra pagar o cartão de crédito e o dinheiro sumiu e o pior tô só me individando;1;negative;0.8668438196182251;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+54;3980faa1-5eb1-4ce3-b2e3-7cde69ba265c;Acabei de baixar o aplicativo e não consigo abrir uma conta salário;1;negative;0.8410199284553528;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+134;d340828b-bd95-40c8-9bbf-9b65b3ae5ca0;Não consigo acessar minha conta. Fiz o pedido de abertura e ainda não tive um retorno.;2;negative;0.7654605507850647;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+181;2fe109a4-d867-41a1-9d16-f3dbff84bb9a;Aplicativo trava de mais;3;negative;0.9308651685714722;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;teste
+179;6bb99189-d85d-4098-8325-21f45693038e;não consigo entra no app santader way para abrir uma conta;4;negative;0.7860716581344604;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;teste
+186;da6a1462-2ea0-461c-b2c7-9bf661c56877;Que App Horrível Não Consigo entra para ter Acesso a Minha Conta.;1;negative;0.9301193952560424;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;teste
+50;1e488c98-a299-4cdb-acd9-441c24952956;Ultimamente tá pior que os bancos digitais vive indisponível;1;negative;0.9345749020576476;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+81;009d1c66-a0bc-432d-9159-9fc856f3505a;Tá muito ruim só trava e muito lento;2;negative;0.9171016812324524;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+35;60d8ae97-aa70-4310-8cab-549972f17ea7;Pessimo app sempre trava e pede confirmação de senha de cartão deixando assim com duvidas se é o banco ou golpe !;1;negative;0.9176722168922424;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+8;a34f0a7d-1f0c-4232-b48c-a73c34d3e273;O aplicativo tá péssimo para abrir.;1;negative;0.9263885617256165;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+111;eab3b693-1d67-47d2-9edc-b25944487138;Gosto muito.mas as vezes está travando;5;negative;0.6546421647071838;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+92;2c1296de-df03-45e7-b8d1-bec89c164235;Tá muito ruim não abre;1;negative;0.9296627044677734;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+84;553c2bb4-0c85-4ef8-919b-c4bf14c4d42f;banco ladrão;1;negative;0.9177506566047668;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+177;aca7a50d-c040-499c-8615-5cb0540aa63a;O aplicativo não funciona todas opção só mostra sistema indisponível me ajude a solucionar essa problema por favor;1;negative;0.7890962362289429;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;teste
+182;27a054eb-7d42-496e-ae3a-3493851b1c0f;Paguei a conta da fatura e ainda parece que eu não paguei Outra coisa quando faço compra não chega notificação na mesma hora e no app não mostra a compra só depois de horas;1;negative;0.7622092366218567;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;teste
+90;0aefb3ed-3c60-4f4f-bb81-2ac666a0d11e;Péssimo! Os boletos DDA não são excluídos após o pagamento mensal. Por conta disso fiz um pagamento em duplicidade.;2;negative;0.9217475652694702;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+9;58a55f31-cf94-4a9e-b8ac-151c32f6cd86;Muita dificuldade para conseguir falar com atendente presencial Não tem suporte Péssimo atendimento online A gente liga nunca consegue resultado Não consigo emitir boleto de renegociação tentando falar com alguém até agora nada vai vencer a data;1;negative;0.9005528092384338;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+14;401bea9b-3d39-40cb-8617-e50a9f349a16;Atualizar esse aplicativo deixa opção como personalizar temas cores etc seria ótimo está muito ruim de navegar 😭;3;negative;0.8477591276168823;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+60;707272ff-e224-405e-a837-b87496415e78;Não entra quando preciso.;1;negative;0.6445956826210022;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+172;dd15e6f8-1fc9-4652-ae18-b246e5b83693;um lixo... bloqueio de poupança sem autorização e etc..;1;negative;0.9588254690170288;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;teste
+132;e2059aca-771a-4fea-9e3a-44db2afd3f42;trava toda hora muito devagar;1;negative;0.795190155506134;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+18;3c655097-c9cf-458b-8b66-a2dfc6cb1fb0;Muito funcional. *Atualização 07/2024: Bem ruim esse banner logo na abertura do App hein?!;4;negative;0.934235692024231;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+73;7353b7b7-abdf-4dcc-bb0c-674d030c0e61;Fica fora de sistema não consigo acessar nada;1;negative;0.8050904273986816;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+176;56074b1b-d829-4265-91ed-81c56235ea6e;banco desabilitado o 🆔 sozinho dando erro o que tá acontecendo Santander;1;negative;0.8630096912384033;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;teste
+135;1168550d-38ad-4ecd-8fd7-db8496a9ff24;Muita instabilidade bando horrível;1;negative;0.9603340029716492;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+168;8920ed7f-cd78-4b1a-98b7-4a4e3977b63b;libera nunca o cartão de crédito;4;negative;0.6363540291786194;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;teste
+184;e712f2e8-4ce6-416f-bae5-3a9c37b28f8f;App. Travando toda hora péssimo;2;negative;0.9411778450012208;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;teste
+64;e88d385f-0d8c-4c8a-bcc6-5173b692af72;Não consigo validar o reconhecimento facial pois quando chega na parte de iniciar ele trava e volta pra tela de habilitar uso total da conta;1;negative;0.7287351489067078;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+55;7e7d19fa-53fd-46cc-8bb9-e1313785dd1b;Não estou conseguindo acessá mimha conta;1;negative;0.8384454250335693;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+108;f1a0afbb-82ea-4755-85af-7d548f316e1e;pessimo nao funciona um lixo;1;negative;0.931519627571106;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+51;150c2510-ad9c-461d-aa15-e82d6b2cb4a5;as notificacoes de pix nao funcionam;4;negative;0.7945946455001831;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+197;709d645a-7164-4b63-b0c4-1af2cfb4af8c;Faz tempo q espero ser cliente de vcs é vcs não me aprovam;1;negative;0.8725327849388123;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;teste
+59;b0758e68-6e52-4890-9918-f85ba6171f4e;Quase sempre o App fica fora do ar.;1;negative;0.7833767533302307;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+49;72a2b223-67a0-4731-b8c6-fd4d37e05e46;Aplicativo toda hora não permite acesso;1;negative;0.7286072969436646;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+89;63eb6929-efed-4684-ab52-11905e6e64bf;WAY tempo todo indisponível. Perdi promoçao. Prejuízo. Fiz compra com cartão de outro banco. Continuar assim........;2;negative;0.907756209373474;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+22;fabcddf7-2b26-4e1e-ba90-9d15a73b51b4;Cada dia pior pirou mais nem fazer pix consigo;1;negative;0.9400147795677184;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+58;b0deeec2-9640-4fe8-9646-58be67af18ec;App está péssimo bugado só consigo acessar se reiniciar o celular toda vez;4;negative;0.909850537776947;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+161;efccb51e-fe70-47ca-8b69-02042394e3bd;Ele está travando muito vou pagar uma conta não da trava;2;negative;0.8430401682853699;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;teste
+193;36f5d1d1-7f3e-4b99-a4e4-011f2bd44e08;Muito ruim péssimo;1;negative;0.9457727670669556;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;teste
+130;a4680734-93a9-47b7-abae-c450e34ec912;Horrível não funciona nada nesse aplicativo;1;negative;0.9422678351402284;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+38;c9bee8b3-6a9a-47fd-9ae9-8a7cae91d0da;Meu app dis que nao e possivel entrar pelo meu cll;1;negative;0.7614949941635132;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+158;98094d42-7c34-478e-8e11-a8aa194e903e;pior banco que existe horrível demais não carrega nem pra ver a quantidade de dinheiro horrível;1;negative;0.9512507915496826;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+194;cd0699a7-0eb8-4226-875c-494effc550ce;Já faz duas semanas que não consigo entrar no aplicativo diz q tenho q buscar uma agência;1;negative;0.7887620329856873;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;teste
+2;cf23e796-1d95-4cbc-80bc-f78243e13c90;Péssimo não consigo entrar pra pagar fatura;1;negative;0.896888792514801;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+53;6b816584-1c0c-440a-bff1-80ec43f47fc9;ruim;1;negative;0.5681286454200745;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+150;d6cb6cb0-365f-437a-877d-33d50f3f72fa;Estou ligando mas não atendem. A três meses não mandam fatura da minha renegociação até junho paguei com o código enviado por SMS mas julho ainda não mandaram e não atendem a ligação. Está muito bagunçado o atendimento renegociação Santander!;1;negative;0.9256578087806702;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+131;33e37ef9-f199-4d9c-9cdb-ad09628d7c8a;sem crédito;1;negative;0.6487523317337036;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+152;a6280bf8-33e2-4c00-86b2-8cc6066c5c1f;Esta travando na tela inicial Não vai nem para a frente e nem volta Tenho que desinstalar e reinstalar e instalar pra dar certo ! Complicado Continua travando Está assim faz 2 semana já 06/07/24 Péssimo Continua 09/07;1;negative;0.9282753467559814;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+104;a625bb3d-235f-4876-86c2-245c15395345;Não estou conseguindo entrar no meu aplicativo está aparecendo que está indisponível por favor me expliquem o que está acontecendo por favor;1;negative;0.8107622265815735;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+100;3c17c530-ca84-4061-9554-addfbbda77fc;Mto ruim 👎;1;negative;0.9548821449279784;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+117;39a9f84b-d214-4769-873f-f43ece52c82f;muito instável e trava toda hora;2;negative;0.9383426904678344;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+88;f3b3ee1a-9e0d-43d7-a9f9-7ed62ebd4f44;O aplicativo tá horrível não abre tenho que reiniciar o cel.para poder acessar Afinal o que está acontecendo. Porque esse problema já não foi resolvido?;1;negative;0.9315302968025208;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+75;1fb2ea28-af3d-493c-8e8d-d27c3451aeab;Um dos piores banco que já tive o desprazer de ter uma conta!;1;negative;0.9497573375701904;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+122;7c9b099c-8ab6-46bd-a2a2-95957072934a;Não consegui encontrar na conta não consegui fazer outra senha 😡;1;negative;0.8578946590423584;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+200;906f99ab-fe7d-4115-a454-e9f186e839f6;Demora muito;1;negative;0.7455930113792419;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;teste
+21;27bc0d22-88a1-42ec-aea6-8649478b3135;Tem que tá reiniciando pro aplicativo abrir. Horrível!;1;negative;0.95001220703125;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+189;5fc9ae59-2c9b-4784-9256-0f7413885359;Esse banco é horrível estou tentando quitar um contrato do próprio banco Santander e nao consigo enquanto isso o juros a cada dia aumenta perdi 3 horas em ligações e app e ninguém resolve nada depois de resolver essa pendência nunca mais usarei esse banco.;1;negative;0.957852840423584;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;teste
+72;3e5f04f3-d1db-4c69-ba52-e330cf42764e;Se você esquecer agência ou conta tá lascado pq não tem como solicitar pra lembrar.;1;negative;0.8084484934806824;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+107;71969fa7-490b-4c8f-91e7-718a4493508c;Demora muito;3;negative;0.7455930113792419;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+15;42aa7ddb-11cf-412d-ae05-7c0632a68c15;Não tô conseguindo fazer Pix fala que por motivos de segurança para entrar em contato pelos telefones mais não atende.;1;negative;0.6076314449310303;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+93;618298bc-5f4c-45aa-a677-a86ec1f5cc54;O aplicativo trava muito em algumas época. Nessa ultima semana não consigo abrir de jeito nenhum. Já desistalei 2 vezes e nada funciona.;2;negative;0.8844990730285645;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino
+180;08559c98-0eb2-451c-8186-150df83b6152;Tá travando muito;1;negative;0.8854317665100098;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;teste
+103;a4f4621c-0848-49ae-8dac-8040908eb9f6;Uma dificuldade pra abrir o aplicativo;1;negative;0.8350377678871155;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;treino

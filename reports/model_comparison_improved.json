@@ -1,0 +1,1524 @@
+{
+  "generated_at": "2026-01-16T16:55:57.566277",
+  "models_tested": [
+    "gpt-4o-mini",
+    "gpt-4o-2024-08-06",
+    "gpt-oss-20b",
+    "gpt-5.2-2025-12-11"
+  ],
+  "comments_processed": 20,
+  "results": [
+    {
+      "model": "gpt-4o-mini",
+      "processed_reviews": 20,
+      "errors": 0,
+      "total_issues": 52,
+      "total_capabilities": 13,
+      "total_episodes": 53,
+      "capability_statistics": {
+        "Acesso Geográfico": {
+          "total_issues": 1,
+          "total_episodes": 1,
+          "avg_episodes_per_issue": 1.0,
+          "level": 2,
+          "capability_type": "Supporting",
+          "business_value": "Low",
+          "top_issues": [
+            {
+              "Issue": "Ausência de agência",
+              "TotalEpisodes": 1
+            }
+          ]
+        },
+        "Atendimento ao Cliente": {
+          "total_issues": 6,
+          "total_episodes": 6,
+          "avg_episodes_per_issue": 1.0,
+          "level": 2,
+          "capability_type": "Supporting",
+          "business_value": "Medium",
+          "top_issues": [
+            {
+              "Issue": "Atendimento automatizado insatisfatório",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Enrolada no chat",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Falta de suporte",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Problema de atendimento ao cliente",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Problemas de comunicação",
+              "TotalEpisodes": 1
+            }
+          ]
+        },
+        "Autenticação e Acesso": {
+          "total_issues": 4,
+          "total_episodes": 4,
+          "avg_episodes_per_issue": 1.0,
+          "level": 1,
+          "capability_type": "Core",
+          "business_value": "High",
+          "top_issues": [
+            {
+              "Issue": "Dependência do cartão para acesso",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Dificuldade de login",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Erro ao entrar na conta",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Falta de acesso para consulta",
+              "TotalEpisodes": 1
+            }
+          ]
+        },
+        "Consulta de Saldo e Extrato": {
+          "total_issues": 3,
+          "total_episodes": 3,
+          "avg_episodes_per_issue": 1.0,
+          "level": 2,
+          "capability_type": "Core",
+          "business_value": "High",
+          "top_issues": [
+            {
+              "Issue": "Extrato da poupança",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Não consigo acessar saldo",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Saldo não reconhecido",
+              "TotalEpisodes": 1
+            }
+          ]
+        },
+        "Empréstimos e Crédito": {
+          "total_issues": 2,
+          "total_episodes": 2,
+          "avg_episodes_per_issue": 1.0,
+          "level": 2,
+          "capability_type": "Core",
+          "business_value": "High",
+          "top_issues": [
+            {
+              "Issue": "Acompanhamento pelo app",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Não consigo refinanciar",
+              "TotalEpisodes": 1
+            }
+          ]
+        },
+        "Gestão de Cadastro e Conta": {
+          "total_issues": 2,
+          "total_episodes": 2,
+          "avg_episodes_per_issue": 1.0,
+          "level": 2,
+          "capability_type": "Supporting",
+          "business_value": "Medium",
+          "top_issues": [
+            {
+              "Issue": "Não consegui atualizar meus dados",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Problemas para abrir conta",
+              "TotalEpisodes": 1
+            }
+          ]
+        },
+        "Gestão de Tarifas": {
+          "total_issues": 4,
+          "total_episodes": 4,
+          "avg_episodes_per_issue": 1.0,
+          "level": 2,
+          "capability_type": "Supporting",
+          "business_value": "Medium",
+          "top_issues": [
+            {
+              "Issue": "Cobrança de tarifas",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Comparação com custo de arroz",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Desconto considerado baixo",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Tarifa de 16,00",
+              "TotalEpisodes": 1
+            }
+          ]
+        },
+        "Interface e Experiência do Usuário": {
+          "total_issues": 2,
+          "total_episodes": 2,
+          "avg_episodes_per_issue": 1.0,
+          "level": 1,
+          "capability_type": "Supporting",
+          "business_value": "Medium",
+          "top_issues": [
+            {
+              "Issue": "Desativar contatos de agenda para fazer PIX",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Falta de Modo Escuro",
+              "TotalEpisodes": 1
+            }
+          ]
+        },
+        "Investimentos": {
+          "total_issues": 5,
+          "total_episodes": 5,
+          "avg_episodes_per_issue": 1.0,
+          "level": 2,
+          "capability_type": "Strategic",
+          "business_value": "High",
+          "top_issues": [
+            {
+              "Issue": "Dificuldade de Resgate",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Dificuldade em fazer investimento",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Inconsistência de dados com B3",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Propostas de contratos indesejados",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Setor de investimento não atualizado",
+              "TotalEpisodes": 1
+            }
+          ]
+        },
+        "Pagamentos e Boletos": {
+          "total_issues": 3,
+          "total_episodes": 3,
+          "avg_episodes_per_issue": 1.0,
+          "level": 2,
+          "capability_type": "Core",
+          "business_value": "High",
+          "top_issues": [
+            {
+              "Issue": "Compensação de Documento",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Demora na compensação de IPVA",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Dificuldade em realizar pagamentos",
+              "TotalEpisodes": 1
+            }
+          ]
+        },
+        "Performance e Estabilidade": {
+          "total_issues": 13,
+          "total_episodes": 13,
+          "avg_episodes_per_issue": 1.0,
+          "level": 1,
+          "capability_type": "Supporting",
+          "business_value": "High",
+          "top_issues": [
+            {
+              "Issue": "App não abre",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "App trava",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "App trava na hora de receber o pagamento",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Dificuldade em acessar o aplicativo",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Experiência negativa com o app",
+              "TotalEpisodes": 1
+            }
+          ]
+        },
+        "Segurança e Proteção": {
+          "total_issues": 6,
+          "total_episodes": 6,
+          "avg_episodes_per_issue": 1.0,
+          "level": 1,
+          "capability_type": "Core",
+          "business_value": "High",
+          "top_issues": [
+            {
+              "Issue": "Espionagem",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Excesso de segurança ao fazer PIX",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Falta de Camadas de Segurança",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Falta de Transparência",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Privacidade",
+              "TotalEpisodes": 1
+            }
+          ]
+        },
+        "Transferências PIX": {
+          "total_issues": 1,
+          "total_episodes": 2,
+          "avg_episodes_per_issue": 2.0,
+          "level": 2,
+          "capability_type": "Core",
+          "business_value": "High",
+          "top_issues": [
+            {
+              "Issue": "Problemas com PIX",
+              "TotalEpisodes": 2
+            }
+          ]
+        }
+      },
+      "distribution": {
+        "Acesso Geográfico": {
+          "issues_percentage": 1.9230769230769231,
+          "episodes_percentage": 1.8867924528301887
+        },
+        "Atendimento ao Cliente": {
+          "issues_percentage": 11.538461538461538,
+          "episodes_percentage": 11.320754716981133
+        },
+        "Autenticação e Acesso": {
+          "issues_percentage": 7.6923076923076925,
+          "episodes_percentage": 7.547169811320755
+        },
+        "Consulta de Saldo e Extrato": {
+          "issues_percentage": 5.769230769230769,
+          "episodes_percentage": 5.660377358490567
+        },
+        "Empréstimos e Crédito": {
+          "issues_percentage": 3.8461538461538463,
+          "episodes_percentage": 3.7735849056603774
+        },
+        "Gestão de Cadastro e Conta": {
+          "issues_percentage": 3.8461538461538463,
+          "episodes_percentage": 3.7735849056603774
+        },
+        "Gestão de Tarifas": {
+          "issues_percentage": 7.6923076923076925,
+          "episodes_percentage": 7.547169811320755
+        },
+        "Interface e Experiência do Usuário": {
+          "issues_percentage": 3.8461538461538463,
+          "episodes_percentage": 3.7735849056603774
+        },
+        "Investimentos": {
+          "issues_percentage": 9.615384615384617,
+          "episodes_percentage": 9.433962264150944
+        },
+        "Pagamentos e Boletos": {
+          "issues_percentage": 5.769230769230769,
+          "episodes_percentage": 5.660377358490567
+        },
+        "Performance e Estabilidade": {
+          "issues_percentage": 25.0,
+          "episodes_percentage": 24.528301886792452
+        },
+        "Segurança e Proteção": {
+          "issues_percentage": 11.538461538461538,
+          "episodes_percentage": 11.320754716981133
+        },
+        "Transferências PIX": {
+          "issues_percentage": 1.9230769230769231,
+          "episodes_percentage": 3.7735849056603774
+        }
+      },
+      "top_10_issues": {
+        "Problemas com PIX": 2,
+        "Acompanhamento pelo app": 1,
+        "App não abre": 1,
+        "App trava": 1,
+        "App trava na hora de receber o pagamento": 1,
+        "Atendimento automatizado insatisfatório": 1,
+        "Ausência de agência": 1,
+        "Cobrança de tarifas": 1,
+        "Comparação com custo de arroz": 1,
+        "Compensação de Documento": 1
+      }
+    },
+    {
+      "model": "gpt-4o-2024-08-06",
+      "processed_reviews": 20,
+      "errors": 0,
+      "total_issues": 53,
+      "total_capabilities": 13,
+      "total_episodes": 54,
+      "capability_statistics": {
+        "Acesso Geográfico": {
+          "total_issues": 1,
+          "total_episodes": 1,
+          "avg_episodes_per_issue": 1.0,
+          "level": 2,
+          "capability_type": "Supporting",
+          "business_value": "Low",
+          "top_issues": [
+            {
+              "Issue": "Ausência de agência",
+              "TotalEpisodes": 1
+            }
+          ]
+        },
+        "Atendimento ao Cliente": {
+          "total_issues": 6,
+          "total_episodes": 6,
+          "avg_episodes_per_issue": 1.0,
+          "level": 2,
+          "capability_type": "Supporting",
+          "business_value": "Medium",
+          "top_issues": [
+            {
+              "Issue": "Atendimento automatizado insatisfatório",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Enrolada no chat",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Falta de suporte",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Mais de 15 minutos de espera sem atendimento",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Problema de atendimento ao cliente",
+              "TotalEpisodes": 1
+            }
+          ]
+        },
+        "Autenticação e Acesso": {
+          "total_issues": 5,
+          "total_episodes": 5,
+          "avg_episodes_per_issue": 1.0,
+          "level": 1,
+          "capability_type": "Core",
+          "business_value": "High",
+          "top_issues": [
+            {
+              "Issue": "Dificuldade de acesso ao cartão",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Dificuldade para logar",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Erro ao entrar na conta",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Falta de acesso para consulta",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Problemas de acesso ao aplicativo",
+              "TotalEpisodes": 1
+            }
+          ]
+        },
+        "Consulta de Saldo e Extrato": {
+          "total_issues": 3,
+          "total_episodes": 3,
+          "avg_episodes_per_issue": 1.0,
+          "level": 2,
+          "capability_type": "Core",
+          "business_value": "High",
+          "top_issues": [
+            {
+              "Issue": "Extrato da poupança",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Não consigo acessar saldo",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Saldo não reconhecido",
+              "TotalEpisodes": 1
+            }
+          ]
+        },
+        "Empréstimos e Crédito": {
+          "total_issues": 1,
+          "total_episodes": 1,
+          "avg_episodes_per_issue": 1.0,
+          "level": 2,
+          "capability_type": "Core",
+          "business_value": "High",
+          "top_issues": [
+            {
+              "Issue": "Não consigo refinanciar",
+              "TotalEpisodes": 1
+            }
+          ]
+        },
+        "Gestão de Cadastro e Conta": {
+          "total_issues": 3,
+          "total_episodes": 3,
+          "avg_episodes_per_issue": 1.0,
+          "level": 2,
+          "capability_type": "Supporting",
+          "business_value": "Medium",
+          "top_issues": [
+            {
+              "Issue": "Desativação de contatos de agenda para fazer PIX",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Não consegui atualizar meus dados",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Problemas para abrir conta",
+              "TotalEpisodes": 1
+            }
+          ]
+        },
+        "Gestão de Tarifas": {
+          "total_issues": 4,
+          "total_episodes": 4,
+          "avg_episodes_per_issue": 1.0,
+          "level": 2,
+          "capability_type": "Supporting",
+          "business_value": "Medium",
+          "top_issues": [
+            {
+              "Issue": "Cobrança de tarifas",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Comparação com custo de arroz",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Desconto considerado baixo",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Tarifa de 16,00",
+              "TotalEpisodes": 1
+            }
+          ]
+        },
+        "Interface e Experiência do Usuário": {
+          "total_issues": 2,
+          "total_episodes": 2,
+          "avg_episodes_per_issue": 1.0,
+          "level": 1,
+          "capability_type": "Supporting",
+          "business_value": "Medium",
+          "top_issues": [
+            {
+              "Issue": "Falta de Modo Escuro",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Frustração dos usuários",
+              "TotalEpisodes": 1
+            }
+          ]
+        },
+        "Investimentos": {
+          "total_issues": 5,
+          "total_episodes": 5,
+          "avg_episodes_per_issue": 1.0,
+          "level": 2,
+          "capability_type": "Strategic",
+          "business_value": "High",
+          "top_issues": [
+            {
+              "Issue": "Dificuldade em fazer investimento",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Inconsistência de dados com B3",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Problemas de Resgate",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Propostas de contratos indesejados",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Setor de investimento não atualizado",
+              "TotalEpisodes": 1
+            }
+          ]
+        },
+        "Pagamentos e Boletos": {
+          "total_issues": 3,
+          "total_episodes": 3,
+          "avg_episodes_per_issue": 1.0,
+          "level": 2,
+          "capability_type": "Core",
+          "business_value": "High",
+          "top_issues": [
+            {
+              "Issue": "Compensação de Documento",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Demora na compensação de IPVA",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Dificuldade em realizar pagamentos",
+              "TotalEpisodes": 1
+            }
+          ]
+        },
+        "Performance e Estabilidade": {
+          "total_issues": 12,
+          "total_episodes": 12,
+          "avg_episodes_per_issue": 1.0,
+          "level": 1,
+          "capability_type": "Supporting",
+          "business_value": "High",
+          "top_issues": [
+            {
+              "Issue": "App não abre",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "App trava",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "App trava na hora de receber o pagamento",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Atualizações com falhas",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Estresse causado por atualizações",
+              "TotalEpisodes": 1
+            }
+          ]
+        },
+        "Segurança e Proteção": {
+          "total_issues": 7,
+          "total_episodes": 7,
+          "avg_episodes_per_issue": 1.0,
+          "level": 1,
+          "capability_type": "Core",
+          "business_value": "High",
+          "top_issues": [
+            {
+              "Issue": "Desconfiança",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Espionagem",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Excesso de segurança ao fazer PIX",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Falta de Camadas de Segurança",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Falta de Transparência",
+              "TotalEpisodes": 1
+            }
+          ]
+        },
+        "Transferências PIX": {
+          "total_issues": 1,
+          "total_episodes": 2,
+          "avg_episodes_per_issue": 2.0,
+          "level": 2,
+          "capability_type": "Core",
+          "business_value": "High",
+          "top_issues": [
+            {
+              "Issue": "Problemas com PIX",
+              "TotalEpisodes": 2
+            }
+          ]
+        }
+      },
+      "distribution": {
+        "Acesso Geográfico": {
+          "issues_percentage": 1.8867924528301887,
+          "episodes_percentage": 1.8518518518518516
+        },
+        "Atendimento ao Cliente": {
+          "issues_percentage": 11.320754716981133,
+          "episodes_percentage": 11.11111111111111
+        },
+        "Autenticação e Acesso": {
+          "issues_percentage": 9.433962264150944,
+          "episodes_percentage": 9.25925925925926
+        },
+        "Consulta de Saldo e Extrato": {
+          "issues_percentage": 5.660377358490567,
+          "episodes_percentage": 5.555555555555555
+        },
+        "Empréstimos e Crédito": {
+          "issues_percentage": 1.8867924528301887,
+          "episodes_percentage": 1.8518518518518516
+        },
+        "Gestão de Cadastro e Conta": {
+          "issues_percentage": 5.660377358490567,
+          "episodes_percentage": 5.555555555555555
+        },
+        "Gestão de Tarifas": {
+          "issues_percentage": 7.547169811320755,
+          "episodes_percentage": 7.4074074074074066
+        },
+        "Interface e Experiência do Usuário": {
+          "issues_percentage": 3.7735849056603774,
+          "episodes_percentage": 3.7037037037037033
+        },
+        "Investimentos": {
+          "issues_percentage": 9.433962264150944,
+          "episodes_percentage": 9.25925925925926
+        },
+        "Pagamentos e Boletos": {
+          "issues_percentage": 5.660377358490567,
+          "episodes_percentage": 5.555555555555555
+        },
+        "Performance e Estabilidade": {
+          "issues_percentage": 22.641509433962266,
+          "episodes_percentage": 22.22222222222222
+        },
+        "Segurança e Proteção": {
+          "issues_percentage": 13.20754716981132,
+          "episodes_percentage": 12.962962962962962
+        },
+        "Transferências PIX": {
+          "issues_percentage": 1.8867924528301887,
+          "episodes_percentage": 3.7037037037037033
+        }
+      },
+      "top_10_issues": {
+        "Problemas com PIX": 2,
+        "App não abre": 1,
+        "App trava": 1,
+        "App trava na hora de receber o pagamento": 1,
+        "Atendimento automatizado insatisfatório": 1,
+        "Atualizações com falhas": 1,
+        "Ausência de agência": 1,
+        "Cobrança de tarifas": 1,
+        "Comparação com custo de arroz": 1,
+        "Compensação de Documento": 1
+      }
+    },
+    {
+      "model": "gpt-oss-20b",
+      "processed_reviews": 20,
+      "errors": 0,
+      "total_issues": 56,
+      "total_capabilities": 13,
+      "total_episodes": 57,
+      "capability_statistics": {
+        "Acesso Geográfico": {
+          "total_issues": 1,
+          "total_episodes": 1,
+          "avg_episodes_per_issue": 1.0,
+          "level": 2,
+          "capability_type": "Supporting",
+          "business_value": "Low",
+          "top_issues": [
+            {
+              "Issue": "Ausência de agência",
+              "TotalEpisodes": 1
+            }
+          ]
+        },
+        "Atendimento ao Cliente": {
+          "total_issues": 7,
+          "total_episodes": 7,
+          "avg_episodes_per_issue": 1.0,
+          "level": 2,
+          "capability_type": "Supporting",
+          "business_value": "Medium",
+          "top_issues": [
+            {
+              "Issue": "Atendimento automatizado insatisfatório",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Enrolada no chat",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Falta de suporte",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Mais de 15 minutos de espera sem atendimento",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Problema de atendimento ao cliente",
+              "TotalEpisodes": 1
+            }
+          ]
+        },
+        "Autenticação e Acesso": {
+          "total_issues": 5,
+          "total_episodes": 5,
+          "avg_episodes_per_issue": 1.0,
+          "level": 1,
+          "capability_type": "Core",
+          "business_value": "High",
+          "top_issues": [
+            {
+              "Issue": "Acesso ao cartão",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Dificuldade para logar",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Erro ao entrar na conta",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Falta de acesso para consulta",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Problemas de acesso ao aplicativo",
+              "TotalEpisodes": 1
+            }
+          ]
+        },
+        "Consulta de Saldo e Extrato": {
+          "total_issues": 3,
+          "total_episodes": 3,
+          "avg_episodes_per_issue": 1.0,
+          "level": 2,
+          "capability_type": "Core",
+          "business_value": "High",
+          "top_issues": [
+            {
+              "Issue": "Extrato da Poupança",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Não consigo acessar saldo",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Saldo não reconhecido",
+              "TotalEpisodes": 1
+            }
+          ]
+        },
+        "Empréstimos e Crédito": {
+          "total_issues": 2,
+          "total_episodes": 2,
+          "avg_episodes_per_issue": 1.0,
+          "level": 2,
+          "capability_type": "Core",
+          "business_value": "High",
+          "top_issues": [
+            {
+              "Issue": "Acompanhamento pelo app",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Não consigo refinanciar",
+              "TotalEpisodes": 1
+            }
+          ]
+        },
+        "Gestão de Cadastro e Conta": {
+          "total_issues": 2,
+          "total_episodes": 2,
+          "avg_episodes_per_issue": 1.0,
+          "level": 2,
+          "capability_type": "Supporting",
+          "business_value": "Medium",
+          "top_issues": [
+            {
+              "Issue": "Não consegui atualizar meus dados",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Problemas para abrir conta",
+              "TotalEpisodes": 1
+            }
+          ]
+        },
+        "Gestão de Tarifas": {
+          "total_issues": 4,
+          "total_episodes": 4,
+          "avg_episodes_per_issue": 1.0,
+          "level": 2,
+          "capability_type": "Supporting",
+          "business_value": "Medium",
+          "top_issues": [
+            {
+              "Issue": "Cobrança de tarifas",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Comparação com custo de arroz",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Desconto considerado baixo",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Tarifa de 16,00",
+              "TotalEpisodes": 1
+            }
+          ]
+        },
+        "Interface e Experiência do Usuário": {
+          "total_issues": 3,
+          "total_episodes": 3,
+          "avg_episodes_per_issue": 1.0,
+          "level": 1,
+          "capability_type": "Supporting",
+          "business_value": "Medium",
+          "top_issues": [
+            {
+              "Issue": "Desativar contatos de agenda para fazer PIX",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Falta de Modo Escuro",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Vergonha pelo Modo Escuro Ausente",
+              "TotalEpisodes": 1
+            }
+          ]
+        },
+        "Investimentos": {
+          "total_issues": 5,
+          "total_episodes": 5,
+          "avg_episodes_per_issue": 1.0,
+          "level": 2,
+          "capability_type": "Strategic",
+          "business_value": "High",
+          "top_issues": [
+            {
+              "Issue": "Dificuldade em fazer investimento",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Inconsistência de dados com B3",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Problemas de Resgate",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Propostas de contratos indesejados",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Setor de investimento não atualizado",
+              "TotalEpisodes": 1
+            }
+          ]
+        },
+        "Pagamentos e Boletos": {
+          "total_issues": 3,
+          "total_episodes": 3,
+          "avg_episodes_per_issue": 1.0,
+          "level": 2,
+          "capability_type": "Core",
+          "business_value": "High",
+          "top_issues": [
+            {
+              "Issue": "Compensação de Documento",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Dificuldade em realizar pagamentos",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "IPVA",
+              "TotalEpisodes": 1
+            }
+          ]
+        },
+        "Performance e Estabilidade": {
+          "total_issues": 14,
+          "total_episodes": 14,
+          "avg_episodes_per_issue": 1.0,
+          "level": 1,
+          "capability_type": "Supporting",
+          "business_value": "High",
+          "top_issues": [
+            {
+              "Issue": "App não abre",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "App trava",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "App trava na hora de receber o pagamento",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Atualizações ineficazes",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Experiência do usuário insatisfatória",
+              "TotalEpisodes": 1
+            }
+          ]
+        },
+        "Segurança e Proteção": {
+          "total_issues": 6,
+          "total_episodes": 6,
+          "avg_episodes_per_issue": 1.0,
+          "level": 1,
+          "capability_type": "Core",
+          "business_value": "High",
+          "top_issues": [
+            {
+              "Issue": "Espionagem",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Excesso de segurança ao fazer PIX",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Falta de Camadas de Segurança",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Falta de Transparência",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Privacidade",
+              "TotalEpisodes": 1
+            }
+          ]
+        },
+        "Transferências PIX": {
+          "total_issues": 1,
+          "total_episodes": 2,
+          "avg_episodes_per_issue": 2.0,
+          "level": 2,
+          "capability_type": "Core",
+          "business_value": "High",
+          "top_issues": [
+            {
+              "Issue": "Problemas com PIX",
+              "TotalEpisodes": 2
+            }
+          ]
+        }
+      },
+      "distribution": {
+        "Acesso Geográfico": {
+          "issues_percentage": 1.7857142857142856,
+          "episodes_percentage": 1.7543859649122806
+        },
+        "Atendimento ao Cliente": {
+          "issues_percentage": 12.5,
+          "episodes_percentage": 12.280701754385964
+        },
+        "Autenticação e Acesso": {
+          "issues_percentage": 8.928571428571429,
+          "episodes_percentage": 8.771929824561402
+        },
+        "Consulta de Saldo e Extrato": {
+          "issues_percentage": 5.357142857142857,
+          "episodes_percentage": 5.263157894736842
+        },
+        "Empréstimos e Crédito": {
+          "issues_percentage": 3.571428571428571,
+          "episodes_percentage": 3.508771929824561
+        },
+        "Gestão de Cadastro e Conta": {
+          "issues_percentage": 3.571428571428571,
+          "episodes_percentage": 3.508771929824561
+        },
+        "Gestão de Tarifas": {
+          "issues_percentage": 7.142857142857142,
+          "episodes_percentage": 7.017543859649122
+        },
+        "Interface e Experiência do Usuário": {
+          "issues_percentage": 5.357142857142857,
+          "episodes_percentage": 5.263157894736842
+        },
+        "Investimentos": {
+          "issues_percentage": 8.928571428571429,
+          "episodes_percentage": 8.771929824561402
+        },
+        "Pagamentos e Boletos": {
+          "issues_percentage": 5.357142857142857,
+          "episodes_percentage": 5.263157894736842
+        },
+        "Performance e Estabilidade": {
+          "issues_percentage": 25.0,
+          "episodes_percentage": 24.561403508771928
+        },
+        "Segurança e Proteção": {
+          "issues_percentage": 10.714285714285714,
+          "episodes_percentage": 10.526315789473683
+        },
+        "Transferências PIX": {
+          "issues_percentage": 1.7857142857142856,
+          "episodes_percentage": 3.508771929824561
+        }
+      },
+      "top_10_issues": {
+        "Problemas com PIX": 2,
+        "Acesso ao cartão": 1,
+        "Acompanhamento pelo app": 1,
+        "App não abre": 1,
+        "App trava": 1,
+        "App trava na hora de receber o pagamento": 1,
+        "Atendimento automatizado insatisfatório": 1,
+        "Atualizações ineficazes": 1,
+        "Ausência de agência": 1,
+        "Cobrança de tarifas": 1
+      }
+    },
+    {
+      "model": "gpt-5.2-2025-12-11",
+      "processed_reviews": 20,
+      "errors": 0,
+      "total_issues": 53,
+      "total_capabilities": 13,
+      "total_episodes": 54,
+      "capability_statistics": {
+        "Acesso Geográfico": {
+          "total_issues": 1,
+          "total_episodes": 1,
+          "avg_episodes_per_issue": 1.0,
+          "level": 2,
+          "capability_type": "Supporting",
+          "business_value": "Low",
+          "top_issues": [
+            {
+              "Issue": "Ausência de agência",
+              "TotalEpisodes": 1
+            }
+          ]
+        },
+        "Atendimento ao Cliente": {
+          "total_issues": 5,
+          "total_episodes": 5,
+          "avg_episodes_per_issue": 1.0,
+          "level": 2,
+          "capability_type": "Supporting",
+          "business_value": "Medium",
+          "top_issues": [
+            {
+              "Issue": "Atendimento automatizado insatisfatório",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Enrolada no chat",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Falta de suporte",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Falta de suporte técnico",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Longa espera sem atendimento",
+              "TotalEpisodes": 1
+            }
+          ]
+        },
+        "Autenticação e Acesso": {
+          "total_issues": 3,
+          "total_episodes": 3,
+          "avg_episodes_per_issue": 1.0,
+          "level": 1,
+          "capability_type": "Core",
+          "business_value": "High",
+          "top_issues": [
+            {
+              "Issue": "Dificuldade para logar",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Erro ao entrar na conta",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Falta de acesso para consulta",
+              "TotalEpisodes": 1
+            }
+          ]
+        },
+        "Consulta de Saldo e Extrato": {
+          "total_issues": 3,
+          "total_episodes": 3,
+          "avg_episodes_per_issue": 1.0,
+          "level": 2,
+          "capability_type": "Core",
+          "business_value": "High",
+          "top_issues": [
+            {
+              "Issue": "Extrato da Poupança",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Não consigo acessar saldo",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Saldo não reconhecido",
+              "TotalEpisodes": 1
+            }
+          ]
+        },
+        "Empréstimos e Crédito": {
+          "total_issues": 2,
+          "total_episodes": 2,
+          "avg_episodes_per_issue": 1.0,
+          "level": 2,
+          "capability_type": "Core",
+          "business_value": "High",
+          "top_issues": [
+            {
+              "Issue": "Acompanhamento pelo app",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Não consigo refinanciar",
+              "TotalEpisodes": 1
+            }
+          ]
+        },
+        "Gestão de Cadastro e Conta": {
+          "total_issues": 5,
+          "total_episodes": 5,
+          "avg_episodes_per_issue": 1.0,
+          "level": 2,
+          "capability_type": "Supporting",
+          "business_value": "Medium",
+          "top_issues": [
+            {
+              "Issue": "Dificuldade em acessar conta pelo cartão",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Erro ao tentar entrar na conta",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Não consegui atualizar meus dados",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Obrigatoriedade da desativação de contatos",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Problemas para abrir conta",
+              "TotalEpisodes": 1
+            }
+          ]
+        },
+        "Gestão de Tarifas": {
+          "total_issues": 4,
+          "total_episodes": 4,
+          "avg_episodes_per_issue": 1.0,
+          "level": 2,
+          "capability_type": "Supporting",
+          "business_value": "Medium",
+          "top_issues": [
+            {
+              "Issue": "Cobrança de tarifas",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Comparação com custo de arroz",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Desconto considerado baixo",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Tarifa de 16,00",
+              "TotalEpisodes": 1
+            }
+          ]
+        },
+        "Interface e Experiência do Usuário": {
+          "total_issues": 3,
+          "total_episodes": 3,
+          "avg_episodes_per_issue": 1.0,
+          "level": 1,
+          "capability_type": "Supporting",
+          "business_value": "Medium",
+          "top_issues": [
+            {
+              "Issue": "Desativar contatos de agenda para fazer PIX",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Falta de Modo Escuro",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Frustração dos usuários",
+              "TotalEpisodes": 1
+            }
+          ]
+        },
+        "Investimentos": {
+          "total_issues": 4,
+          "total_episodes": 4,
+          "avg_episodes_per_issue": 1.0,
+          "level": 2,
+          "capability_type": "Strategic",
+          "business_value": "High",
+          "top_issues": [
+            {
+              "Issue": "Dificuldade em fazer investimento",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Inconsistência de dados com B3",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Problemas de Resgate",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Propostas de contratos indesejados",
+              "TotalEpisodes": 1
+            }
+          ]
+        },
+        "Pagamentos e Boletos": {
+          "total_issues": 2,
+          "total_episodes": 2,
+          "avg_episodes_per_issue": 1.0,
+          "level": 2,
+          "capability_type": "Core",
+          "business_value": "High",
+          "top_issues": [
+            {
+              "Issue": "Compensação de Documento",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Demora na Compensação de IPVA",
+              "TotalEpisodes": 1
+            }
+          ]
+        },
+        "Performance e Estabilidade": {
+          "total_issues": 14,
+          "total_episodes": 14,
+          "avg_episodes_per_issue": 1.0,
+          "level": 1,
+          "capability_type": "Supporting",
+          "business_value": "High",
+          "top_issues": [
+            {
+              "Issue": "App não abre",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "App não abre em dias específicos",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "App trava",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "App trava na hora de receber o pagamento",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Atualizações com falhas",
+              "TotalEpisodes": 1
+            }
+          ]
+        },
+        "Segurança e Proteção": {
+          "total_issues": 6,
+          "total_episodes": 6,
+          "avg_episodes_per_issue": 1.0,
+          "level": 1,
+          "capability_type": "Core",
+          "business_value": "High",
+          "top_issues": [
+            {
+              "Issue": "Espionagem",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Excesso de segurança ao fazer PIX",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Falta de Camadas de Segurança",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Falta de Transparência",
+              "TotalEpisodes": 1
+            },
+            {
+              "Issue": "Privacidade",
+              "TotalEpisodes": 1
+            }
+          ]
+        },
+        "Transferências PIX": {
+          "total_issues": 1,
+          "total_episodes": 2,
+          "avg_episodes_per_issue": 2.0,
+          "level": 2,
+          "capability_type": "Core",
+          "business_value": "High",
+          "top_issues": [
+            {
+              "Issue": "Problemas com PIX",
+              "TotalEpisodes": 2
+            }
+          ]
+        }
+      },
+      "distribution": {
+        "Acesso Geográfico": {
+          "issues_percentage": 1.8867924528301887,
+          "episodes_percentage": 1.8518518518518516
+        },
+        "Atendimento ao Cliente": {
+          "issues_percentage": 9.433962264150944,
+          "episodes_percentage": 9.25925925925926
+        },
+        "Autenticação e Acesso": {
+          "issues_percentage": 5.660377358490567,
+          "episodes_percentage": 5.555555555555555
+        },
+        "Consulta de Saldo e Extrato": {
+          "issues_percentage": 5.660377358490567,
+          "episodes_percentage": 5.555555555555555
+        },
+        "Empréstimos e Crédito": {
+          "issues_percentage": 3.7735849056603774,
+          "episodes_percentage": 3.7037037037037033
+        },
+        "Gestão de Cadastro e Conta": {
+          "issues_percentage": 9.433962264150944,
+          "episodes_percentage": 9.25925925925926
+        },
+        "Gestão de Tarifas": {
+          "issues_percentage": 7.547169811320755,
+          "episodes_percentage": 7.4074074074074066
+        },
+        "Interface e Experiência do Usuário": {
+          "issues_percentage": 5.660377358490567,
+          "episodes_percentage": 5.555555555555555
+        },
+        "Investimentos": {
+          "issues_percentage": 7.547169811320755,
+          "episodes_percentage": 7.4074074074074066
+        },
+        "Pagamentos e Boletos": {
+          "issues_percentage": 3.7735849056603774,
+          "episodes_percentage": 3.7037037037037033
+        },
+        "Performance e Estabilidade": {
+          "issues_percentage": 26.41509433962264,
+          "episodes_percentage": 25.925925925925924
+        },
+        "Segurança e Proteção": {
+          "issues_percentage": 11.320754716981133,
+          "episodes_percentage": 11.11111111111111
+        },
+        "Transferências PIX": {
+          "issues_percentage": 1.8867924528301887,
+          "episodes_percentage": 3.7037037037037033
+        }
+      },
+      "top_10_issues": {
+        "Problemas com PIX": 2,
+        "Acompanhamento pelo app": 1,
+        "App não abre": 1,
+        "App não abre em dias específicos": 1,
+        "App trava": 1,
+        "App trava na hora de receber o pagamento": 1,
+        "Atendimento automatizado insatisfatório": 1,
+        "Atualizações com falhas": 1,
+        "Atualizações ineficazes": 1,
+        "Ausência de agência": 1
+      }
+    }
+  ]
+}

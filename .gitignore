@@ -1,0 +1,20 @@
+# Secrets — nunca versionar
+.env
+.env.*
+!.env.example
+
+# Office / Excel temporários
+~$*
+*.tmp
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+.venv/
+
+# IDE
+.idea/
+.vscode/

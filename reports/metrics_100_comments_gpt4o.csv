@@ -1,0 +1,206 @@
+﻿Issue;BusinessCapability;Level;CapabilityType;BusinessValue;TotalEpisodes
+Ausência de agência na cidade;Acesso Geográfico;2;Supporting;Low;1
+Acesso ao atendimento online;Atendimento ao Cliente;2;Supporting;Medium;1
+Atendimento;Atendimento ao Cliente;2;Supporting;Medium;1
+Atendimento Automatizado Ineficiente;Atendimento ao Cliente;2;Supporting;Medium;1
+Atendimento Telefônico;Atendimento ao Cliente;2;Supporting;Medium;1
+Atendimento não resolve problemas;Atendimento ao Cliente;2;Supporting;Medium;1
+Central de Atendimento via Telefone Fixo;Atendimento ao Cliente;2;Supporting;Medium;1
+Chat de Suporte;Atendimento ao Cliente;2;Supporting;Medium;1
+Dificuldade de Comunicação no Chat;Atendimento ao Cliente;2;Supporting;Medium;1
+Falta de Suporte de Ajuda;Atendimento ao Cliente;2;Supporting;Medium;1
+Falta de atendimento ao cliente;Atendimento ao Cliente;2;Supporting;Medium;1
+Falta de suporte por meios de comunicação;Atendimento ao Cliente;2;Supporting;Medium;1
+Frustração com Atendimento;Atendimento ao Cliente;2;Supporting;Medium;1
+Suporte 24 horas;Atendimento ao Cliente;2;Supporting;Medium;1
+Suporte Técnico Ineficiente;Atendimento ao Cliente;2;Supporting;Medium;1
+Acesso a Contrato;Autenticação e Acesso;1;Core;High;1
+Acesso a Saldo;Autenticação e Acesso;1;Core;High;1
+Acesso ao Site pelo Celular;Autenticação e Acesso;1;Core;High;1
+Acesso através do Playstore;Autenticação e Acesso;1;Core;High;1
+Acesso com biometria pede senha;Autenticação e Acesso;1;Core;High;1
+Erro ao Entrar na Conta;Autenticação e Acesso;1;Core;High;1
+Mensagem com senha não recebida;Autenticação e Acesso;1;Core;High;1
+Mudança de Senha do App;Autenticação e Acesso;1;Core;High;1
+Não reconhece biometria;Autenticação e Acesso;1;Core;High;1
+Problemas de Acesso;Autenticação e Acesso;1;Core;High;1
+Problemas de Acesso ao Aplicativo;Autenticação e Acesso;1;Core;High;1
+Problemas de Login;Autenticação e Acesso;1;Core;High;1
+Extrato;Consulta de Saldo e Extrato;2;Core;High;1
+Extrato do cartão borrado;Consulta de Saldo e Extrato;2;Core;High;1
+Falta de Extrato da Poupança;Consulta de Saldo e Extrato;2;Core;High;1
+Inconsistência de Saldo;Consulta de Saldo e Extrato;2;Core;High;1
+Saldo borrado;Consulta de Saldo e Extrato;2;Core;High;1
+Visualização de Extrato da Poupança;Consulta de Saldo e Extrato;2;Core;High;1
+Cartão de crédito;Empréstimos e Crédito;2;Core;High;1
+Função Crédito;Empréstimos e Crédito;2;Core;High;1
+Liberação de Cartão de Crédito;Empréstimos e Crédito;2;Core;High;1
+Limite de Crédito Insuficiente;Empréstimos e Crédito;2;Core;High;1
+Problemas para Fazer Empréstimo;Empréstimos e Crédito;2;Core;High;1
+Reativação da Função de Crédito do Cartão;Empréstimos e Crédito;2;Core;High;1
+Refinanciamento;Empréstimos e Crédito;2;Core;High;1
+Problemas de Acesso à Conta;Gestão de Cadastro e Conta;2;Supporting;Medium;2
+Atualização de Dados;Gestão de Cadastro e Conta;2;Supporting;Medium;1
+Conta bloqueada;Gestão de Cadastro e Conta;2;Supporting;Medium;1
+Dificuldade de contato;Gestão de Cadastro e Conta;2;Supporting;Medium;1
+Erro para acessar conta;Gestão de Cadastro e Conta;2;Supporting;Medium;1
+Intenção de Cancelamento de Conta;Gestão de Cadastro e Conta;2;Supporting;Medium;1
+Problemas de Abertura de Conta;Gestão de Cadastro e Conta;2;Supporting;Medium;1
+Problemas para começar a usar a conta;Gestão de Cadastro e Conta;2;Supporting;Medium;1
+Cobrança de tarifas;Gestão de Tarifas;2;Supporting;Medium;1
+Cobranças inesperadas;Gestão de Tarifas;2;Supporting;Medium;1
+Pouco desconto;Gestão de Tarifas;2;Supporting;Medium;1
+Tarifa de 16,00;Gestão de Tarifas;2;Supporting;Medium;1
+Desativar contatos de agenda para PIX;Interface e Experiência do Usuário;1;Supporting;Medium;1
+Falta de Modo Escuro;Interface e Experiência do Usuário;1;Supporting;Medium;1
+Inconsistência de dados com B3;Investimentos;2;Strategic;High;1
+Investimento;Investimentos;2;Strategic;High;1
+Propostas de Contratos Indesejados;Investimentos;2;Strategic;High;1
+Resgate de Dinheiro;Investimentos;2;Strategic;High;1
+Notificação de boletos;Notificações e Alertas;2;Supporting;Medium;1
+Boletos Atrasados;Pagamentos e Boletos;2;Core;High;1
+Compensação de Documento Pago;Pagamentos e Boletos;2;Core;High;1
+Demora na compensação de pagamento;Pagamentos e Boletos;2;Core;High;1
+Dificuldade em Fazer Pagamentos;Pagamentos e Boletos;2;Core;High;1
+Dificuldade em Gerar Boleto pelo Aplicativo;Pagamentos e Boletos;2;Core;High;1
+Envio de Boleto por E-mail;Pagamentos e Boletos;2;Core;High;1
+Envio de Boleto por SMS;Pagamentos e Boletos;2;Core;High;1
+Geração de Boleto;Pagamentos e Boletos;2;Core;High;1
+Impossibilidade de Fazer Pagamentos;Pagamentos e Boletos;2;Core;High;1
+Pagamento por QR Code;Pagamentos e Boletos;2;Core;High;1
+Problema de Pagamento;Pagamentos e Boletos;2;Core;High;1
+Problemas ao fazer pagamento por Pix;Pagamentos e Boletos;2;Core;High;1
+Trava na hora de receber o pagamento;Pagamentos e Boletos;2;Core;High;1
+Problemas de Abertura do App;Performance e Estabilidade;1;Supporting;High;16
+Lentidão;Performance e Estabilidade;1;Supporting;High;6
+Bug;Performance e Estabilidade;1;Supporting;High;3
+Atualização do aplicativo;Performance e Estabilidade;1;Supporting;High;2
+Bugs frequentes;Performance e Estabilidade;1;Supporting;High;2
+Frustração do Usuário;Performance e Estabilidade;1;Supporting;High;2
+Funcionamento do App;Performance e Estabilidade;1;Supporting;High;2
+Insatisfação com o Banco;Performance e Estabilidade;1;Supporting;High;2
+Trava toda hora;Performance e Estabilidade;1;Supporting;High;2
+Aplicativo não visível no celular;Performance e Estabilidade;1;Supporting;High;1
+Aplicativo/Software;Performance e Estabilidade;1;Supporting;High;1
+App pesado;Performance e Estabilidade;1;Supporting;High;1
+Assinatura não autorizada de planos;Performance e Estabilidade;1;Supporting;High;1
+Atualização piorou o aplicativo;Performance e Estabilidade;1;Supporting;High;1
+Atualizações ineficazes;Performance e Estabilidade;1;Supporting;High;1
+Autorização de Uso;Performance e Estabilidade;1;Supporting;High;1
+Avaliação Baixa;Performance e Estabilidade;1;Supporting;High;1
+Avaliação negativa;Performance e Estabilidade;1;Supporting;High;1
+Carregamento de Dados;Performance e Estabilidade;1;Supporting;High;1
+Carregamento demorado;Performance e Estabilidade;1;Supporting;High;1
+Cartão Não Chegou;Performance e Estabilidade;1;Supporting;High;1
+Cartão de Débito não recebido;Performance e Estabilidade;1;Supporting;High;1
+Cliente de Longa Data;Performance e Estabilidade;1;Supporting;High;1
+Cliente existente;Performance e Estabilidade;1;Supporting;High;1
+Confusão do Usuário;Performance e Estabilidade;1;Supporting;High;1
+Consulta de Informações;Performance e Estabilidade;1;Supporting;High;1
+Correria do dia a dia;Performance e Estabilidade;1;Supporting;High;1
+Decepção com o Aplicativo;Performance e Estabilidade;1;Supporting;High;1
+Decepção do Usuário;Performance e Estabilidade;1;Supporting;High;1
+Deixa na mão;Performance e Estabilidade;1;Supporting;High;1
+Demora para abrir;Performance e Estabilidade;1;Supporting;High;1
+Demora para acessar o aplicativo;Performance e Estabilidade;1;Supporting;High;1
+Dependência financeira;Performance e Estabilidade;1;Supporting;High;1
+Desconexão Automática;Performance e Estabilidade;1;Supporting;High;1
+Desempenho geral do aplicativo;Performance e Estabilidade;1;Supporting;High;1
+Dificuldade com Função Débito;Performance e Estabilidade;1;Supporting;High;1
+Dificuldade de melhorar o aplicativo;Performance e Estabilidade;1;Supporting;High;1
+Dificuldade em obter estorno;Performance e Estabilidade;1;Supporting;High;1
+Dinheiro Travado;Performance e Estabilidade;1;Supporting;High;1
+Erro;Performance e Estabilidade;1;Supporting;High;1
+Erro frequente;Performance e Estabilidade;1;Supporting;High;1
+Erro geral;Performance e Estabilidade;1;Supporting;High;1
+Erros ao abrir;Performance e Estabilidade;1;Supporting;High;1
+Erros frequentes;Performance e Estabilidade;1;Supporting;High;1
+Expectativa de qualidade;Performance e Estabilidade;1;Supporting;High;1
+Experiência do Usuário;Performance e Estabilidade;1;Supporting;High;1
+Experiência do usuário;Performance e Estabilidade;1;Supporting;High;1
+Facilidade de uso;Performance e Estabilidade;1;Supporting;High;1
+Falha no Aplicativo;Performance e Estabilidade;1;Supporting;High;1
+Falhas e bugs;Performance e Estabilidade;1;Supporting;High;1
+Falta de Atenção ao Cliente;Performance e Estabilidade;1;Supporting;High;1
+Falta de opção no aplicativo;Performance e Estabilidade;1;Supporting;High;1
+Fatura fechada sem cartão físico;Performance e Estabilidade;1;Supporting;High;1
+Fechamento Constante do Aplicativo;Performance e Estabilidade;1;Supporting;High;1
+Fechamento Inesperado do App;Performance e Estabilidade;1;Supporting;High;1
+Frustração do usuário;Performance e Estabilidade;1;Supporting;High;1
+Identificação de Compras;Performance e Estabilidade;1;Supporting;High;1
+Inconsistência de Versão;Performance e Estabilidade;1;Supporting;High;1
+Insatisfação com o limite do cartão;Performance e Estabilidade;1;Supporting;High;1
+Insatisfação do usuário;Performance e Estabilidade;1;Supporting;High;1
+Instabilidade;Performance e Estabilidade;1;Supporting;High;1
+Irritação do Usuário;Performance e Estabilidade;1;Supporting;High;1
+Lentidão ao Acessar Conta;Performance e Estabilidade;1;Supporting;High;1
+Lentidão para abrir o app;Performance e Estabilidade;1;Supporting;High;1
+Limitação no aplicativo;Performance e Estabilidade;1;Supporting;High;1
+Limite não aumentado;Performance e Estabilidade;1;Supporting;High;1
+Limpeza de Memória do Cachê;Performance e Estabilidade;1;Supporting;High;1
+Link de Resposta Não Abre;Performance e Estabilidade;1;Supporting;High;1
+Mau Funcionamento do App;Performance e Estabilidade;1;Supporting;High;1
+Mensagem de Conexão Instável;Performance e Estabilidade;1;Supporting;High;1
+Mudança de Instituição Financeira;Performance e Estabilidade;1;Supporting;High;1
+Necessidade de Atualização do App;Performance e Estabilidade;1;Supporting;High;1
+Necessidade de Habilitação;Performance e Estabilidade;1;Supporting;High;1
+Necessidade de reinstalação;Performance e Estabilidade;1;Supporting;High;1
+Nome das Lojas;Performance e Estabilidade;1;Supporting;High;1
+Nova Atualização;Performance e Estabilidade;1;Supporting;High;1
+Nova aparência da tela inicial;Performance e Estabilidade;1;Supporting;High;1
+Não consegui pagar a gasolina;Performance e Estabilidade;1;Supporting;High;1
+Oferta de limite impossível de usar;Performance e Estabilidade;1;Supporting;High;1
+Oscilação entre versões;Performance e Estabilidade;1;Supporting;High;1
+Pedido de Novo Cartão;Performance e Estabilidade;1;Supporting;High;1
+Perda de Dinheiro;Performance e Estabilidade;1;Supporting;High;1
+Perda de Reputação;Performance e Estabilidade;1;Supporting;High;1
+Perda de Tempo;Performance e Estabilidade;1;Supporting;High;1
+Performance do aplicativo;Performance e Estabilidade;1;Supporting;High;1
+Preferência pela tela inicial antiga;Performance e Estabilidade;1;Supporting;High;1
+Problema com Envio de Novo Cartão;Performance e Estabilidade;1;Supporting;High;1
+Problema de funcionalidade;Performance e Estabilidade;1;Supporting;High;1
+Problema de funcionamento do aplicativo;Performance e Estabilidade;1;Supporting;High;1
+Problema de instalação do aplicativo;Performance e Estabilidade;1;Supporting;High;1
+Problema no aplicativo;Performance e Estabilidade;1;Supporting;High;1
+Problema recorrente há um mês;Performance e Estabilidade;1;Supporting;High;1
+Problemas Técnicos;Performance e Estabilidade;1;Supporting;High;1
+Problemas de Obtenção de Cartão;Performance e Estabilidade;1;Supporting;High;1
+Problemas de Resolução no Aplicativo;Performance e Estabilidade;1;Supporting;High;1
+Problemas técnicos;Performance e Estabilidade;1;Supporting;High;1
+Propaganda de Produtos;Performance e Estabilidade;1;Supporting;High;1
+Recompensa por transtorno;Performance e Estabilidade;1;Supporting;High;1
+Reiniciar o aparelho para usar o aplicativo;Performance e Estabilidade;1;Supporting;High;1
+Reinstalação Frequente;Performance e Estabilidade;1;Supporting;High;1
+Reinstalação do Aplicativo;Performance e Estabilidade;1;Supporting;High;1
+Resolução de problemas do aplicativo;Performance e Estabilidade;1;Supporting;High;1
+Serviço de qualidade inferior;Performance e Estabilidade;1;Supporting;High;1
+Serviço inadequado;Performance e Estabilidade;1;Supporting;High;1
+Sistema Indisponível;Performance e Estabilidade;1;Supporting;High;1
+Sistema fora do ar;Performance e Estabilidade;1;Supporting;High;1
+Solicitação de Dados;Performance e Estabilidade;1;Supporting;High;1
+Sorteio;Performance e Estabilidade;1;Supporting;High;1
+Trava demais;Performance e Estabilidade;1;Supporting;High;1
+Trava durante transferência de PIX;Performance e Estabilidade;1;Supporting;High;1
+Trava para acessar;Performance e Estabilidade;1;Supporting;High;1
+Travamento do App;Performance e Estabilidade;1;Supporting;High;1
+Troca de banco;Performance e Estabilidade;1;Supporting;High;1
+Troca de data de fatura;Performance e Estabilidade;1;Supporting;High;1
+Uso Interrompido;Performance e Estabilidade;1;Supporting;High;1
+Acesso com biometria pede senha;Segurança e Proteção;1;Core;High;1
+Confiança na conta;Segurança e Proteção;1;Core;High;1
+Espionagem;Segurança e Proteção;1;Core;High;1
+Exagero de Segurança;Segurança e Proteção;1;Core;High;1
+Falta de Camadas de Segurança;Segurança e Proteção;1;Core;High;1
+Falta de Transparência;Segurança e Proteção;1;Core;High;1
+Falta de confiança;Segurança e Proteção;1;Core;High;1
+Falta de transparência no processo de estorno;Segurança e Proteção;1;Core;High;1
+Mensagem com senha não recebida;Segurança e Proteção;1;Core;High;1
+Mudança de Senha do App;Segurança e Proteção;1;Core;High;1
+Preocupação com privacidade;Segurança e Proteção;1;Core;High;1
+Tentativas de Intrusão;Segurança e Proteção;1;Core;High;1
+Erro ao fazer PIX;Transferências PIX;2;Core;High;4
+Falta de flexibilidade em funcionalidades do PIX;Transferências PIX;2;Core;High;1
+Impossibilidade de Fazer PIX;Transferências PIX;2;Core;High;1
+Mudança de nome no PIX;Transferências PIX;2;Core;High;1
+Problemas com PIX;Transferências PIX;2;Core;High;1
+Problemas com o PIX;Transferências PIX;2;Core;High;1

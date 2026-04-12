@@ -1,0 +1,3364 @@
+{
+  "degree": {
+    "issues": [
+      {
+        "Issue": "Pede senha duas vezes",
+        "DegreeCentrality": 2
+      },
+      {
+        "Issue": "Não consegue entrar com a senha",
+        "DegreeCentrality": 2
+      },
+      {
+        "Issue": "Bloqueio de Senha",
+        "DegreeCentrality": 2
+      },
+      {
+        "Issue": "Senha bloqueada",
+        "DegreeCentrality": 2
+      },
+      {
+        "Issue": "Criação de Nova Senha",
+        "DegreeCentrality": 2
+      },
+      {
+        "Issue": "Senha Eletrônica",
+        "DegreeCentrality": 2
+      },
+      {
+        "Issue": "Acesso a Chamadas Telefônicas",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Problema de acesso ao aplicativo",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Acesso intermitente ao aplicativo",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Cadastro de Biometria",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Acesso ao Aplicativo",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Acesso negado ao aplicativo",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Fora do ar",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Não abre",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Leitor de códigos de barras não funciona",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "App trava",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Lentidão",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "App não abre",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Não abre o aplicativo",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Bugs no aplicativo",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Não funciona na carteira do Google",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Sistema Lento",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Performance do Sistema",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Não abre no Google Play",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Aplicativo da loteria não abre",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "App não abre após atualização",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Erro ao abrir o aplicativo",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Trava",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Muito lento",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Muito fora do ar",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Aplicativo lento",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Trava direto",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Insatisfação com o serviço",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Experiência Negativa com o Banco",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Frustração com o serviço",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Insatisfação com o Serviço",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Frustração com a situação",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Insatisfação com a única opção de desbloqueio",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Insatisfação com o serviço bancário",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Excesso de monitoramento em ligações",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Não aparece o envio de PIX",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Dinheiro não recebido após envio de PIX",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Devolução de PIX",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Não consigo fazer PIX",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Erro ao colar chave PIX",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Erro ao fazer PIX",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Demora para resolver problema com o aplicativo via PIX",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Dificuldade em fazer PIX",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Cartão cancelado",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Dificuldade em encontrar empréstimo",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Erro ao simular empréstimo",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Não consegue baixar boleto",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Não se consegue pagar um boleto em dia de Domingo ou feriado",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Não consigo pagar boletos",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Atraso no pagamento de DAE",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Dificuldade em acessar saldo",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Dificuldade em obter extrato completo",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Não consigo ver extrato",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Não me acho no extrato",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Quebra da relação do saldo com botão de visualização",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Demora no Saldo",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Erro ao tirar extratos dos meses de 2025",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Dificuldade em contato com o suporte",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Suporte não responde",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Dificuldade em obter suporte na agência",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Falta de atendimento adequado",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Atendimento",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Longa espera para atendimento",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Cadastro Repetido",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Não consigo acessar minha conta",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Erro ao acessar conta",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Erro ao tentar acessar conta",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Não consegue acessar conta",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Não serve para pagar conta",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Impossível realizar cadastro",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Transferência de Conta",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Acesso à Conta",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Não consegue entrar na conta",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Cadastro Novo",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Erro na hora de acessar a conta",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Da muito erro na hora de acessar a conta",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Notificação recebida mas sem resultado",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Permissões excessivas de notificação e localização",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Cobrança de Juros por Atraso",
+        "DegreeCentrality": 1
+      },
+      {
+        "Issue": "Desconto automático da conta do cartão",
+        "DegreeCentrality": 1
+      }
+    ],
+    "capabilities": [
+      {
+        "BusinessCapability": "Performance e Estabilidade",
+        "DegreeCentrality": 20
+      },
+      {
+        "BusinessCapability": "Gestão de Cadastro e Conta",
+        "DegreeCentrality": 13
+      },
+      {
+        "BusinessCapability": "Autenticação e Acesso",
+        "DegreeCentrality": 12
+      },
+      {
+        "BusinessCapability": "Transferências PIX",
+        "DegreeCentrality": 8
+      },
+      {
+        "BusinessCapability": "Interface e Experiência do Usuário",
+        "DegreeCentrality": 7
+      },
+      {
+        "BusinessCapability": "Segurança e Proteção",
+        "DegreeCentrality": 7
+      },
+      {
+        "BusinessCapability": "Consulta de Saldo e Extrato",
+        "DegreeCentrality": 7
+      },
+      {
+        "BusinessCapability": "Atendimento ao Cliente",
+        "DegreeCentrality": 6
+      },
+      {
+        "BusinessCapability": "Pagamentos e Boletos",
+        "DegreeCentrality": 4
+      },
+      {
+        "BusinessCapability": "Empréstimos e Crédito",
+        "DegreeCentrality": 3
+      },
+      {
+        "BusinessCapability": "Notificações e Alertas",
+        "DegreeCentrality": 2
+      },
+      {
+        "BusinessCapability": "Gestão de Tarifas",
+        "DegreeCentrality": 2
+      }
+    ]
+  },
+  "betweenness": {
+    "issues": [
+      {
+        "Issue": "Pede senha duas vezes",
+        "BetweennessCentrality": 2
+      },
+      {
+        "Issue": "Não consegue entrar com a senha",
+        "BetweennessCentrality": 2
+      },
+      {
+        "Issue": "Bloqueio de Senha",
+        "BetweennessCentrality": 2
+      },
+      {
+        "Issue": "Senha bloqueada",
+        "BetweennessCentrality": 2
+      },
+      {
+        "Issue": "Criação de Nova Senha",
+        "BetweennessCentrality": 2
+      },
+      {
+        "Issue": "Senha Eletrônica",
+        "BetweennessCentrality": 2
+      },
+      {
+        "Issue": "Acesso a Chamadas Telefônicas",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Problema de acesso ao aplicativo",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Acesso intermitente ao aplicativo",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Cadastro de Biometria",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Acesso ao Aplicativo",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Acesso negado ao aplicativo",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Fora do ar",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Não abre",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Leitor de códigos de barras não funciona",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "App trava",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Lentidão",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "App não abre",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Não abre o aplicativo",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Bugs no aplicativo",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Não funciona na carteira do Google",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Sistema Lento",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Performance do Sistema",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Não abre no Google Play",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Aplicativo da loteria não abre",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "App não abre após atualização",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Erro ao abrir o aplicativo",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Trava",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Muito lento",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Muito fora do ar",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Aplicativo lento",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Trava direto",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Insatisfação com o serviço",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Experiência Negativa com o Banco",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Frustração com o serviço",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Insatisfação com o Serviço",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Frustração com a situação",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Insatisfação com a única opção de desbloqueio",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Insatisfação com o serviço bancário",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Excesso de monitoramento em ligações",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Não aparece o envio de PIX",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Dinheiro não recebido após envio de PIX",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Devolução de PIX",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Não consigo fazer PIX",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Erro ao colar chave PIX",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Erro ao fazer PIX",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Demora para resolver problema com o aplicativo via PIX",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Dificuldade em fazer PIX",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Cartão cancelado",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Dificuldade em encontrar empréstimo",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Erro ao simular empréstimo",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Não consegue baixar boleto",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Não se consegue pagar um boleto em dia de Domingo ou feriado",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Não consigo pagar boletos",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Atraso no pagamento de DAE",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Dificuldade em acessar saldo",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Dificuldade em obter extrato completo",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Não consigo ver extrato",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Não me acho no extrato",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Quebra da relação do saldo com botão de visualização",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Demora no Saldo",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Erro ao tirar extratos dos meses de 2025",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Dificuldade em contato com o suporte",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Suporte não responde",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Dificuldade em obter suporte na agência",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Falta de atendimento adequado",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Atendimento",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Longa espera para atendimento",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Cadastro Repetido",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Não consigo acessar minha conta",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Erro ao acessar conta",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Erro ao tentar acessar conta",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Não consegue acessar conta",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Não serve para pagar conta",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Impossível realizar cadastro",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Transferência de Conta",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Acesso à Conta",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Não consegue entrar na conta",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Cadastro Novo",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Erro na hora de acessar a conta",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Da muito erro na hora de acessar a conta",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Notificação recebida mas sem resultado",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Permissões excessivas de notificação e localização",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Cobrança de Juros por Atraso",
+        "BetweennessCentrality": 1
+      },
+      {
+        "Issue": "Desconto automático da conta do cartão",
+        "BetweennessCentrality": 1
+      }
+    ],
+    "capabilities": [
+      {
+        "BusinessCapability": "Performance e Estabilidade",
+        "BetweennessCentrality": 20
+      },
+      {
+        "BusinessCapability": "Gestão de Cadastro e Conta",
+        "BetweennessCentrality": 13
+      },
+      {
+        "BusinessCapability": "Autenticação e Acesso",
+        "BetweennessCentrality": 12
+      },
+      {
+        "BusinessCapability": "Transferências PIX",
+        "BetweennessCentrality": 8
+      },
+      {
+        "BusinessCapability": "Interface e Experiência do Usuário",
+        "BetweennessCentrality": 7
+      },
+      {
+        "BusinessCapability": "Segurança e Proteção",
+        "BetweennessCentrality": 7
+      },
+      {
+        "BusinessCapability": "Consulta de Saldo e Extrato",
+        "BetweennessCentrality": 7
+      },
+      {
+        "BusinessCapability": "Atendimento ao Cliente",
+        "BetweennessCentrality": 6
+      },
+      {
+        "BusinessCapability": "Pagamentos e Boletos",
+        "BetweennessCentrality": 4
+      },
+      {
+        "BusinessCapability": "Empréstimos e Crédito",
+        "BetweennessCentrality": 3
+      },
+      {
+        "BusinessCapability": "Notificações e Alertas",
+        "BetweennessCentrality": 2
+      },
+      {
+        "BusinessCapability": "Gestão de Tarifas",
+        "BetweennessCentrality": 2
+      }
+    ]
+  },
+  "closeness": {
+    "issues": [
+      {
+        "Issue": "Permissões excessivas de notificação e localização",
+        "ReachableNodes": 1,
+        "ClosenessCentrality": 1.0
+      },
+      {
+        "Issue": "Notificação recebida mas sem resultado",
+        "ReachableNodes": 1,
+        "ClosenessCentrality": 1.0
+      },
+      {
+        "Issue": "Desconto automático da conta do cartão",
+        "ReachableNodes": 1,
+        "ClosenessCentrality": 1.0
+      },
+      {
+        "Issue": "Cobrança de Juros por Atraso",
+        "ReachableNodes": 1,
+        "ClosenessCentrality": 1.0
+      },
+      {
+        "Issue": "Dificuldade em encontrar empréstimo",
+        "ReachableNodes": 2,
+        "ClosenessCentrality": 0.5
+      },
+      {
+        "Issue": "Erro ao simular empréstimo",
+        "ReachableNodes": 2,
+        "ClosenessCentrality": 0.5
+      },
+      {
+        "Issue": "Cartão cancelado",
+        "ReachableNodes": 2,
+        "ClosenessCentrality": 0.5
+      },
+      {
+        "Issue": "Não se consegue pagar um boleto em dia de Domingo ou feriado",
+        "ReachableNodes": 3,
+        "ClosenessCentrality": 0.3333333333333333
+      },
+      {
+        "Issue": "Não consigo pagar boletos",
+        "ReachableNodes": 3,
+        "ClosenessCentrality": 0.3333333333333333
+      },
+      {
+        "Issue": "Atraso no pagamento de DAE",
+        "ReachableNodes": 3,
+        "ClosenessCentrality": 0.3333333333333333
+      },
+      {
+        "Issue": "Não consegue baixar boleto",
+        "ReachableNodes": 3,
+        "ClosenessCentrality": 0.3333333333333333
+      },
+      {
+        "Issue": "Suporte não responde",
+        "ReachableNodes": 5,
+        "ClosenessCentrality": 0.2
+      },
+      {
+        "Issue": "Dificuldade em obter suporte na agência",
+        "ReachableNodes": 5,
+        "ClosenessCentrality": 0.2
+      },
+      {
+        "Issue": "Falta de atendimento adequado",
+        "ReachableNodes": 5,
+        "ClosenessCentrality": 0.2
+      },
+      {
+        "Issue": "Atendimento",
+        "ReachableNodes": 5,
+        "ClosenessCentrality": 0.2
+      },
+      {
+        "Issue": "Longa espera para atendimento",
+        "ReachableNodes": 5,
+        "ClosenessCentrality": 0.2
+      },
+      {
+        "Issue": "Dificuldade em contato com o suporte",
+        "ReachableNodes": 5,
+        "ClosenessCentrality": 0.2
+      },
+      {
+        "Issue": "Experiência Negativa com o Banco",
+        "ReachableNodes": 6,
+        "ClosenessCentrality": 0.16666666666666666
+      },
+      {
+        "Issue": "Frustração com o serviço",
+        "ReachableNodes": 6,
+        "ClosenessCentrality": 0.16666666666666666
+      },
+      {
+        "Issue": "Insatisfação com o Serviço",
+        "ReachableNodes": 6,
+        "ClosenessCentrality": 0.16666666666666666
+      },
+      {
+        "Issue": "Frustração com a situação",
+        "ReachableNodes": 6,
+        "ClosenessCentrality": 0.16666666666666666
+      },
+      {
+        "Issue": "Insatisfação com a única opção de desbloqueio",
+        "ReachableNodes": 6,
+        "ClosenessCentrality": 0.16666666666666666
+      },
+      {
+        "Issue": "Insatisfação com o serviço bancário",
+        "ReachableNodes": 6,
+        "ClosenessCentrality": 0.16666666666666666
+      },
+      {
+        "Issue": "Insatisfação com o serviço",
+        "ReachableNodes": 6,
+        "ClosenessCentrality": 0.16666666666666666
+      },
+      {
+        "Issue": "Excesso de monitoramento em ligações",
+        "ReachableNodes": 6,
+        "ClosenessCentrality": 0.16666666666666666
+      },
+      {
+        "Issue": "Dificuldade em obter extrato completo",
+        "ReachableNodes": 6,
+        "ClosenessCentrality": 0.16666666666666666
+      },
+      {
+        "Issue": "Não consigo ver extrato",
+        "ReachableNodes": 6,
+        "ClosenessCentrality": 0.16666666666666666
+      },
+      {
+        "Issue": "Não me acho no extrato",
+        "ReachableNodes": 6,
+        "ClosenessCentrality": 0.16666666666666666
+      },
+      {
+        "Issue": "Quebra da relação do saldo com botão de visualização",
+        "ReachableNodes": 6,
+        "ClosenessCentrality": 0.16666666666666666
+      },
+      {
+        "Issue": "Demora no Saldo",
+        "ReachableNodes": 6,
+        "ClosenessCentrality": 0.16666666666666666
+      },
+      {
+        "Issue": "Erro ao tirar extratos dos meses de 2025",
+        "ReachableNodes": 6,
+        "ClosenessCentrality": 0.16666666666666666
+      },
+      {
+        "Issue": "Dificuldade em acessar saldo",
+        "ReachableNodes": 6,
+        "ClosenessCentrality": 0.16666666666666666
+      },
+      {
+        "Issue": "Dinheiro não recebido após envio de PIX",
+        "ReachableNodes": 7,
+        "ClosenessCentrality": 0.14285714285714285
+      },
+      {
+        "Issue": "Devolução de PIX",
+        "ReachableNodes": 7,
+        "ClosenessCentrality": 0.14285714285714285
+      },
+      {
+        "Issue": "Não consigo fazer PIX",
+        "ReachableNodes": 7,
+        "ClosenessCentrality": 0.14285714285714285
+      },
+      {
+        "Issue": "Erro ao colar chave PIX",
+        "ReachableNodes": 7,
+        "ClosenessCentrality": 0.14285714285714285
+      },
+      {
+        "Issue": "Erro ao fazer PIX",
+        "ReachableNodes": 7,
+        "ClosenessCentrality": 0.14285714285714285
+      },
+      {
+        "Issue": "Demora para resolver problema com o aplicativo via PIX",
+        "ReachableNodes": 7,
+        "ClosenessCentrality": 0.14285714285714285
+      },
+      {
+        "Issue": "Dificuldade em fazer PIX",
+        "ReachableNodes": 7,
+        "ClosenessCentrality": 0.14285714285714285
+      },
+      {
+        "Issue": "Não aparece o envio de PIX",
+        "ReachableNodes": 7,
+        "ClosenessCentrality": 0.14285714285714285
+      },
+      {
+        "Issue": "Acesso a Chamadas Telefônicas",
+        "ReachableNodes": 11,
+        "ClosenessCentrality": 0.09090909090909091
+      },
+      {
+        "Issue": "Problema de acesso ao aplicativo",
+        "ReachableNodes": 11,
+        "ClosenessCentrality": 0.09090909090909091
+      },
+      {
+        "Issue": "Acesso intermitente ao aplicativo",
+        "ReachableNodes": 11,
+        "ClosenessCentrality": 0.09090909090909091
+      },
+      {
+        "Issue": "Cadastro de Biometria",
+        "ReachableNodes": 11,
+        "ClosenessCentrality": 0.09090909090909091
+      },
+      {
+        "Issue": "Acesso ao Aplicativo",
+        "ReachableNodes": 11,
+        "ClosenessCentrality": 0.09090909090909091
+      },
+      {
+        "Issue": "Acesso negado ao aplicativo",
+        "ReachableNodes": 11,
+        "ClosenessCentrality": 0.09090909090909091
+      },
+      {
+        "Issue": "Não consegue entrar com a senha",
+        "ReachableNodes": 12,
+        "ClosenessCentrality": 0.08333333333333333
+      },
+      {
+        "Issue": "Bloqueio de Senha",
+        "ReachableNodes": 12,
+        "ClosenessCentrality": 0.08333333333333333
+      },
+      {
+        "Issue": "Senha bloqueada",
+        "ReachableNodes": 12,
+        "ClosenessCentrality": 0.08333333333333333
+      },
+      {
+        "Issue": "Criação de Nova Senha",
+        "ReachableNodes": 12,
+        "ClosenessCentrality": 0.08333333333333333
+      },
+      {
+        "Issue": "Senha Eletrônica",
+        "ReachableNodes": 12,
+        "ClosenessCentrality": 0.08333333333333333
+      },
+      {
+        "Issue": "Pede senha duas vezes",
+        "ReachableNodes": 12,
+        "ClosenessCentrality": 0.08333333333333333
+      },
+      {
+        "Issue": "Não consigo acessar minha conta",
+        "ReachableNodes": 12,
+        "ClosenessCentrality": 0.08333333333333333
+      },
+      {
+        "Issue": "Erro ao acessar conta",
+        "ReachableNodes": 12,
+        "ClosenessCentrality": 0.08333333333333333
+      },
+      {
+        "Issue": "Erro ao tentar acessar conta",
+        "ReachableNodes": 12,
+        "ClosenessCentrality": 0.08333333333333333
+      },
+      {
+        "Issue": "Não consegue acessar conta",
+        "ReachableNodes": 12,
+        "ClosenessCentrality": 0.08333333333333333
+      },
+      {
+        "Issue": "Não serve para pagar conta",
+        "ReachableNodes": 12,
+        "ClosenessCentrality": 0.08333333333333333
+      },
+      {
+        "Issue": "Impossível realizar cadastro",
+        "ReachableNodes": 12,
+        "ClosenessCentrality": 0.08333333333333333
+      },
+      {
+        "Issue": "Transferência de Conta",
+        "ReachableNodes": 12,
+        "ClosenessCentrality": 0.08333333333333333
+      },
+      {
+        "Issue": "Acesso à Conta",
+        "ReachableNodes": 12,
+        "ClosenessCentrality": 0.08333333333333333
+      },
+      {
+        "Issue": "Não consegue entrar na conta",
+        "ReachableNodes": 12,
+        "ClosenessCentrality": 0.08333333333333333
+      },
+      {
+        "Issue": "Cadastro Novo",
+        "ReachableNodes": 12,
+        "ClosenessCentrality": 0.08333333333333333
+      },
+      {
+        "Issue": "Erro na hora de acessar a conta",
+        "ReachableNodes": 12,
+        "ClosenessCentrality": 0.08333333333333333
+      },
+      {
+        "Issue": "Da muito erro na hora de acessar a conta",
+        "ReachableNodes": 12,
+        "ClosenessCentrality": 0.08333333333333333
+      },
+      {
+        "Issue": "Cadastro Repetido",
+        "ReachableNodes": 12,
+        "ClosenessCentrality": 0.08333333333333333
+      },
+      {
+        "Issue": "Não abre",
+        "ReachableNodes": 19,
+        "ClosenessCentrality": 0.05263157894736842
+      },
+      {
+        "Issue": "Leitor de códigos de barras não funciona",
+        "ReachableNodes": 19,
+        "ClosenessCentrality": 0.05263157894736842
+      },
+      {
+        "Issue": "App trava",
+        "ReachableNodes": 19,
+        "ClosenessCentrality": 0.05263157894736842
+      },
+      {
+        "Issue": "Lentidão",
+        "ReachableNodes": 19,
+        "ClosenessCentrality": 0.05263157894736842
+      },
+      {
+        "Issue": "App não abre",
+        "ReachableNodes": 19,
+        "ClosenessCentrality": 0.05263157894736842
+      },
+      {
+        "Issue": "Não abre o aplicativo",
+        "ReachableNodes": 19,
+        "ClosenessCentrality": 0.05263157894736842
+      },
+      {
+        "Issue": "Bugs no aplicativo",
+        "ReachableNodes": 19,
+        "ClosenessCentrality": 0.05263157894736842
+      },
+      {
+        "Issue": "Não funciona na carteira do Google",
+        "ReachableNodes": 19,
+        "ClosenessCentrality": 0.05263157894736842
+      },
+      {
+        "Issue": "Sistema Lento",
+        "ReachableNodes": 19,
+        "ClosenessCentrality": 0.05263157894736842
+      },
+      {
+        "Issue": "Performance do Sistema",
+        "ReachableNodes": 19,
+        "ClosenessCentrality": 0.05263157894736842
+      },
+      {
+        "Issue": "Não abre no Google Play",
+        "ReachableNodes": 19,
+        "ClosenessCentrality": 0.05263157894736842
+      },
+      {
+        "Issue": "Aplicativo da loteria não abre",
+        "ReachableNodes": 19,
+        "ClosenessCentrality": 0.05263157894736842
+      },
+      {
+        "Issue": "App não abre após atualização",
+        "ReachableNodes": 19,
+        "ClosenessCentrality": 0.05263157894736842
+      },
+      {
+        "Issue": "Erro ao abrir o aplicativo",
+        "ReachableNodes": 19,
+        "ClosenessCentrality": 0.05263157894736842
+      },
+      {
+        "Issue": "Trava",
+        "ReachableNodes": 19,
+        "ClosenessCentrality": 0.05263157894736842
+      },
+      {
+        "Issue": "Muito lento",
+        "ReachableNodes": 19,
+        "ClosenessCentrality": 0.05263157894736842
+      },
+      {
+        "Issue": "Muito fora do ar",
+        "ReachableNodes": 19,
+        "ClosenessCentrality": 0.05263157894736842
+      },
+      {
+        "Issue": "Aplicativo lento",
+        "ReachableNodes": 19,
+        "ClosenessCentrality": 0.05263157894736842
+      },
+      {
+        "Issue": "Trava direto",
+        "ReachableNodes": 19,
+        "ClosenessCentrality": 0.05263157894736842
+      },
+      {
+        "Issue": "Fora do ar",
+        "ReachableNodes": 19,
+        "ClosenessCentrality": 0.05263157894736842
+      }
+    ],
+    "capabilities": [
+      {
+        "BusinessCapability": "Segurança e Proteção",
+        "ReachableNodes": 1,
+        "ClosenessCentrality": 1.0
+      },
+      {
+        "BusinessCapability": "Autenticação e Acesso",
+        "ReachableNodes": 1,
+        "ClosenessCentrality": 1.0
+      }
+    ]
+  },
+  "clustering": {
+    "issues": [
+      {
+        "Issue": "Pede senha duas vezes",
+        "Degree": 2,
+        "Neighbors": 12,
+        "EdgesBetweenNeighbors": 60,
+        "ClusteringCoefficient": 0.9090909090909091
+      },
+      {
+        "Issue": "Não consegue entrar com a senha",
+        "Degree": 2,
+        "Neighbors": 12,
+        "EdgesBetweenNeighbors": 60,
+        "ClusteringCoefficient": 0.9090909090909091
+      },
+      {
+        "Issue": "Bloqueio de Senha",
+        "Degree": 2,
+        "Neighbors": 12,
+        "EdgesBetweenNeighbors": 60,
+        "ClusteringCoefficient": 0.9090909090909091
+      },
+      {
+        "Issue": "Senha bloqueada",
+        "Degree": 2,
+        "Neighbors": 12,
+        "EdgesBetweenNeighbors": 60,
+        "ClusteringCoefficient": 0.9090909090909091
+      },
+      {
+        "Issue": "Criação de Nova Senha",
+        "Degree": 2,
+        "Neighbors": 12,
+        "EdgesBetweenNeighbors": 60,
+        "ClusteringCoefficient": 0.9090909090909091
+      },
+      {
+        "Issue": "Senha Eletrônica",
+        "Degree": 2,
+        "Neighbors": 12,
+        "EdgesBetweenNeighbors": 60,
+        "ClusteringCoefficient": 0.9090909090909091
+      }
+    ]
+  },
+  "density": {
+    "total_issues": 85,
+    "total_capabilities": 15,
+    "total_links": 91,
+    "max_possible_links": 1275,
+    "Density": 0.07137254901960784
+  },
+  "communities": [
+    {
+      "Issue": "Não abre",
+      "CommunitySize": 19,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Fora do ar"
+        },
+        {
+          "shared": 1,
+          "issue": "Leitor de códigos de barras não funciona"
+        },
+        {
+          "shared": 1,
+          "issue": "App trava"
+        },
+        {
+          "shared": 1,
+          "issue": "Lentidão"
+        },
+        {
+          "shared": 1,
+          "issue": "App não abre"
+        }
+      ]
+    },
+    {
+      "Issue": "Leitor de códigos de barras não funciona",
+      "CommunitySize": 19,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Fora do ar"
+        },
+        {
+          "shared": 1,
+          "issue": "Não abre"
+        },
+        {
+          "shared": 1,
+          "issue": "App trava"
+        },
+        {
+          "shared": 1,
+          "issue": "Lentidão"
+        },
+        {
+          "shared": 1,
+          "issue": "App não abre"
+        }
+      ]
+    },
+    {
+      "Issue": "App trava",
+      "CommunitySize": 19,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Fora do ar"
+        },
+        {
+          "shared": 1,
+          "issue": "Não abre"
+        },
+        {
+          "shared": 1,
+          "issue": "Leitor de códigos de barras não funciona"
+        },
+        {
+          "shared": 1,
+          "issue": "Lentidão"
+        },
+        {
+          "shared": 1,
+          "issue": "App não abre"
+        }
+      ]
+    },
+    {
+      "Issue": "Lentidão",
+      "CommunitySize": 19,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Fora do ar"
+        },
+        {
+          "shared": 1,
+          "issue": "Não abre"
+        },
+        {
+          "shared": 1,
+          "issue": "Leitor de códigos de barras não funciona"
+        },
+        {
+          "shared": 1,
+          "issue": "App trava"
+        },
+        {
+          "shared": 1,
+          "issue": "App não abre"
+        }
+      ]
+    },
+    {
+      "Issue": "App não abre",
+      "CommunitySize": 19,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Fora do ar"
+        },
+        {
+          "shared": 1,
+          "issue": "Não abre"
+        },
+        {
+          "shared": 1,
+          "issue": "Leitor de códigos de barras não funciona"
+        },
+        {
+          "shared": 1,
+          "issue": "App trava"
+        },
+        {
+          "shared": 1,
+          "issue": "Lentidão"
+        }
+      ]
+    },
+    {
+      "Issue": "Não abre o aplicativo",
+      "CommunitySize": 19,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Fora do ar"
+        },
+        {
+          "shared": 1,
+          "issue": "Não abre"
+        },
+        {
+          "shared": 1,
+          "issue": "Leitor de códigos de barras não funciona"
+        },
+        {
+          "shared": 1,
+          "issue": "App trava"
+        },
+        {
+          "shared": 1,
+          "issue": "Lentidão"
+        }
+      ]
+    },
+    {
+      "Issue": "Bugs no aplicativo",
+      "CommunitySize": 19,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Fora do ar"
+        },
+        {
+          "shared": 1,
+          "issue": "Não abre"
+        },
+        {
+          "shared": 1,
+          "issue": "Leitor de códigos de barras não funciona"
+        },
+        {
+          "shared": 1,
+          "issue": "App trava"
+        },
+        {
+          "shared": 1,
+          "issue": "Lentidão"
+        }
+      ]
+    },
+    {
+      "Issue": "Não funciona na carteira do Google",
+      "CommunitySize": 19,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Fora do ar"
+        },
+        {
+          "shared": 1,
+          "issue": "Não abre"
+        },
+        {
+          "shared": 1,
+          "issue": "Leitor de códigos de barras não funciona"
+        },
+        {
+          "shared": 1,
+          "issue": "App trava"
+        },
+        {
+          "shared": 1,
+          "issue": "Lentidão"
+        }
+      ]
+    },
+    {
+      "Issue": "Sistema Lento",
+      "CommunitySize": 19,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Fora do ar"
+        },
+        {
+          "shared": 1,
+          "issue": "Não abre"
+        },
+        {
+          "shared": 1,
+          "issue": "Leitor de códigos de barras não funciona"
+        },
+        {
+          "shared": 1,
+          "issue": "App trava"
+        },
+        {
+          "shared": 1,
+          "issue": "Lentidão"
+        }
+      ]
+    },
+    {
+      "Issue": "Performance do Sistema",
+      "CommunitySize": 19,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Fora do ar"
+        },
+        {
+          "shared": 1,
+          "issue": "Não abre"
+        },
+        {
+          "shared": 1,
+          "issue": "Leitor de códigos de barras não funciona"
+        },
+        {
+          "shared": 1,
+          "issue": "App trava"
+        },
+        {
+          "shared": 1,
+          "issue": "Lentidão"
+        }
+      ]
+    },
+    {
+      "Issue": "Não abre no Google Play",
+      "CommunitySize": 19,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Fora do ar"
+        },
+        {
+          "shared": 1,
+          "issue": "Não abre"
+        },
+        {
+          "shared": 1,
+          "issue": "Leitor de códigos de barras não funciona"
+        },
+        {
+          "shared": 1,
+          "issue": "App trava"
+        },
+        {
+          "shared": 1,
+          "issue": "Lentidão"
+        }
+      ]
+    },
+    {
+      "Issue": "Aplicativo da loteria não abre",
+      "CommunitySize": 19,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Fora do ar"
+        },
+        {
+          "shared": 1,
+          "issue": "Não abre"
+        },
+        {
+          "shared": 1,
+          "issue": "Leitor de códigos de barras não funciona"
+        },
+        {
+          "shared": 1,
+          "issue": "App trava"
+        },
+        {
+          "shared": 1,
+          "issue": "Lentidão"
+        }
+      ]
+    },
+    {
+      "Issue": "App não abre após atualização",
+      "CommunitySize": 19,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Fora do ar"
+        },
+        {
+          "shared": 1,
+          "issue": "Não abre"
+        },
+        {
+          "shared": 1,
+          "issue": "Leitor de códigos de barras não funciona"
+        },
+        {
+          "shared": 1,
+          "issue": "App trava"
+        },
+        {
+          "shared": 1,
+          "issue": "Lentidão"
+        }
+      ]
+    },
+    {
+      "Issue": "Erro ao abrir o aplicativo",
+      "CommunitySize": 19,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Fora do ar"
+        },
+        {
+          "shared": 1,
+          "issue": "Não abre"
+        },
+        {
+          "shared": 1,
+          "issue": "Leitor de códigos de barras não funciona"
+        },
+        {
+          "shared": 1,
+          "issue": "App trava"
+        },
+        {
+          "shared": 1,
+          "issue": "Lentidão"
+        }
+      ]
+    },
+    {
+      "Issue": "Trava",
+      "CommunitySize": 19,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Fora do ar"
+        },
+        {
+          "shared": 1,
+          "issue": "Não abre"
+        },
+        {
+          "shared": 1,
+          "issue": "Leitor de códigos de barras não funciona"
+        },
+        {
+          "shared": 1,
+          "issue": "App trava"
+        },
+        {
+          "shared": 1,
+          "issue": "Lentidão"
+        }
+      ]
+    },
+    {
+      "Issue": "Muito lento",
+      "CommunitySize": 19,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Fora do ar"
+        },
+        {
+          "shared": 1,
+          "issue": "Não abre"
+        },
+        {
+          "shared": 1,
+          "issue": "Leitor de códigos de barras não funciona"
+        },
+        {
+          "shared": 1,
+          "issue": "App trava"
+        },
+        {
+          "shared": 1,
+          "issue": "Lentidão"
+        }
+      ]
+    },
+    {
+      "Issue": "Muito fora do ar",
+      "CommunitySize": 19,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Fora do ar"
+        },
+        {
+          "shared": 1,
+          "issue": "Não abre"
+        },
+        {
+          "shared": 1,
+          "issue": "Leitor de códigos de barras não funciona"
+        },
+        {
+          "shared": 1,
+          "issue": "App trava"
+        },
+        {
+          "shared": 1,
+          "issue": "Lentidão"
+        }
+      ]
+    },
+    {
+      "Issue": "Aplicativo lento",
+      "CommunitySize": 19,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Fora do ar"
+        },
+        {
+          "shared": 1,
+          "issue": "Não abre"
+        },
+        {
+          "shared": 1,
+          "issue": "Leitor de códigos de barras não funciona"
+        },
+        {
+          "shared": 1,
+          "issue": "App trava"
+        },
+        {
+          "shared": 1,
+          "issue": "Lentidão"
+        }
+      ]
+    },
+    {
+      "Issue": "Trava direto",
+      "CommunitySize": 19,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Fora do ar"
+        },
+        {
+          "shared": 1,
+          "issue": "Não abre"
+        },
+        {
+          "shared": 1,
+          "issue": "Leitor de códigos de barras não funciona"
+        },
+        {
+          "shared": 1,
+          "issue": "App trava"
+        },
+        {
+          "shared": 1,
+          "issue": "Lentidão"
+        }
+      ]
+    },
+    {
+      "Issue": "Fora do ar",
+      "CommunitySize": 19,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Não abre"
+        },
+        {
+          "shared": 1,
+          "issue": "Leitor de códigos de barras não funciona"
+        },
+        {
+          "shared": 1,
+          "issue": "App trava"
+        },
+        {
+          "shared": 1,
+          "issue": "Lentidão"
+        },
+        {
+          "shared": 1,
+          "issue": "App não abre"
+        }
+      ]
+    },
+    {
+      "Issue": "Não consegue entrar com a senha",
+      "CommunitySize": 12,
+      "TopNeighbors": [
+        {
+          "shared": 2,
+          "issue": "Pede senha duas vezes"
+        },
+        {
+          "shared": 1,
+          "issue": "Acesso a Chamadas Telefônicas"
+        },
+        {
+          "shared": 1,
+          "issue": "Problema de acesso ao aplicativo"
+        },
+        {
+          "shared": 2,
+          "issue": "Bloqueio de Senha"
+        },
+        {
+          "shared": 1,
+          "issue": "Acesso intermitente ao aplicativo"
+        }
+      ]
+    },
+    {
+      "Issue": "Bloqueio de Senha",
+      "CommunitySize": 12,
+      "TopNeighbors": [
+        {
+          "shared": 2,
+          "issue": "Pede senha duas vezes"
+        },
+        {
+          "shared": 1,
+          "issue": "Acesso a Chamadas Telefônicas"
+        },
+        {
+          "shared": 2,
+          "issue": "Não consegue entrar com a senha"
+        },
+        {
+          "shared": 1,
+          "issue": "Problema de acesso ao aplicativo"
+        },
+        {
+          "shared": 1,
+          "issue": "Acesso intermitente ao aplicativo"
+        }
+      ]
+    },
+    {
+      "Issue": "Senha bloqueada",
+      "CommunitySize": 12,
+      "TopNeighbors": [
+        {
+          "shared": 2,
+          "issue": "Pede senha duas vezes"
+        },
+        {
+          "shared": 1,
+          "issue": "Acesso a Chamadas Telefônicas"
+        },
+        {
+          "shared": 2,
+          "issue": "Não consegue entrar com a senha"
+        },
+        {
+          "shared": 1,
+          "issue": "Problema de acesso ao aplicativo"
+        },
+        {
+          "shared": 2,
+          "issue": "Bloqueio de Senha"
+        }
+      ]
+    },
+    {
+      "Issue": "Criação de Nova Senha",
+      "CommunitySize": 12,
+      "TopNeighbors": [
+        {
+          "shared": 2,
+          "issue": "Pede senha duas vezes"
+        },
+        {
+          "shared": 1,
+          "issue": "Acesso a Chamadas Telefônicas"
+        },
+        {
+          "shared": 2,
+          "issue": "Não consegue entrar com a senha"
+        },
+        {
+          "shared": 1,
+          "issue": "Problema de acesso ao aplicativo"
+        },
+        {
+          "shared": 2,
+          "issue": "Bloqueio de Senha"
+        }
+      ]
+    },
+    {
+      "Issue": "Senha Eletrônica",
+      "CommunitySize": 12,
+      "TopNeighbors": [
+        {
+          "shared": 2,
+          "issue": "Pede senha duas vezes"
+        },
+        {
+          "shared": 1,
+          "issue": "Acesso a Chamadas Telefônicas"
+        },
+        {
+          "shared": 2,
+          "issue": "Não consegue entrar com a senha"
+        },
+        {
+          "shared": 1,
+          "issue": "Problema de acesso ao aplicativo"
+        },
+        {
+          "shared": 2,
+          "issue": "Bloqueio de Senha"
+        }
+      ]
+    },
+    {
+      "Issue": "Pede senha duas vezes",
+      "CommunitySize": 12,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Acesso a Chamadas Telefônicas"
+        },
+        {
+          "shared": 2,
+          "issue": "Não consegue entrar com a senha"
+        },
+        {
+          "shared": 1,
+          "issue": "Problema de acesso ao aplicativo"
+        },
+        {
+          "shared": 2,
+          "issue": "Bloqueio de Senha"
+        },
+        {
+          "shared": 1,
+          "issue": "Acesso intermitente ao aplicativo"
+        }
+      ]
+    },
+    {
+      "Issue": "Não consigo acessar minha conta",
+      "CommunitySize": 12,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Cadastro Repetido"
+        },
+        {
+          "shared": 1,
+          "issue": "Erro ao acessar conta"
+        },
+        {
+          "shared": 1,
+          "issue": "Erro ao tentar acessar conta"
+        },
+        {
+          "shared": 1,
+          "issue": "Não consegue acessar conta"
+        },
+        {
+          "shared": 1,
+          "issue": "Não serve para pagar conta"
+        }
+      ]
+    },
+    {
+      "Issue": "Erro ao acessar conta",
+      "CommunitySize": 12,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Cadastro Repetido"
+        },
+        {
+          "shared": 1,
+          "issue": "Não consigo acessar minha conta"
+        },
+        {
+          "shared": 1,
+          "issue": "Erro ao tentar acessar conta"
+        },
+        {
+          "shared": 1,
+          "issue": "Não consegue acessar conta"
+        },
+        {
+          "shared": 1,
+          "issue": "Não serve para pagar conta"
+        }
+      ]
+    },
+    {
+      "Issue": "Erro ao tentar acessar conta",
+      "CommunitySize": 12,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Cadastro Repetido"
+        },
+        {
+          "shared": 1,
+          "issue": "Não consigo acessar minha conta"
+        },
+        {
+          "shared": 1,
+          "issue": "Erro ao acessar conta"
+        },
+        {
+          "shared": 1,
+          "issue": "Não consegue acessar conta"
+        },
+        {
+          "shared": 1,
+          "issue": "Não serve para pagar conta"
+        }
+      ]
+    },
+    {
+      "Issue": "Não consegue acessar conta",
+      "CommunitySize": 12,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Cadastro Repetido"
+        },
+        {
+          "shared": 1,
+          "issue": "Não consigo acessar minha conta"
+        },
+        {
+          "shared": 1,
+          "issue": "Erro ao acessar conta"
+        },
+        {
+          "shared": 1,
+          "issue": "Erro ao tentar acessar conta"
+        },
+        {
+          "shared": 1,
+          "issue": "Não serve para pagar conta"
+        }
+      ]
+    },
+    {
+      "Issue": "Não serve para pagar conta",
+      "CommunitySize": 12,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Cadastro Repetido"
+        },
+        {
+          "shared": 1,
+          "issue": "Não consigo acessar minha conta"
+        },
+        {
+          "shared": 1,
+          "issue": "Erro ao acessar conta"
+        },
+        {
+          "shared": 1,
+          "issue": "Erro ao tentar acessar conta"
+        },
+        {
+          "shared": 1,
+          "issue": "Não consegue acessar conta"
+        }
+      ]
+    },
+    {
+      "Issue": "Impossível realizar cadastro",
+      "CommunitySize": 12,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Cadastro Repetido"
+        },
+        {
+          "shared": 1,
+          "issue": "Não consigo acessar minha conta"
+        },
+        {
+          "shared": 1,
+          "issue": "Erro ao acessar conta"
+        },
+        {
+          "shared": 1,
+          "issue": "Erro ao tentar acessar conta"
+        },
+        {
+          "shared": 1,
+          "issue": "Não consegue acessar conta"
+        }
+      ]
+    },
+    {
+      "Issue": "Transferência de Conta",
+      "CommunitySize": 12,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Cadastro Repetido"
+        },
+        {
+          "shared": 1,
+          "issue": "Não consigo acessar minha conta"
+        },
+        {
+          "shared": 1,
+          "issue": "Erro ao acessar conta"
+        },
+        {
+          "shared": 1,
+          "issue": "Erro ao tentar acessar conta"
+        },
+        {
+          "shared": 1,
+          "issue": "Não consegue acessar conta"
+        }
+      ]
+    },
+    {
+      "Issue": "Acesso à Conta",
+      "CommunitySize": 12,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Cadastro Repetido"
+        },
+        {
+          "shared": 1,
+          "issue": "Não consigo acessar minha conta"
+        },
+        {
+          "shared": 1,
+          "issue": "Erro ao acessar conta"
+        },
+        {
+          "shared": 1,
+          "issue": "Erro ao tentar acessar conta"
+        },
+        {
+          "shared": 1,
+          "issue": "Não consegue acessar conta"
+        }
+      ]
+    },
+    {
+      "Issue": "Não consegue entrar na conta",
+      "CommunitySize": 12,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Cadastro Repetido"
+        },
+        {
+          "shared": 1,
+          "issue": "Não consigo acessar minha conta"
+        },
+        {
+          "shared": 1,
+          "issue": "Erro ao acessar conta"
+        },
+        {
+          "shared": 1,
+          "issue": "Erro ao tentar acessar conta"
+        },
+        {
+          "shared": 1,
+          "issue": "Não consegue acessar conta"
+        }
+      ]
+    },
+    {
+      "Issue": "Cadastro Novo",
+      "CommunitySize": 12,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Cadastro Repetido"
+        },
+        {
+          "shared": 1,
+          "issue": "Não consigo acessar minha conta"
+        },
+        {
+          "shared": 1,
+          "issue": "Erro ao acessar conta"
+        },
+        {
+          "shared": 1,
+          "issue": "Erro ao tentar acessar conta"
+        },
+        {
+          "shared": 1,
+          "issue": "Não consegue acessar conta"
+        }
+      ]
+    },
+    {
+      "Issue": "Erro na hora de acessar a conta",
+      "CommunitySize": 12,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Cadastro Repetido"
+        },
+        {
+          "shared": 1,
+          "issue": "Não consigo acessar minha conta"
+        },
+        {
+          "shared": 1,
+          "issue": "Erro ao acessar conta"
+        },
+        {
+          "shared": 1,
+          "issue": "Erro ao tentar acessar conta"
+        },
+        {
+          "shared": 1,
+          "issue": "Não consegue acessar conta"
+        }
+      ]
+    },
+    {
+      "Issue": "Da muito erro na hora de acessar a conta",
+      "CommunitySize": 12,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Cadastro Repetido"
+        },
+        {
+          "shared": 1,
+          "issue": "Não consigo acessar minha conta"
+        },
+        {
+          "shared": 1,
+          "issue": "Erro ao acessar conta"
+        },
+        {
+          "shared": 1,
+          "issue": "Erro ao tentar acessar conta"
+        },
+        {
+          "shared": 1,
+          "issue": "Não consegue acessar conta"
+        }
+      ]
+    },
+    {
+      "Issue": "Cadastro Repetido",
+      "CommunitySize": 12,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Não consigo acessar minha conta"
+        },
+        {
+          "shared": 1,
+          "issue": "Erro ao acessar conta"
+        },
+        {
+          "shared": 1,
+          "issue": "Erro ao tentar acessar conta"
+        },
+        {
+          "shared": 1,
+          "issue": "Não consegue acessar conta"
+        },
+        {
+          "shared": 1,
+          "issue": "Não serve para pagar conta"
+        }
+      ]
+    },
+    {
+      "Issue": "Acesso a Chamadas Telefônicas",
+      "CommunitySize": 11,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Pede senha duas vezes"
+        },
+        {
+          "shared": 1,
+          "issue": "Não consegue entrar com a senha"
+        },
+        {
+          "shared": 1,
+          "issue": "Problema de acesso ao aplicativo"
+        },
+        {
+          "shared": 1,
+          "issue": "Bloqueio de Senha"
+        },
+        {
+          "shared": 1,
+          "issue": "Acesso intermitente ao aplicativo"
+        }
+      ]
+    },
+    {
+      "Issue": "Problema de acesso ao aplicativo",
+      "CommunitySize": 11,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Pede senha duas vezes"
+        },
+        {
+          "shared": 1,
+          "issue": "Acesso a Chamadas Telefônicas"
+        },
+        {
+          "shared": 1,
+          "issue": "Não consegue entrar com a senha"
+        },
+        {
+          "shared": 1,
+          "issue": "Bloqueio de Senha"
+        },
+        {
+          "shared": 1,
+          "issue": "Acesso intermitente ao aplicativo"
+        }
+      ]
+    },
+    {
+      "Issue": "Acesso intermitente ao aplicativo",
+      "CommunitySize": 11,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Pede senha duas vezes"
+        },
+        {
+          "shared": 1,
+          "issue": "Acesso a Chamadas Telefônicas"
+        },
+        {
+          "shared": 1,
+          "issue": "Não consegue entrar com a senha"
+        },
+        {
+          "shared": 1,
+          "issue": "Problema de acesso ao aplicativo"
+        },
+        {
+          "shared": 1,
+          "issue": "Bloqueio de Senha"
+        }
+      ]
+    },
+    {
+      "Issue": "Cadastro de Biometria",
+      "CommunitySize": 11,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Pede senha duas vezes"
+        },
+        {
+          "shared": 1,
+          "issue": "Acesso a Chamadas Telefônicas"
+        },
+        {
+          "shared": 1,
+          "issue": "Não consegue entrar com a senha"
+        },
+        {
+          "shared": 1,
+          "issue": "Problema de acesso ao aplicativo"
+        },
+        {
+          "shared": 1,
+          "issue": "Bloqueio de Senha"
+        }
+      ]
+    },
+    {
+      "Issue": "Acesso ao Aplicativo",
+      "CommunitySize": 11,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Pede senha duas vezes"
+        },
+        {
+          "shared": 1,
+          "issue": "Acesso a Chamadas Telefônicas"
+        },
+        {
+          "shared": 1,
+          "issue": "Não consegue entrar com a senha"
+        },
+        {
+          "shared": 1,
+          "issue": "Problema de acesso ao aplicativo"
+        },
+        {
+          "shared": 1,
+          "issue": "Bloqueio de Senha"
+        }
+      ]
+    },
+    {
+      "Issue": "Acesso negado ao aplicativo",
+      "CommunitySize": 11,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Pede senha duas vezes"
+        },
+        {
+          "shared": 1,
+          "issue": "Acesso a Chamadas Telefônicas"
+        },
+        {
+          "shared": 1,
+          "issue": "Não consegue entrar com a senha"
+        },
+        {
+          "shared": 1,
+          "issue": "Problema de acesso ao aplicativo"
+        },
+        {
+          "shared": 1,
+          "issue": "Bloqueio de Senha"
+        }
+      ]
+    },
+    {
+      "Issue": "Dinheiro não recebido após envio de PIX",
+      "CommunitySize": 7,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Não aparece o envio de PIX"
+        },
+        {
+          "shared": 1,
+          "issue": "Devolução de PIX"
+        },
+        {
+          "shared": 1,
+          "issue": "Não consigo fazer PIX"
+        },
+        {
+          "shared": 1,
+          "issue": "Erro ao colar chave PIX"
+        },
+        {
+          "shared": 1,
+          "issue": "Erro ao fazer PIX"
+        }
+      ]
+    },
+    {
+      "Issue": "Devolução de PIX",
+      "CommunitySize": 7,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Não aparece o envio de PIX"
+        },
+        {
+          "shared": 1,
+          "issue": "Dinheiro não recebido após envio de PIX"
+        },
+        {
+          "shared": 1,
+          "issue": "Não consigo fazer PIX"
+        },
+        {
+          "shared": 1,
+          "issue": "Erro ao colar chave PIX"
+        },
+        {
+          "shared": 1,
+          "issue": "Erro ao fazer PIX"
+        }
+      ]
+    },
+    {
+      "Issue": "Não consigo fazer PIX",
+      "CommunitySize": 7,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Não aparece o envio de PIX"
+        },
+        {
+          "shared": 1,
+          "issue": "Dinheiro não recebido após envio de PIX"
+        },
+        {
+          "shared": 1,
+          "issue": "Devolução de PIX"
+        },
+        {
+          "shared": 1,
+          "issue": "Erro ao colar chave PIX"
+        },
+        {
+          "shared": 1,
+          "issue": "Erro ao fazer PIX"
+        }
+      ]
+    },
+    {
+      "Issue": "Erro ao colar chave PIX",
+      "CommunitySize": 7,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Não aparece o envio de PIX"
+        },
+        {
+          "shared": 1,
+          "issue": "Dinheiro não recebido após envio de PIX"
+        },
+        {
+          "shared": 1,
+          "issue": "Devolução de PIX"
+        },
+        {
+          "shared": 1,
+          "issue": "Não consigo fazer PIX"
+        },
+        {
+          "shared": 1,
+          "issue": "Erro ao fazer PIX"
+        }
+      ]
+    },
+    {
+      "Issue": "Erro ao fazer PIX",
+      "CommunitySize": 7,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Não aparece o envio de PIX"
+        },
+        {
+          "shared": 1,
+          "issue": "Dinheiro não recebido após envio de PIX"
+        },
+        {
+          "shared": 1,
+          "issue": "Devolução de PIX"
+        },
+        {
+          "shared": 1,
+          "issue": "Não consigo fazer PIX"
+        },
+        {
+          "shared": 1,
+          "issue": "Erro ao colar chave PIX"
+        }
+      ]
+    },
+    {
+      "Issue": "Demora para resolver problema com o aplicativo via PIX",
+      "CommunitySize": 7,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Não aparece o envio de PIX"
+        },
+        {
+          "shared": 1,
+          "issue": "Dinheiro não recebido após envio de PIX"
+        },
+        {
+          "shared": 1,
+          "issue": "Devolução de PIX"
+        },
+        {
+          "shared": 1,
+          "issue": "Não consigo fazer PIX"
+        },
+        {
+          "shared": 1,
+          "issue": "Erro ao colar chave PIX"
+        }
+      ]
+    },
+    {
+      "Issue": "Dificuldade em fazer PIX",
+      "CommunitySize": 7,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Não aparece o envio de PIX"
+        },
+        {
+          "shared": 1,
+          "issue": "Dinheiro não recebido após envio de PIX"
+        },
+        {
+          "shared": 1,
+          "issue": "Devolução de PIX"
+        },
+        {
+          "shared": 1,
+          "issue": "Não consigo fazer PIX"
+        },
+        {
+          "shared": 1,
+          "issue": "Erro ao colar chave PIX"
+        }
+      ]
+    },
+    {
+      "Issue": "Não aparece o envio de PIX",
+      "CommunitySize": 7,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Dinheiro não recebido após envio de PIX"
+        },
+        {
+          "shared": 1,
+          "issue": "Devolução de PIX"
+        },
+        {
+          "shared": 1,
+          "issue": "Não consigo fazer PIX"
+        },
+        {
+          "shared": 1,
+          "issue": "Erro ao colar chave PIX"
+        },
+        {
+          "shared": 1,
+          "issue": "Erro ao fazer PIX"
+        }
+      ]
+    },
+    {
+      "Issue": "Experiência Negativa com o Banco",
+      "CommunitySize": 6,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Insatisfação com o serviço"
+        },
+        {
+          "shared": 1,
+          "issue": "Frustração com o serviço"
+        },
+        {
+          "shared": 1,
+          "issue": "Insatisfação com o Serviço"
+        },
+        {
+          "shared": 1,
+          "issue": "Frustração com a situação"
+        },
+        {
+          "shared": 1,
+          "issue": "Insatisfação com a única opção de desbloqueio"
+        }
+      ]
+    },
+    {
+      "Issue": "Frustração com o serviço",
+      "CommunitySize": 6,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Insatisfação com o serviço"
+        },
+        {
+          "shared": 1,
+          "issue": "Experiência Negativa com o Banco"
+        },
+        {
+          "shared": 1,
+          "issue": "Insatisfação com o Serviço"
+        },
+        {
+          "shared": 1,
+          "issue": "Frustração com a situação"
+        },
+        {
+          "shared": 1,
+          "issue": "Insatisfação com a única opção de desbloqueio"
+        }
+      ]
+    },
+    {
+      "Issue": "Insatisfação com o Serviço",
+      "CommunitySize": 6,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Insatisfação com o serviço"
+        },
+        {
+          "shared": 1,
+          "issue": "Experiência Negativa com o Banco"
+        },
+        {
+          "shared": 1,
+          "issue": "Frustração com o serviço"
+        },
+        {
+          "shared": 1,
+          "issue": "Frustração com a situação"
+        },
+        {
+          "shared": 1,
+          "issue": "Insatisfação com a única opção de desbloqueio"
+        }
+      ]
+    },
+    {
+      "Issue": "Frustração com a situação",
+      "CommunitySize": 6,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Insatisfação com o serviço"
+        },
+        {
+          "shared": 1,
+          "issue": "Experiência Negativa com o Banco"
+        },
+        {
+          "shared": 1,
+          "issue": "Frustração com o serviço"
+        },
+        {
+          "shared": 1,
+          "issue": "Insatisfação com o Serviço"
+        },
+        {
+          "shared": 1,
+          "issue": "Insatisfação com a única opção de desbloqueio"
+        }
+      ]
+    },
+    {
+      "Issue": "Insatisfação com a única opção de desbloqueio",
+      "CommunitySize": 6,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Insatisfação com o serviço"
+        },
+        {
+          "shared": 1,
+          "issue": "Experiência Negativa com o Banco"
+        },
+        {
+          "shared": 1,
+          "issue": "Frustração com o serviço"
+        },
+        {
+          "shared": 1,
+          "issue": "Insatisfação com o Serviço"
+        },
+        {
+          "shared": 1,
+          "issue": "Frustração com a situação"
+        }
+      ]
+    },
+    {
+      "Issue": "Insatisfação com o serviço bancário",
+      "CommunitySize": 6,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Insatisfação com o serviço"
+        },
+        {
+          "shared": 1,
+          "issue": "Experiência Negativa com o Banco"
+        },
+        {
+          "shared": 1,
+          "issue": "Frustração com o serviço"
+        },
+        {
+          "shared": 1,
+          "issue": "Insatisfação com o Serviço"
+        },
+        {
+          "shared": 1,
+          "issue": "Frustração com a situação"
+        }
+      ]
+    },
+    {
+      "Issue": "Insatisfação com o serviço",
+      "CommunitySize": 6,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Experiência Negativa com o Banco"
+        },
+        {
+          "shared": 1,
+          "issue": "Frustração com o serviço"
+        },
+        {
+          "shared": 1,
+          "issue": "Insatisfação com o Serviço"
+        },
+        {
+          "shared": 1,
+          "issue": "Frustração com a situação"
+        },
+        {
+          "shared": 1,
+          "issue": "Insatisfação com a única opção de desbloqueio"
+        }
+      ]
+    },
+    {
+      "Issue": "Excesso de monitoramento em ligações",
+      "CommunitySize": 6,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Pede senha duas vezes"
+        },
+        {
+          "shared": 1,
+          "issue": "Não consegue entrar com a senha"
+        },
+        {
+          "shared": 1,
+          "issue": "Bloqueio de Senha"
+        },
+        {
+          "shared": 1,
+          "issue": "Senha bloqueada"
+        },
+        {
+          "shared": 1,
+          "issue": "Criação de Nova Senha"
+        }
+      ]
+    },
+    {
+      "Issue": "Dificuldade em obter extrato completo",
+      "CommunitySize": 6,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Dificuldade em acessar saldo"
+        },
+        {
+          "shared": 1,
+          "issue": "Não consigo ver extrato"
+        },
+        {
+          "shared": 1,
+          "issue": "Não me acho no extrato"
+        },
+        {
+          "shared": 1,
+          "issue": "Quebra da relação do saldo com botão de visualização"
+        },
+        {
+          "shared": 1,
+          "issue": "Demora no Saldo"
+        }
+      ]
+    },
+    {
+      "Issue": "Não consigo ver extrato",
+      "CommunitySize": 6,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Dificuldade em acessar saldo"
+        },
+        {
+          "shared": 1,
+          "issue": "Dificuldade em obter extrato completo"
+        },
+        {
+          "shared": 1,
+          "issue": "Não me acho no extrato"
+        },
+        {
+          "shared": 1,
+          "issue": "Quebra da relação do saldo com botão de visualização"
+        },
+        {
+          "shared": 1,
+          "issue": "Demora no Saldo"
+        }
+      ]
+    },
+    {
+      "Issue": "Não me acho no extrato",
+      "CommunitySize": 6,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Dificuldade em acessar saldo"
+        },
+        {
+          "shared": 1,
+          "issue": "Dificuldade em obter extrato completo"
+        },
+        {
+          "shared": 1,
+          "issue": "Não consigo ver extrato"
+        },
+        {
+          "shared": 1,
+          "issue": "Quebra da relação do saldo com botão de visualização"
+        },
+        {
+          "shared": 1,
+          "issue": "Demora no Saldo"
+        }
+      ]
+    },
+    {
+      "Issue": "Quebra da relação do saldo com botão de visualização",
+      "CommunitySize": 6,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Dificuldade em acessar saldo"
+        },
+        {
+          "shared": 1,
+          "issue": "Dificuldade em obter extrato completo"
+        },
+        {
+          "shared": 1,
+          "issue": "Não consigo ver extrato"
+        },
+        {
+          "shared": 1,
+          "issue": "Não me acho no extrato"
+        },
+        {
+          "shared": 1,
+          "issue": "Demora no Saldo"
+        }
+      ]
+    },
+    {
+      "Issue": "Demora no Saldo",
+      "CommunitySize": 6,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Dificuldade em acessar saldo"
+        },
+        {
+          "shared": 1,
+          "issue": "Dificuldade em obter extrato completo"
+        },
+        {
+          "shared": 1,
+          "issue": "Não consigo ver extrato"
+        },
+        {
+          "shared": 1,
+          "issue": "Não me acho no extrato"
+        },
+        {
+          "shared": 1,
+          "issue": "Quebra da relação do saldo com botão de visualização"
+        }
+      ]
+    },
+    {
+      "Issue": "Erro ao tirar extratos dos meses de 2025",
+      "CommunitySize": 6,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Dificuldade em acessar saldo"
+        },
+        {
+          "shared": 1,
+          "issue": "Dificuldade em obter extrato completo"
+        },
+        {
+          "shared": 1,
+          "issue": "Não consigo ver extrato"
+        },
+        {
+          "shared": 1,
+          "issue": "Não me acho no extrato"
+        },
+        {
+          "shared": 1,
+          "issue": "Quebra da relação do saldo com botão de visualização"
+        }
+      ]
+    },
+    {
+      "Issue": "Dificuldade em acessar saldo",
+      "CommunitySize": 6,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Dificuldade em obter extrato completo"
+        },
+        {
+          "shared": 1,
+          "issue": "Não consigo ver extrato"
+        },
+        {
+          "shared": 1,
+          "issue": "Não me acho no extrato"
+        },
+        {
+          "shared": 1,
+          "issue": "Quebra da relação do saldo com botão de visualização"
+        },
+        {
+          "shared": 1,
+          "issue": "Demora no Saldo"
+        }
+      ]
+    },
+    {
+      "Issue": "Suporte não responde",
+      "CommunitySize": 5,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Dificuldade em contato com o suporte"
+        },
+        {
+          "shared": 1,
+          "issue": "Dificuldade em obter suporte na agência"
+        },
+        {
+          "shared": 1,
+          "issue": "Falta de atendimento adequado"
+        },
+        {
+          "shared": 1,
+          "issue": "Atendimento"
+        },
+        {
+          "shared": 1,
+          "issue": "Longa espera para atendimento"
+        }
+      ]
+    },
+    {
+      "Issue": "Dificuldade em obter suporte na agência",
+      "CommunitySize": 5,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Dificuldade em contato com o suporte"
+        },
+        {
+          "shared": 1,
+          "issue": "Suporte não responde"
+        },
+        {
+          "shared": 1,
+          "issue": "Falta de atendimento adequado"
+        },
+        {
+          "shared": 1,
+          "issue": "Atendimento"
+        },
+        {
+          "shared": 1,
+          "issue": "Longa espera para atendimento"
+        }
+      ]
+    },
+    {
+      "Issue": "Falta de atendimento adequado",
+      "CommunitySize": 5,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Dificuldade em contato com o suporte"
+        },
+        {
+          "shared": 1,
+          "issue": "Suporte não responde"
+        },
+        {
+          "shared": 1,
+          "issue": "Dificuldade em obter suporte na agência"
+        },
+        {
+          "shared": 1,
+          "issue": "Atendimento"
+        },
+        {
+          "shared": 1,
+          "issue": "Longa espera para atendimento"
+        }
+      ]
+    },
+    {
+      "Issue": "Atendimento",
+      "CommunitySize": 5,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Dificuldade em contato com o suporte"
+        },
+        {
+          "shared": 1,
+          "issue": "Suporte não responde"
+        },
+        {
+          "shared": 1,
+          "issue": "Dificuldade em obter suporte na agência"
+        },
+        {
+          "shared": 1,
+          "issue": "Falta de atendimento adequado"
+        },
+        {
+          "shared": 1,
+          "issue": "Longa espera para atendimento"
+        }
+      ]
+    },
+    {
+      "Issue": "Longa espera para atendimento",
+      "CommunitySize": 5,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Dificuldade em contato com o suporte"
+        },
+        {
+          "shared": 1,
+          "issue": "Suporte não responde"
+        },
+        {
+          "shared": 1,
+          "issue": "Dificuldade em obter suporte na agência"
+        },
+        {
+          "shared": 1,
+          "issue": "Falta de atendimento adequado"
+        },
+        {
+          "shared": 1,
+          "issue": "Atendimento"
+        }
+      ]
+    },
+    {
+      "Issue": "Dificuldade em contato com o suporte",
+      "CommunitySize": 5,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Suporte não responde"
+        },
+        {
+          "shared": 1,
+          "issue": "Dificuldade em obter suporte na agência"
+        },
+        {
+          "shared": 1,
+          "issue": "Falta de atendimento adequado"
+        },
+        {
+          "shared": 1,
+          "issue": "Atendimento"
+        },
+        {
+          "shared": 1,
+          "issue": "Longa espera para atendimento"
+        }
+      ]
+    },
+    {
+      "Issue": "Não se consegue pagar um boleto em dia de Domingo ou feriado",
+      "CommunitySize": 3,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Não consegue baixar boleto"
+        },
+        {
+          "shared": 1,
+          "issue": "Não consigo pagar boletos"
+        },
+        {
+          "shared": 1,
+          "issue": "Atraso no pagamento de DAE"
+        }
+      ]
+    },
+    {
+      "Issue": "Não consigo pagar boletos",
+      "CommunitySize": 3,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Não consegue baixar boleto"
+        },
+        {
+          "shared": 1,
+          "issue": "Não se consegue pagar um boleto em dia de Domingo ou feriado"
+        },
+        {
+          "shared": 1,
+          "issue": "Atraso no pagamento de DAE"
+        }
+      ]
+    },
+    {
+      "Issue": "Atraso no pagamento de DAE",
+      "CommunitySize": 3,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Não consegue baixar boleto"
+        },
+        {
+          "shared": 1,
+          "issue": "Não se consegue pagar um boleto em dia de Domingo ou feriado"
+        },
+        {
+          "shared": 1,
+          "issue": "Não consigo pagar boletos"
+        }
+      ]
+    },
+    {
+      "Issue": "Não consegue baixar boleto",
+      "CommunitySize": 3,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Não se consegue pagar um boleto em dia de Domingo ou feriado"
+        },
+        {
+          "shared": 1,
+          "issue": "Não consigo pagar boletos"
+        },
+        {
+          "shared": 1,
+          "issue": "Atraso no pagamento de DAE"
+        }
+      ]
+    },
+    {
+      "Issue": "Dificuldade em encontrar empréstimo",
+      "CommunitySize": 2,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Cartão cancelado"
+        },
+        {
+          "shared": 1,
+          "issue": "Erro ao simular empréstimo"
+        }
+      ]
+    },
+    {
+      "Issue": "Erro ao simular empréstimo",
+      "CommunitySize": 2,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Cartão cancelado"
+        },
+        {
+          "shared": 1,
+          "issue": "Dificuldade em encontrar empréstimo"
+        }
+      ]
+    },
+    {
+      "Issue": "Cartão cancelado",
+      "CommunitySize": 2,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Dificuldade em encontrar empréstimo"
+        },
+        {
+          "shared": 1,
+          "issue": "Erro ao simular empréstimo"
+        }
+      ]
+    },
+    {
+      "Issue": "Permissões excessivas de notificação e localização",
+      "CommunitySize": 1,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Notificação recebida mas sem resultado"
+        }
+      ]
+    },
+    {
+      "Issue": "Notificação recebida mas sem resultado",
+      "CommunitySize": 1,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Permissões excessivas de notificação e localização"
+        }
+      ]
+    },
+    {
+      "Issue": "Desconto automático da conta do cartão",
+      "CommunitySize": 1,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Cobrança de Juros por Atraso"
+        }
+      ]
+    },
+    {
+      "Issue": "Cobrança de Juros por Atraso",
+      "CommunitySize": 1,
+      "TopNeighbors": [
+        {
+          "shared": 1,
+          "issue": "Desconto automático da conta do cartão"
+        }
+      ]
+    }
+  ]
+}

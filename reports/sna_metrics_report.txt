@@ -1,0 +1,59 @@
+================================================================================
+METRICAS DE SOCIAL NETWORK ANALYSIS (SNA)
+================================================================================
+Data de geracao: 2026-02-09 21:07:29
+
+DENSIDADE DA REDE
+--------------------------------------------------------------------------------
+Total de Issues: 85
+Total de BusinessCapabilities: 15
+Total de Links: 91
+Densidade: 0.0714
+
+TOP 10 ISSUES POR DEGREE CENTRALITY
+--------------------------------------------------------------------------------
+1. Pede senha duas vezes: 2
+2. Não consegue entrar com a senha: 2
+3. Bloqueio de Senha: 2
+4. Senha bloqueada: 2
+5. Criação de Nova Senha: 2
+6. Senha Eletrônica: 2
+7. Acesso a Chamadas Telefônicas: 1
+8. Problema de acesso ao aplicativo: 1
+9. Acesso intermitente ao aplicativo: 1
+10. Cadastro de Biometria: 1
+
+TOP 10 BUSINESS CAPABILITIES POR DEGREE CENTRALITY
+--------------------------------------------------------------------------------
+1. Performance e Estabilidade: 20
+2. Gestão de Cadastro e Conta: 13
+3. Autenticação e Acesso: 12
+4. Transferências PIX: 8
+5. Interface e Experiência do Usuário: 7
+6. Segurança e Proteção: 7
+7. Consulta de Saldo e Extrato: 7
+8. Atendimento ao Cliente: 6
+9. Pagamentos e Boletos: 4
+10. Empréstimos e Crédito: 3
+
+BETWEENNESS CENTRALITY - TOP 10 ISSUES
+--------------------------------------------------------------------------------
+1. Pede senha duas vezes: 2
+2. Não consegue entrar com a senha: 2
+3. Bloqueio de Senha: 2
+4. Senha bloqueada: 2
+5. Criação de Nova Senha: 2
+6. Senha Eletrônica: 2
+7. Acesso a Chamadas Telefônicas: 1
+8. Problema de acesso ao aplicativo: 1
+9. Acesso intermitente ao aplicativo: 1
+10. Cadastro de Biometria: 1
+
+CLUSTERING COEFFICIENT - TOP 10 ISSUES
+--------------------------------------------------------------------------------
+1. Pede senha duas vezes: 0.9091
+2. Não consegue entrar com a senha: 0.9091
+3. Bloqueio de Senha: 0.9091
+4. Senha bloqueada: 0.9091
+5. Criação de Nova Senha: 0.9091
+6. Senha Eletrônica: 0.9091

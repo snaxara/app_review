@@ -1,0 +1,99 @@
+Descricao
+hu defeito apontamentos novo extrato piloto pf pj mobile e desktop
+ pj pública ib 23090226 retorno inconsistente induz cliente a pagar agendamento 2 vezes
+sicov debaut agendamentos concluidos sem processamento de repasse e retorno para convenente
+debaut gefat ausência de repasse convenente samae compromisso 343674 11 0002
+ defeito piloto mobile cdc renovar número de contrato e trilha do simcv
+ pix transferência ocorrência no pagamento com chave pix cpf
+ pix transferência ausência da teimosinha quando o sispi não retorna a validação da chave pix
+ debaut criar regra automatica para excluir cadastro de optantes incluídos e sem movimentação ha mais de 180 dias rollback
+hu  consultar tabela de ir na aplicação renda fixa para pj mobile e desktop correção
+ investimento ajustar link do ícone perfil do investidor para direcionar ao questionário desktop
+ debaut inc000009485367 alteração da orientação presente no st27p939 da proc accpc0r7
+hu  fluxo de aplicação siart para pf pj desktop e mobile
+geban  pagfor motivo genérico na rejeição de tributos e não estorna em conta nsgd
+ erro fundos de investimento ibc x sipdi x sigfa mobile e desktop pf e pj piloto produção
+ erro na migração de contas pré cadastradas ted e pix no front
+ erro na consulta do menu detalhar e gerenciar na autogestão de limites via sipnc
+ agendamentos gps código de barras retorno 116 transação indisponível no momento desktop e mobile
+ permissão para consumo da api de bloqueio de cartão de crédito
+ pj pública ib 23016705 levantamento e tratamento das informações de teds do convênio 170851 01 no período de 18 a 24 03 25
+habitação_revisar e ajustar a gravação da trilha simcv
+ j acc05mza rc 23 ps st09p129 js st01 jn 467542 inc000009442602
+ defeito referente não localização do parâmetro padrão na efetivação do pix agendado trpxr
+ j acc15mzf rc s222 ps st35p045 js st01 jn 586771 inc000009433089
+ darf verificação com tela em branco no app comprovante e 2ª via retorna tela branca e encerra sessão no ibc desktop e mobile
+ gecar12 canal e jornada corrigir o canal e jornada para refletir o caminho correto
+ portal banner acerto na validação de horário de início e fim de vigência
+ pj publica ib 22939798 pagamento de ted com dados do titular errado em convênios do sicem
+ gecar12 pj edição de proposta para cnpj que possua zero a esquerda
+geban relatório ocorrência falha dia 17 mar 25 arquivos retorno de clientes de dias posteriores estão demonstrando agendamentos do dia 17geban relatório ocorrência falha dia 17 mar 25 ajuste geração aquivos retorno
+ gecar12 tagpf falha com alguns cpfs comportamento falho no prosseguir passo 2
+ câmbio enviar ao exterior comprovantes tela em branco carregando e não retorna mensagem desktop e mobile
+ cartão de débito pagamento por aproximação imagem do cartão não carrega em tela desktop e mobile
+ cadastramento de usuário campo mostrar senha 4 dígitos desktop
+ ted para terceiros ajuste no formato do campo valor com vírgula para usuário pj mobile android
+ pj publica ib 22906351 análise e correção para as informações trazidas no nr doc do extrato de contas compromissos do convênio 154384 01 ocorrência de 17 03 2025
+ pj publica ib 22905022 falha no processamento de remessas de pagamentos de salários onde foi realizado o débito nas contas dos convênios sem o respectivo crédito ocorrência de 17 03 2025
+ debaut valor de tarifa cobrada a maior do que o valor contratado convênio 338057
+ pj pública ib 22901574 tratamento em agendamentos de ted do convênio 230716 01 0007 ocorrência de 17 03 2025 para geração do arquivo retorno
+ acesso simob dispositivo não cadastrado senha transação inicial ops não foi possível efetuar o acesso à conta no momento por favor tente novamente mais tarde cod 02 20 mobile android
+ j acc40d0a rc 65 ps st04p969 js st01 jn 390082
+ habitação encerramento de sessão botão voltar mobile ios
+ debaut ausência de informação no arquivo retorno de agendamento cancelados no mesmo dia da remessa
+simcv chave de segurança cesta de serviços chave de segurança não confere
+ ted defeito front end está permitindo deixar duas agencias ativas no menu de piloto
+ defeito erro na funcionalidade altera cadastro de destino ted
+ pagfor correção rotina de limpeza expurgo da tabela 62
+ gecar12 correção funcionalidade consulta tag pf
+ pj publica ib 22840097 análise da efetivação de teds em 05 03 25 referente ao movimento do dia 28 02 25
+ meus contratos contratos de cdc não estão sendo apresentados ao cliente
+ j acc64mzd rc 5 ps st10p991 js st01 jn 306903
+ abend acc36mzl
+habitação_amortizar_bloqueio azion_exclusão de colchete no código
+ simulador renegociar do  não calcula as tarifas caso o pacote tenha fgts digital
+ibc novo extrato defeito ajustes ambiente piloto desktop e mobile
+geban impedimento para efetivar crédito em conta nsgd de lotéricos
+pix_receber_gerar qr code_erro não carrega a chave na tela
+ ib 22757997 incidente j acc36mzl rc 1321 ps st13p353 js st01 jn 104330
+ consulta comprovante apresentação dos comprovantes tev pj e pf mobile
+ pix não está recebendo retorno de inclusão de agendamento e de agendamento rejeitado
+ defeito erro ao tentar ajustar a parametrização do limite produto x propriedade
+ gecar12 tagpf vencimento enviado por token ainda com datas não condizentes
+ dda mensagem de retorno 2000 erro na comunicação detalhes do boleto mobile
+ debaut disponibilizar relatório de rejeitados automatizado
+ falha na autogestão de limites através do sipnc
+ gecar12 tagcaixa pessoa física falha no assunto do e mail envio contrato
+ pj publica ib 22709834 convênio 364749 01 0001 boleteds excluídos do processamento
+simcv transações sem registro de código de erro descrição e complemento
+habitação simcv_revisar e ajustar a gravação da trilha
+ erro ao enviar campo ncpd na geração de boleto para pagamento de parcela de contrato habitacional mobile
+ consorcio simular e contratar encerra sessão após voltar da página da seguridade app caixa
+azure http adx apis transacoes financeiras limite conta apim rendimento abaixo de 90
+ pix transferência não está devolvendo o valor real efetivado comprovante do totalbank zerado
+ gecar12 tagpf falha de entrega da validade do cartão defeito 22689346
+ debaut performance na consulta de optante pelo campo nome do optante em prd
+produção 7259apl  falha na funcionalidade crítica do sistema
+ habitação alterar vencimento botão voltar tela confirmação sem ação ibc desktop
+ dda log cliente sem adesão e não retorna tela para aderir
+android  dados pessoais campo deficiência apresentando espaços à direita
+ capitalização mensagem 2598 não existe informação de título desktop e mobile
+ibc novo extrato apontamentos de homologação piloto des mobile
+ consignado renovação de consignado não permite preencher os campos
+ pagamento boleto de cobrança encerra a sessão
+ibc novo extrato apontamentos de homologação piloto des desktop
+gefat pix transferência agendamento ficou como incluído e rejeitou por insuficiência de saldo
+ comprovante pagsal não está gerando comprovante por folha
+ tagcaixa pessoa física falha na contratação
+ notas de negociação ajuste no calendário e correção de encode mobile
+ defeito correção da rotina de migração de pré cadastro para ted
+ extrato gerar arquivo pdf android não foi possível abrir o arquivo
+ defeito gl06 com inconsistência de dados para os casos de retorno mp 0019 para transações de ted
+ debaut pendência contábil e baixa operacional de repasse em conta compromisso migrada para nsgd continuação ib 22494410
+ falha de retorno barramento sipcs ação ocorrida pela demanda implantada 22616005
+ pj publica ib 22649176 tratamento da regra de envio da informação do número do documento a ser apresentado no extrato da conta nsgd
+ habitação log encerramento de sessão durante tentativa de geração de boleto
+gefat pix qrcode  não efetivou o estorno na conta compromisso
+ tag pf erro ao buscar meio de comunicação do sicli
+ consulta comprovantes ajuste na consulta de comprovantes para 2025 app caixa
+gefat nsgd tributos rejeição na forma de pagamento de tributos segmento k

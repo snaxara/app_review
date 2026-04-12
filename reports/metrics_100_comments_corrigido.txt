@@ -1,0 +1,206 @@
+================================================================================
+RELATORIO DE CORRELACAO: ISSUES <-> BUSINESS CAPABILITIES
+================================================================================
+Data de geração: 2026-01-19 16:30:06
+
+RESUMO GERAL
+--------------------------------------------------------------------------------
+Total de Issues únicas: 97
+Total de BusinessCapabilities: 13
+Total de Episódios (comentários): 116
+
+ESTATÍSTICAS POR BUSINESS CAPABILITY
+--------------------------------------------------------------------------------
+
+Performance e Estabilidade
+  Nível: 1 | Tipo: Supporting | Valor: High
+  Total de Issues: 19 (19.00%)
+  Total de Episódios: 33 (28.45%)
+  Média de Episódios por Issue: 1.74
+  Top 5 Issues mais frequentes:
+    1. Lentidão: 6 episódio(s)
+    2. App não abre: 5 episódio(s)
+    3. App trava: 4 episódio(s)
+    4. Bugs no aplicativo: 2 episódio(s)
+    5. Não abre o aplicativo: 2 episódio(s)
+
+Atendimento ao Cliente
+  Nível: 2 | Tipo: Supporting | Valor: Medium
+  Total de Issues: 13 (13.00%)
+  Total de Episódios: 13 (11.21%)
+  Média de Episódios por Issue: 1.00
+  Top 5 Issues mais frequentes:
+    1. Acesso ao atendimento online: 1 episódio(s)
+    2. Atendimento: 1 episódio(s)
+    3. Atendimento automatizado insatisfatório: 1 episódio(s)
+    4. Central de atendimento apenas por telefone fixo: 1 episódio(s)
+    5. Dificuldade em contato com atendimento: 1 episódio(s)
+
+Empréstimos e Crédito
+  Nível: 2 | Tipo: Core | Valor: High
+  Total de Issues: 11 (11.00%)
+  Total de Episódios: 11 (9.48%)
+  Média de Episódios por Issue: 1.00
+  Top 5 Issues mais frequentes:
+    1. Acompanhamento pelo app: 1 episódio(s)
+    2. Dificuldade em fazer pedido de cartão: 1 episódio(s)
+    3. Dificuldade em realizar empréstimo: 1 episódio(s)
+    4. Dificuldade em utilizar a função crédito: 1 episódio(s)
+    5. Limite de Crédito: 1 episódio(s)
+
+Segurança e Proteção
+  Nível: 1 | Tipo: Core | Valor: High
+  Total de Issues: 11 (11.00%)
+  Total de Episódios: 11 (9.48%)
+  Média de Episódios por Issue: 1.00
+  Top 5 Issues mais frequentes:
+    1. Biometria pede senha frequentemente: 1 episódio(s)
+    2. Espionagem: 1 episódio(s)
+    3. Excesso de segurança ao fazer PIX: 1 episódio(s)
+    4. Falta de Camadas de Segurança: 1 episódio(s)
+    5. Falta de Transparência: 1 episódio(s)
+
+Autenticação e Acesso
+  Nível: 1 | Tipo: Core | Valor: High
+  Total de Issues: 8 (8.00%)
+  Total de Episódios: 8 (6.90%)
+  Média de Episódios por Issue: 1.00
+  Top 5 Issues mais frequentes:
+    1. Acesso ao site pede para entrar no app: 1 episódio(s)
+    2. Acesso através do Playstore: 1 episódio(s)
+    3. Biometria pede senha frequentemente: 1 episódio(s)
+    4. Erro ao entrar na conta: 1 episódio(s)
+    5. Inserção manual da senha: 1 episódio(s)
+
+Gestão de Cadastro e Conta
+  Nível: 2 | Tipo: Supporting | Valor: Medium
+  Total de Issues: 7 (7.00%)
+  Total de Episódios: 8 (6.90%)
+  Média de Episódios por Issue: 1.14
+  Top 5 Issues mais frequentes:
+    1. Não consigo entrar na conta: 2 episódio(s)
+    2. Bug ao acessar conta: 1 episódio(s)
+    3. Cancelamento de conta: 1 episódio(s)
+    4. Conta Bloqueada: 1 episódio(s)
+    5. Erro ao acessar conta: 1 episódio(s)
+
+Interface e Experiência do Usuário
+  Nível: 1 | Tipo: Supporting | Valor: Medium
+  Total de Issues: 7 (7.00%)
+  Total de Episódios: 7 (6.03%)
+  Média de Episódios por Issue: 1.00
+  Top 5 Issues mais frequentes:
+    1. Desativar contatos de agenda para fazer PIX: 1 episódio(s)
+    2. Estorno de Contratos: 1 episódio(s)
+    3. Experiência cansativa devido a propagandas: 1 episódio(s)
+    4. Falta de Modo Escuro: 1 episódio(s)
+    5. Insatisfação com a instituição: 1 episódio(s)
+
+Pagamentos e Boletos
+  Nível: 2 | Tipo: Core | Valor: High
+  Total de Issues: 7 (7.00%)
+  Total de Episódios: 7 (6.03%)
+  Média de Episódios por Issue: 1.00
+  Top 5 Issues mais frequentes:
+    1. Boletos atrasados: 1 episódio(s)
+    2. Compensação de Documento: 1 episódio(s)
+    3. Demora na Compensação de IPVA: 1 episódio(s)
+    4. Dificuldade para fazer pagamentos: 1 episódio(s)
+    5. Impossibilidade de fazer pagamentos: 1 episódio(s)
+
+Consulta de Saldo e Extrato
+  Nível: 2 | Tipo: Core | Valor: High
+  Total de Issues: 6 (6.00%)
+  Total de Episódios: 6 (5.17%)
+  Média de Episódios por Issue: 1.00
+  Top 5 Issues mais frequentes:
+    1. Extrato difícil de entender: 1 episódio(s)
+    2. Falta de Acesso ao Extrato da Poupança: 1 episódio(s)
+    3. Falta de Extrato da Poupança: 1 episódio(s)
+    4. Não consigo acessar saldo: 1 episódio(s)
+    5. Saldo e extrato do cartão borrados: 1 episódio(s)
+
+Investimentos
+  Nível: 2 | Tipo: Strategic | Valor: High
+  Total de Issues: 4 (4.00%)
+  Total de Episódios: 4 (3.45%)
+  Média de Episódios por Issue: 1.00
+  Top 5 Issues mais frequentes:
+    1. Dificuldade em fazer investimento: 1 episódio(s)
+    2. Inconsistência de dados com B3: 1 episódio(s)
+    3. Propostas de contratos indesejados: 1 episódio(s)
+    4. Setor de investimento não atualizado: 1 episódio(s)
+
+Transferências PIX
+  Nível: 2 | Tipo: Core | Valor: High
+  Total de Issues: 3 (3.00%)
+  Total de Episódios: 4 (3.45%)
+  Média de Episódios por Issue: 1.33
+  Top 5 Issues mais frequentes:
+    1. Não consegue fazer PIX: 2 episódio(s)
+    2. Erro ao fazer PIX: 1 episódio(s)
+    3. Impossibilidade de fazer PIX: 1 episódio(s)
+
+Gestão de Tarifas
+  Nível: 2 | Tipo: Supporting | Valor: Medium
+  Total de Issues: 3 (3.00%)
+  Total de Episódios: 3 (2.59%)
+  Média de Episódios por Issue: 1.00
+  Top 5 Issues mais frequentes:
+    1. Cobrança de tarifas: 1 episódio(s)
+    2. Desconto considerado baixo: 1 episódio(s)
+    3. Tarifa de 16,00: 1 episódio(s)
+
+Acesso Geográfico
+  Nível: 2 | Tipo: Supporting | Valor: Low
+  Total de Issues: 1 (1.00%)
+  Total de Episódios: 1 (0.86%)
+  Média de Episódios por Issue: 1.00
+  Top 5 Issues mais frequentes:
+    1. Falta de Agência: 1 episódio(s)
+
+================================================================================
+TOP 10 ISSUES MAIS CRÍTICAS (por número de episódios)
+--------------------------------------------------------------------------------
+1. Lentidão: 6 episódio(s)
+   Relacionada a: Performance e Estabilidade
+2. App não abre: 5 episódio(s)
+   Relacionada a: Performance e Estabilidade
+3. App trava: 4 episódio(s)
+   Relacionada a: Performance e Estabilidade
+4. Biometria pede senha frequentemente: 2 episódio(s)
+   Relacionada a: Autenticação e Acesso, Segurança e Proteção
+5. Bugs no aplicativo: 2 episódio(s)
+   Relacionada a: Performance e Estabilidade
+6. Inserção manual da senha: 2 episódio(s)
+   Relacionada a: Autenticação e Acesso, Segurança e Proteção
+7. Mensagem com senha não recebida: 2 episódio(s)
+   Relacionada a: Autenticação e Acesso, Segurança e Proteção
+8. Não abre o aplicativo: 2 episódio(s)
+   Relacionada a: Performance e Estabilidade
+9. Não consegue fazer PIX: 2 episódio(s)
+   Relacionada a: Transferências PIX
+10. Não consigo entrar na conta: 2 episódio(s)
+   Relacionada a: Gestão de Cadastro e Conta
+
+================================================================================
+DISTRIBUIÇÃO POR NÍVEL DE CAPABILITY
+--------------------------------------------------------------------------------
+Nível 1: 42 Issues (43.30%) | 59 Episódios (50.86%)
+Nível 2: 55 Issues (56.70%) | 57 Episódios (49.14%)
+
+================================================================================
+DISTRIBUIÇÃO POR TIPO DE CAPABILITY
+--------------------------------------------------------------------------------
+Core: 43 Issues (44.33%) | 47 Episódios (40.52%)
+Strategic: 4 Issues (4.12%) | 4 Episódios (3.45%)
+Supporting: 50 Issues (51.55%) | 65 Episódios (56.03%)
+
+================================================================================
+DISTRIBUIÇÃO POR VALOR DE NEGÓCIO
+--------------------------------------------------------------------------------
+High: 66 Issues (68.04%) | 84 Episódios (72.41%)
+Low: 1 Issues (1.03%) | 1 Episódios (0.86%)
+Medium: 30 Issues (30.93%) | 31 Episódios (26.72%)
+
+================================================================================

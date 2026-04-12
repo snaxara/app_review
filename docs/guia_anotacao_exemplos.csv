@@ -1,0 +1,36 @@
+﻿Comentário;Sentimento;Categorias Funcionais;Motivo
+OK;Neutro;-;Ambiguidade contextual, Princípio da incerteza, Ausência de marcadores de polaridade
+Sou novata aqui, não tenho muito conhecimento;Neutro;-;Declaração puramente informativa sobre status de usuário
+Como estou recém usando, estou conhecendo;Neutro;-;Indica fase de teste/avaliação sem posicionamento claro
+Exatamente;Neutro;-;Resposta ambígua, sem contexto suficiente para determinar polaridade
+Estou conhecendo, pretendo trabalhar com ele;Positivo;-;Indica intenção positiva e disposição para engajamento futuro
+Bom;Positivo;-;Marcador lexical positivo, Intenção comunicativa
+Ótimo;Positivo;-;Marcador lexical positivo explícito
+Gostei muito do atendimento e na resolução do meu problema;Positivo;-;Elogio explícito com menção a experiência positiva
+Muito eficiente;Positivo;Performance;Elogio relacionado a performance do app
+Não consigo fazer PIX, sempre dá erro quando tento transferir;Negativo;PIX;Problema específico com transferência PIX, erro ao executar operação
+O QR code não está funcionando;Negativo;PIX;Problema com QR code PIX, funcionalidade específica não funciona
+Não consigo entrar no app;Negativo;Login/Autenticação;Problema de acesso ao app, dificuldade de login
+Biometria não funciona;Negativo;Login/Autenticação;Problema com método de autenticação biométrica
+App bloqueou minha conta sem motivo;Negativo;Login/Autenticação, Segurança;Bloqueio de conta mencionado, pode envolver segurança também
+O app trava toda hora, muito lento para abrir;Negativo;Performance;Problemas de performance: travamentos e lentidão
+Não estou gostando desse aplicativo do banco tá travando demora pra abrir;Negativo;Performance;Reclamação sobre travamentos e demora para abrir
+App não abre;Negativo;Performance;Problema técnico: aplicativo não inicia
+Interface muito confusa, não consigo encontrar onde pagar minhas contas;Negativo;Interface/Usabilidade;Problema de navegação e localização de funcionalidades
+Menu difícil de navegar;Negativo;Interface/Usabilidade;Dificuldade de navegação no menu
+Não consigo entrar no app e quando consigo, o PIX não funciona;Negativo;Login/Autenticação, PIX;Múltiplos problemas: acesso e funcionalidade PIX
+O app está travando muito e não consigo fazer login. Além disso, não recebo notificações de PIX;Negativo;Performance, Login/Autenticação, Notificações, PIX;Múltiplos problemas: performance, acesso, notificações e PIX
+App lento para fazer PIX;Negativo;Performance, PIX;Problema de performance afetando funcionalidade PIX
+Os boletos DDA não são excluídos após o pagamento, fiz pagamento em duplicidade;Negativo;Pagamentos/Boletos;Problema com boletos DDA e pagamento duplicado
+Não consigo pagar minhas contas;Negativo;Pagamentos/Boletos;Dificuldade para realizar pagamento de contas
+Achei o app muito bom de usar mas quero cartão com limite que eu não tenho;Positivo;Empréstimos/Crédito;Solicitação de limite de crédito, não é problema funcional mas menciona crédito
+Não consigo solicitar empréstimo;Negativo;Empréstimos/Crédito;Problema funcional com solicitação de empréstimo
+Atendimento muito ruim;Negativo;Atendimento;Reclamação sobre qualidade do atendimento
+Chat não funciona;Negativo;Atendimento;Problema funcional com canal de atendimento
+Estou no exterior e não tenho mais acesso a minha conta;Negativo;Questões geográficas, Login/Autenticação;Problema de acesso relacionado a localização geográfica
+Não estou conseguindo pagar IPVA do meu carro;Negativo;Placas/Veículos;Problema com pagamento de IPVA
+O banco está me cobrando tarifa de algo que não uso;Negativo;Tarifas/Cobranças;Reclamação sobre cobrança indevida de tarifa
+Estão cobrando juros sem eu estar usando o cheque especial;Negativo;Tarifas/Cobranças;Reclamação sobre cobrança indevida de juros
+App ruim;Negativo;Não Identificado;Comentário genérico sem especificidade, sem problema funcional identificável
+Não gostei;Negativo;Não Identificado;Opinião genérica sem informação útil sobre problema específico
+Meu cartão não chegou estou esperando;Negativo;Cadastro/Conta;Relata um problema concreto: serviço não entregue (cartão físico)

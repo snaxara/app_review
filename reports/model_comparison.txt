@@ -1,0 +1,116 @@
+
+================================================================================
+COMPARACAO DE MODELOS GPT - METRICAS DE CORRELACAO
+================================================================================
+Data de geracao: 2026-01-15 23:21:15
+
+RESUMO GERAL
+--------------------------------------------------------------------------------
+Modelos testados: 4
+Comentarios processados por modelo: 20
+
+COMPARACAO DE METRICAS
+--------------------------------------------------------------------------------
+Modelo                         Issues     Capabilities    Episodios    Erros   
+--------------------------------------------------------------------------------
+gpt-4o-mini                    56         12              57           0       
+gpt-4o-2024-08-06              55         12              56           0       
+gpt-oss-20b                    57         11              58           0       
+gpt-5.2-2025-12-11             57         12              58           0       
+
+================================================================================
+MODELO: gpt-4o-mini
+--------------------------------------------------------------------------------
+Total de Issues: 56
+Total de BusinessCapabilities: 12
+Total de Episodios: 57
+Erros: 0
+
+Top 5 BusinessCapabilities (por numero de episodios):
+  1. Performance e Estabilidade: 23 episodios (23 issues)
+  2. Atendimento ao Cliente: 6 episodios (6 issues)
+  3. Gestão de Cadastro e Conta: 6 episodios (6 issues)
+  4. Segurança e Proteção: 5 episodios (5 issues)
+  5. Consulta de Saldo e Extrato: 3 episodios (3 issues)
+
+Top 5 Issues (por numero de episodios):
+  1. Problemas com PIX: 2 episodio(s)
+  2. Acesso ao cartão: 1 episodio(s)
+  3. Acompanhamento pelo app: 1 episodio(s)
+  4. App não abre: 1 episodio(s)
+  5. App não abre em determinados dias: 1 episodio(s)
+
+================================================================================
+MODELO: gpt-4o-2024-08-06
+--------------------------------------------------------------------------------
+Total de Issues: 55
+Total de BusinessCapabilities: 12
+Total de Episodios: 56
+Erros: 0
+
+Top 5 BusinessCapabilities (por numero de episodios):
+  1. Performance e Estabilidade: 21 episodios (21 issues)
+  2. Atendimento ao Cliente: 8 episodios (8 issues)
+  3. Segurança e Proteção: 5 episodios (5 issues)
+  4. Gestão de Cadastro e Conta: 4 episodios (4 issues)
+  5. Consulta de Saldo e Extrato: 3 episodios (3 issues)
+
+Top 5 Issues (por numero de episodios):
+  1. Problemas com PIX: 2 episodio(s)
+  2. Acompanhamento pelo app: 1 episodio(s)
+  3. App não abre: 1 episodio(s)
+  4. App trava: 1 episodio(s)
+  5. App trava na hora de receber o pagamento: 1 episodio(s)
+
+================================================================================
+MODELO: gpt-oss-20b
+--------------------------------------------------------------------------------
+Total de Issues: 57
+Total de BusinessCapabilities: 11
+Total de Episodios: 58
+Erros: 0
+
+Top 5 BusinessCapabilities (por numero de episodios):
+  1. Performance e Estabilidade: 24 episodios (24 issues)
+  2. Atendimento ao Cliente: 8 episodios (8 issues)
+  3. Segurança e Proteção: 5 episodios (5 issues)
+  4. Gestão de Cadastro e Conta: 4 episodios (4 issues)
+  5. Autenticação e Acesso: 3 episodios (3 issues)
+
+Top 5 Issues (por numero de episodios):
+  1. Problemas com PIX: 2 episodio(s)
+  2. Acesso ao aplicativo: 1 episodio(s)
+  3. App não abre: 1 episodio(s)
+  4. App trava: 1 episodio(s)
+  5. App trava na hora de receber o pagamento: 1 episodio(s)
+
+================================================================================
+MODELO: gpt-5.2-2025-12-11
+--------------------------------------------------------------------------------
+Total de Issues: 57
+Total de BusinessCapabilities: 12
+Total de Episodios: 58
+Erros: 0
+
+Top 5 BusinessCapabilities (por numero de episodios):
+  1. Performance e Estabilidade: 24 episodios (24 issues)
+  2. Atendimento ao Cliente: 6 episodios (6 issues)
+  3. Segurança e Proteção: 5 episodios (5 issues)
+  4. Gestão de Cadastro e Conta: 4 episodios (4 issues)
+  5. Autenticação e Acesso: 3 episodios (3 issues)
+
+Top 5 Issues (por numero de episodios):
+  1. Problemas com PIX: 2 episodio(s)
+  2. Acesso ao cartão: 1 episodio(s)
+  3. App não abre: 1 episodio(s)
+  4. App trava: 1 episodio(s)
+  5. App trava na hora de receber o pagamento: 1 episodio(s)
+
+================================================================================
+ANALISE COMPARATIVA
+--------------------------------------------------------------------------------
+Modelo com mais Issues extraidas: gpt-oss-20b (57 issues)
+Modelo com mais Episodios: gpt-oss-20b (58 episodios)
+Modelo com menos erros: gpt-4o-mini (0 erros)
+
+================================================================================

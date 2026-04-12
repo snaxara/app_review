@@ -1,0 +1,74 @@
+﻿python : C:\Users\simone.naxara\AppData\Roaming\Python\Python312\site-packages\
+sklearn\metrics\_classification.py:407: UserWarning: A single label was found 
+in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, 
+use the 'labels' parameter to pass all known labels.
+No linha:1 caractere:1
++ python calculate_inter_annotator_agreement.py 2>&1 | Out-File -Encodi ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\simone...l known labels. 
+   :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  warnings.warn(
+C:\Users\simone.naxara\AppData\Roaming\Python\Python312\site-packages\sklearn\m
+etrics\_classification.py:758: RuntimeWarning: invalid value encountered in 
+scalar divide
+  k = np.sum(w_mat * confusion) / np.sum(w_mat * expected)
+================================================================================
+C┴LCULO DE INTER-ANNOTATOR AGREEMENT
+================================================================================
+Data: 08/12/2025 18:35
+
+Carregando datasets...
+Carol: 1000 avaliacoes
+Samuel: 1000 avaliacoes
+Avaliacoes em comum: 1000
+
+================================================================================
+COHEN'S KAPPA POR CATEGORIA
+================================================================================
+
+Categoria                      Kappa        InterpretaþÒo        Carol      Samuel    
+-------------------------------------------------------------------------------------
+PIX                                 0.841  Quase perfeita OK            20         25
+Login/AutenticaþÒo                  0.399  Razoavel                     21         51
+Performance                         0.534  Moderada                     52        100
+Interface/Usabilidade               0.175  Insignificante              277         50
+EmprÚstimos/CrÚdito                 0.822  Quase perfeita OK            36         34
+Pagamentos/Boletos                  0.219  Razoavel                      6          3
+Saldo/Extrato                       0.598  Moderada                      7          3
+Atendimento                         0.735  Substancial OK               47         44
+Cadastro/Conta                      0.440  Moderada                     11          7
+Investimentos                       0.330  Razoavel                      9          3
+Seguranþa                          -0.003  Pior que aleatorio            2          6
+Notificaþ§es                        1.000  Quase perfeita OK             8          8
+Quest§es geogrßficas               -0.001  Pior que aleatorio            1          1
+Placas/VeÝculos                       nan  Quase perfeita OK             0          0
+Tarifas/Cobranþas                   0.749  Substancial OK                4          4
+Outros                              0.000  Insignificante                0         18
+
+-------------------------------------------------------------------------------------
+Kappa MÚdio: 0.456
+Categorias com concordancia substancial (Kappa >= 0.6): 5/16
+Meta: Kappa > 0.7 | Status: NAO ATINGIDO
+
+================================================================================
+AN┴LISE DE DISCREP┬NCIAS
+================================================================================
+Traceback (most recent call last):
+  File "C:\codigos\app_review\calculate_inter_annotator_agreement.py", line 
+274, in <module>
+    main()
+  File "C:\codigos\app_review\calculate_inter_annotator_agreement.py", line 
+249, in main
+    discrepancies = analyze_discrepancies(df_merged)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\codigos\app_review\calculate_inter_annotator_agreement.py", line 
+177, in analyze_discrepancies
+    print(f"\n{'Categoria':<30} {'Carol\u2713 Samuel\u2717':<15} 
+{'Samuel\u2713 Carol\u2717':<15} {'Ambos\u2713':<10} {'Taxa Acordo':<12}")
+  File "C:\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2713' in 
+position 38: character maps to <undefined>

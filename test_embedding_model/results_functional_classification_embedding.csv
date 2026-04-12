@@ -1,0 +1,2 @@
+Modelo,EMR,Hamming_Loss,Jaccard_Similarity,Precision_Macro,Recall_Macro,F1_Macro,Precision_Micro,Recall_Micro,F1_Micro
+text-embedding-3-large + Multi-label SVM,0.5158730158730159,0.07760141093474426,0.32106730386300275,0.6383148647299591,0.3375982042648709,0.40733935635896423,0.875,0.525,0.65625

@@ -1,0 +1,79 @@
+================================================================================
+MODELO DE ANÁLISE DE SENTIMENTO - APLICAÇÕES BANCÁRIAS
+================================================================================
+
+Este pacote contém o modelo desenvolvido para análise de sentimentos de 
+comentários de aplicativos bancários, incluindo scripts, documentação e 
+instruções de uso.
+
+================================================================================
+ARQUIVOS INCLUÍDOS
+================================================================================
+
+SCRIPTS PRINCIPAIS:
+-------------------
+1. collect_reviews.py
+   - Coleta avaliações da Google Play Store
+   - Saída: app_review_dataset.csv
+
+2. sentiment_analysis.py
+   - Análise de polarização (positivo/negativo/neutro)
+   - Modelo: BERTweet (96.17% de acurácia)
+   - Saída: sentiment_results.csv
+
+3. functional_correlation.py
+   - Categorização funcional em 15 categorias
+   - Modelo: GPT-4o (configurável)
+   - Saída: functional_correlation_results.csv
+
+DOCUMENTAÇÃO:
+-------------
+- README.md: Documentação completa do projeto
+- RESUMO_EXECUTIVO.md: Resumo executivo para gestores
+- INSTRUCOES_RAPIDAS.md: Guia rápido de instalação e uso
+- LEIA-ME_PRIMEIRO.txt: Este arquivo
+
+CONFIGURAÇÃO:
+-------------
+- requirements.txt: Lista de dependências Python
+- env_exemplo.txt: Exemplo de arquivo de configuração (.env)
+
+================================================================================
+INÍCIO RÁPIDO
+================================================================================
+
+1. INSTALAR DEPENDÊNCIAS:
+   pip install -r requirements.txt
+
+2. CONFIGURAR AMBIENTE:
+   - Copie env_exemplo.txt para .env
+   - Adicione sua chave da OpenAI no arquivo .env
+
+3. EXECUTAR SCRIPTS (na ordem):
+   python collect_reviews.py
+   python sentiment_analysis.py
+   python functional_correlation.py
+
+================================================================================
+RESULTADOS ESPERADOS
+================================================================================
+
+- Análise de Polarização: 96.17% de acurácia
+- Categorização Funcional: 15 categorias funcionais
+- Modelo validado com 366 avaliações classificadas manualmente
+
+================================================================================
+PRÓXIMOS PASSOS PARA DESENVOLVIMENTO
+================================================================================
+
+1. Integração com sistema de produção
+2. Automação da coleta periódica
+3. Dashboard de visualização
+4. Alertas para categorias críticas
+
+================================================================================
+PARA MAIS INFORMAÇÕES
+================================================================================
+
+Consulte o README.md para documentação completa ou o RESUMO_EXECUTIVO.md
+para visão geral executiva.
