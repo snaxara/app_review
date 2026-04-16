@@ -14,10 +14,13 @@ no máximo 15 palavras e não deve conter expressões redundantes como: “Estud
 nome completo aluno¹*; nome completo orientador2
 
 ### 1 Nome da Empresa ou Instituição (opcional). Titulação ou função ou departamento. Endereço completo (pessoal
+
 ou profissional) – Bairro; 00000-000 Cidade, Estado, País
+
 ### 2 Nome da Empresa ou Instituição (opcional). Titulação ou função ou departamento. Endereço completo (pessoal
+
 ou profissional) – Bairro; 00000-000 Cidade, Estado, País
-*autor correspondente: nome@email.com
+*autor correspondente: [nome@email.com](mailto:nome@email.com)
 
 ---
 
@@ -159,7 +162,9 @@ Resultados e Discussão
 O título da seção Resultados e Discussão deve ser alinhado à esquerda, grafado em
 negrito com as primeiras letras das palavras em letras maiúsculas. É permitido que a seção
 seja dividida em subtópicos, seguindo a formatação de acordo com a descrição feita no item
+
 ### 16.5 Resultados e Discussão e apresentados na mesma ordem da seção Metodologia ou
+
 Material e Métodos. Nesta seção devem ser apresentados, discutidos e interpretados os
 resultados obtidos, ou seja, os autores devem fazer uma discussão comparativa dos
 resultados do seu trabalho com aqueles existentes na literatura científica. É necessário

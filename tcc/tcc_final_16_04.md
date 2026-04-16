@@ -1,4 +1,4 @@
-﻿# Priorização de Backlog em Apps Bancários via "Knowledge Graph" e Feedback do Usuário
+# Priorização de Backlog em Apps Bancários via "Knowledge Graph" e Feedback do Usuário
 
 Simone Rossetti Nobre Naxara¹; Anna Carolina Martins²
 
@@ -48,7 +48,7 @@ Este trabalho é aplicado e ancora-se em evidências quantitativas: o objetivo �
 
 Para equilibrar custo de processamento e qualidade do que se extrai do texto, a solução foi dividida em duas etapas, cada uma com a técnica de linguagem natural mais adequada à tarefa. A Figura 1 apresenta o fluxo completo, desde a coleta inicial dos dados até a produção final dos documentos de priorização.
 
-![Pipeline de processamento de avaliações](../Documentos/imagens_tcc/Fig1_Pipeline_Processamento.png)
+Pipeline de processamento de avaliações
 
 Figura 1. "Pipeline" de processamento de avaliações, desde a coleta até a geração de documentos de priorização
 
@@ -92,7 +92,7 @@ Ao modelar "BusinessCapabilities" como entidades no grafo, cria-se uma ponte sem
 
 A estrutura do grafo foi cuidadosamente projetada com dois objetivos principais: garantir a unicidade das entidades e facilitar a identificação de bugs associados a versões específicas. Essa modelagem segue princípios estabelecidos para análise de software com grafos e aprendizado de máquina (Bryan & Moriano, 2023). A escolha por um "Knowledge Graph" abre a possibilidade de aplicar técnicas de "Social Network Analysis", que permitem identificar padrões estruturais, nós influentes e comunidades de problemas relacionados, seguindo metodologias consolidadas por Pinheiro (2011) e Newman (2010). A Figura 2 apresenta, de forma visual, as entidades e o fluxo de relacionamentos do "Knowledge Graph" temporal implementado.
 
-![Estrutura conceitual do Knowledge Graph temporal](../Documentos/imagens_tcc/Fig1_Pipeline_Arquitetura.png)
+Estrutura conceitual do Knowledge Graph temporal
 
 Figura 2. Estrutura conceitual do "Knowledge Graph" temporal: aplicativo, versão, episódio (comentário), "issue" e capacidade de negócio, com os principais tipos de relacionamento
 
@@ -134,7 +134,7 @@ A sexta etapa do pipeline consolida um artefato para apoio a comitê de backlog:
 
 Em testes do próprio pipeline, gerou-se o relatório em Markdown `Documentos/backlog_priorizado.md`, com **200** avaliações negativas processadas em **02/12/2025** e modelo **GPT-4o**. A Figura 12 não usa dados inventados: reproduz visualmente as oito categorias com maior contagem na tabela *Distribuição de Categorias* desse arquivo. As tabelas e figuras que sustentam a validação quantitativa **neste** texto referem-se ao recorte principal (100 comentários negativos do aplicativo CAIXA, janeiro de 2026, 85 issues etc.); os percentuais da rodada piloto **não** devem ser misturados aos da amostra final, pois volume e recorte temporal diferem.
 
-![Extrato da tabela-resumo por categoria (backlog_priorizado.md)](../Documentos/imagens_tcc/exemplo_documento_priorizacao_backlog.png)
+Extrato da tabela-resumo por categoria (backlog_priorizado.md)
 
 Figura 12. Extrato visual das principais categorias por quantidade, a partir do relatório `backlog_priorizado.md` (piloto: 200 avaliações negativas; 02/12/2025; GPT-4o).
 
@@ -150,13 +150,13 @@ Na fase de coleta analisada, foram obtidas 2.451 avaliações entre os dias 5 e 
 
 Para a tarefa de extração de entidades e mapeamento para "BusinessCapabilities", foram avaliados quatro modelos "GPT" diferentes utilizando 22 mapeamentos validados manualmente (22 comentários com checagem entre entidade e capacidade de negócio). A Figura 3 apresenta a comparação de acurácia; a Figura 4 apresenta a distribuição de resultados (corretos, incorretos e não encontrados).
 
-![Comparação de acurácia entre modelos GPT](../Documentos/imagens_tcc/figura3A_gpt_accuracy.png)
+Comparação de acurácia entre modelos GPT
 
 Figura 3. Comparação de acurácia entre modelos "GPT" para extração de entidades e mapeamento para "BusinessCapability".
 
 Fonte: Validação manual com 22 mapeamentos (2026).
 
-![Distribuição de resultados entre modelos GPT](../Documentos/imagens_tcc/figura3B_gpt_distribuicao.png)
+Distribuição de resultados entre modelos GPT
 
 Figura 4. Distribuição de resultados (corretos, incorretos e não encontrados) dos modelos "GPT" avaliados.
 
@@ -170,13 +170,13 @@ Em uma leitura qualitativa dos casos classificados como incorretos ou como não 
 
 A escolha da arquitetura "Transformer" resultou do estudo comparativo já citado em Material e métodos (DistilBERT multilíngue, Sanh et al., 2019; BERTweet com base em "XLM-RoBERTa", Nguyen et al., 2020). A comparação utilizou 1.000 avaliações com rótulo de referência ("ground truth"). As métricas quantitativas foram calculadas a partir das matrizes de confusão consolidadas no experimento (*n* = 1.000 por modelo). As Figuras 5 e 6 apresentam os resultados.
 
-![Comparação de métricas entre DistilBERT e BERTweet](../Documentos/imagens_tcc/comparacao_modelos_sentimentos.png)
+Comparação de métricas entre DistilBERT e BERTweet
 
 Figura 5. Comparação de métricas entre "DistilBERT" Multilíngue e "BERTweet" para análise de polarização do comentário. Painéis: (A) curva "ROC" ilustrativa coerente com o "ROC AUC" multiclasse ponderado, (B) métricas ("ROC AUC" OVR, precisão, *recall* e "F1" ponderados), (C) acurácia global.
 
 Fonte: Dados processados com "ground truth" de 1.000 avaliações (2026).
 
-![Matrizes de confusão DistilBERT e BERTweet](../Documentos/imagens_tcc/matriz_confusao_sentimentos.png)
+Matrizes de confusão DistilBERT e BERTweet
 
 Figura 6. Matrizes de confusão para classificação de polaridade (positivo, negativo, neutro): "DistilBERT" Multilíngue (A) e "BERTweet" (B).
 
@@ -208,7 +208,7 @@ A cobertura de linkagem entre entidades e BusinessCapabilities constitui uma mé
 
 A alta taxa de cobertura observada resultou de três estratégias combinadas. Primeiro, um mapeamento direto refinado que incorpora mais de 200 palavras-chave cuidadosamente selecionadas. Segundo, uma verificação por palavras-chave que ocorre antes de recorrer a uma categoria padrão. Terceiro, uma validação pré-criação que impede que entidades sejam criadas no grafo sem um mapeamento válido para pelo menos uma BusinessCapability. A forma como as issues se distribuem entre as diferentes BusinessCapabilities oferece insights valiosos sobre a capacidade do sistema em identificar padrões de forma equilibrada. A Figura 7 apresenta essa distribuição visualmente, enquanto a Tabela 2 detalha os números específicos.
 
-![Distribuição de issues e episódios por BusinessCapability](../Documentos/imagens_tcc/distribuicao_issues_capabilities.png)
+Distribuição de issues e episódios por BusinessCapability
 
 Figura 7. Distribuição de Issues e Episódios por BusinessCapability
 
@@ -242,7 +242,7 @@ As demais BusinessCapabilities apresentam distribuições mais equilibradas. Ges
 
 Ao analisar o "Knowledge Graph", foi possível identificar quais problemas foram mais frequentemente mencionados pelos usuários. A Figura 8 oferece uma visualização dessa distribuição, enquanto a Tabela 3 detalha as 10 "issues" mais críticas, organizadas por frequência de ocorrência e acompanhadas das "BusinessCapabilities" que foram impactadas.
 
-![Dez issues mais críticas por frequência](../Documentos/imagens_tcc/top_10_issues.png)
+Dez issues mais críticas por frequência
 
 Figura 8. Dez issues mais críticas identificadas nos comentários, ordenadas por frequência de ocorrência
 
@@ -272,7 +272,7 @@ Os resultados revelam que a issue "Lentidão" destaca-se de forma significativa,
 
 Ao examinar como as issues se distribuem segundo as características das BusinessCapabilities, emergem padrões reveladores sobre a natureza dos problemas que os usuários reportam. A Figura 9 consolida essas informações visualmente, enquanto as Tabelas 4, 5 e 6 detalham os dados quantitativos organizados por nível hierárquico, tipo e valor de negócio, respectivamente.
 
-![Distribuição por nível, tipo e valor de negócio](../Documentos/imagens_tcc/distribuicao_nivel_tipo_valor.png)
+Distribuição por nível, tipo e valor de negócio
 
 Figura 9. Distribuição de Issues por Nível Hierárquico, Tipo de Capability e Valor de Negócio
 
@@ -326,13 +326,13 @@ O processo de refinamento do algoritmo envolveu validação manual de 22 coment�
 
 As Figuras 10 e 11 fecham a análise de redes aplicada ao grafo: centralidade de grau para issues e para BusinessCapabilities, densidade da rede, distribuição de grau e o conjunto de issues com maior coeficiente de agrupamento. O objetivo é complementar as tabelas com uma leitura de estrutura, ou seja, quem se liga a quem além da contagem de ocorrências.
 
-![Degree centrality para Issues e BusinessCapabilities](../Documentos/imagens_tcc/sna_degree_centrality.png)
+Degree centrality para Issues e BusinessCapabilities
 
 Figura 10. "Degree Centrality" para "Issues" (esquerda) e "BusinessCapabilities" (direita)
 
 Fonte: Cálculo próprio baseado em Pinheiro (2011) e Newman (2010)
 
-![Métricas combinadas de Social Network Analysis](../Documentos/imagens_tcc/sna_metricas_combinadas.png)
+Métricas combinadas de Social Network Analysis
 
 Figura 11. Métricas combinadas de "Social Network Analysis". (A) Densidade da rede, (B) Distribuição de "Degree Centrality" para "Issues", (C) "Top 10" "Issues" por "Clustering Coefficient", (D) Resumo estatístico da rede. O "clustering coefficient" é calculado conforme definição de Newman (2010), medindo a proporção de conexões entre vizinhos e variando de 0 a 1
 
