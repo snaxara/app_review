@@ -12,21 +12,23 @@ Este relatório apresenta a priorização de funcionalidades do aplicativo banc�
 
 ### Distribuição de Categorias
 
-| Categoria | Quantidade | Porcentagem | Severidade Média | Prioridade |
-|:----------|:-----------|:------------|:-----------------|:-----------|
-| Performance | 88 | 44.0% | 1.86/5 | 🟠 ALTA |
-| Login/Autenticação | 28 | 14.0% | 1.79/5 | 🟠 ALTA |
-| Segurança | 4 | 2.0% | 1.00/5 | 🟠 ALTA |
-| Pagamentos/Boletos | 2 | 1.0% | 1.50/5 | 🟡 MÉDIA |
-| PIX | 4 | 2.0% | 2.75/5 | 🟡 MÉDIA |
-| Empréstimos/Crédito | 8 | 4.0% | 1.50/5 | 🟡 MÉDIA |
-| Atendimento | 9 | 4.5% | 1.00/5 | 🟡 MÉDIA |
-| Cadastro/Conta | 5 | 2.5% | 1.00/5 | 🟡 MÉDIA |
-| Outros | 39 | 19.5% | 1.51/5 | 🟡 MÉDIA |
-| Interface/Usabilidade | 4 | 2.0% | 2.50/5 | 🟡 MÉDIA |
-| Saldo/Extrato | 3 | 1.5% | 2.67/5 | 🟡 MÉDIA |
-| Notificações | 4 | 2.0% | 2.50/5 | 🟢 BAIXA |
-| Investimentos | 2 | 1.0% | 3.50/5 | 🟢 BAIXA |
+
+| Categoria             | Quantidade | Porcentagem | Severidade Média | Prioridade |
+| --------------------- | ---------- | ----------- | ---------------- | ---------- |
+| Performance           | 88         | 44.0%       | 1.86/5           | 🟠 ALTA    |
+| Login/Autenticação    | 28         | 14.0%       | 1.79/5           | 🟠 ALTA    |
+| Segurança             | 4          | 2.0%        | 1.00/5           | 🟠 ALTA    |
+| Pagamentos/Boletos    | 2          | 1.0%        | 1.50/5           | 🟡 MÉDIA   |
+| PIX                   | 4          | 2.0%        | 2.75/5           | 🟡 MÉDIA   |
+| Empréstimos/Crédito   | 8          | 4.0%        | 1.50/5           | 🟡 MÉDIA   |
+| Atendimento           | 9          | 4.5%        | 1.00/5           | 🟡 MÉDIA   |
+| Cadastro/Conta        | 5          | 2.5%        | 1.00/5           | 🟡 MÉDIA   |
+| Outros                | 39         | 19.5%       | 1.51/5           | 🟡 MÉDIA   |
+| Interface/Usabilidade | 4          | 2.0%        | 2.50/5           | 🟡 MÉDIA   |
+| Saldo/Extrato         | 3          | 1.5%        | 2.67/5           | 🟡 MÉDIA   |
+| Notificações          | 4          | 2.0%        | 2.50/5           | 🟢 BAIXA   |
+| Investimentos         | 2          | 1.0%        | 3.50/5           | 🟢 BAIXA   |
+
 
 ---
 
@@ -35,6 +37,7 @@ Este relatório apresenta a priorização de funcionalidades do aplicativo banc�
 ### 88. Performance (Prioridade: ALTA)
 
 **Métricas:**
+
 - 📊 Frequência: 88 avaliações (44.0% do total)
 - ⭐ Severidade Média: 1.86/5
 - 🎯 Score de Prioridade: 0.63
@@ -46,6 +49,7 @@ Este relatório apresenta a priorização de funcionalidades do aplicativo banc�
 - "Não fecha. Que saco" (Score: 2/5)
 
 **Ação Recomendada:**
+
 - Executar profiling do app. Otimizar tempo de inicialização e identificar memory leaks.
 
 ---
@@ -53,6 +57,7 @@ Este relatório apresenta a priorização de funcionalidades do aplicativo banc�
 ### 28. Login/Autenticação (Prioridade: ALTA)
 
 **Métricas:**
+
 - 📊 Frequência: 28 avaliações (14.0% do total)
 - ⭐ Severidade Média: 1.79/5
 - 🎯 Score de Prioridade: 0.55
@@ -64,6 +69,7 @@ Este relatório apresenta a priorização de funcionalidades do aplicativo banc�
 - "Não estou conseguindo acessar a minha conta está horrível" (Score: 3/5)
 
 **Ação Recomendada:**
+
 - Analisar taxa de falha no login. Revisar fluxo de recuperação de senha e biometria.
 
 ---
@@ -71,6 +77,7 @@ Este relatório apresenta a priorização de funcionalidades do aplicativo banc�
 ### 4. Segurança (Prioridade: ALTA)
 
 **Métricas:**
+
 - 📊 Frequência: 4 avaliações (2.0% do total)
 - ⭐ Severidade Média: 1.00/5
 - 🎯 Score de Prioridade: 0.55
@@ -82,6 +89,7 @@ Este relatório apresenta a priorização de funcionalidades do aplicativo banc�
 - "O pior está roubando meu dinheiro cobrando oq eu não devo esse AP e um roubo" (Score: 1/5)
 
 **Ação Recomendada:**
+
 - Revisar políticas de bloqueio. Implementar notificações proativas de segurança.
 
 ---
@@ -89,6 +97,7 @@ Este relatório apresenta a priorização de funcionalidades do aplicativo banc�
 ### 2. Pagamentos/Boletos (Prioridade: MÉDIA)
 
 **Métricas:**
+
 - 📊 Frequência: 2 avaliações (1.0% do total)
 - ⭐ Severidade Média: 1.50/5
 - 🎯 Score de Prioridade: 0.45
@@ -99,6 +108,7 @@ Este relatório apresenta a priorização de funcionalidades do aplicativo banc�
 - "Agora mesmo estou precisando efetuar o pagamento e não estou conseguindo isso vêm acontecendo toda noite" (Score: 1/5)
 
 **Ação Recomendada:**
+
 - Revisar lógica de exclusão de boletos pagos no DDA. Implementar confirmação antes de pagamentos.
 
 ---
@@ -106,6 +116,7 @@ Este relatório apresenta a priorização de funcionalidades do aplicativo banc�
 ### 4. PIX (Prioridade: MÉDIA)
 
 **Métricas:**
+
 - 📊 Frequência: 4 avaliações (2.0% do total)
 - ⭐ Severidade Média: 2.75/5
 - 🎯 Score de Prioridade: 0.44
@@ -117,6 +128,7 @@ Este relatório apresenta a priorização de funcionalidades do aplicativo banc�
 - "As vezes que mais preciso fazer um pix está fora do ar" (Score: 3/5)
 
 **Ação Recomendada:**
+
 - Investigar logs de erro nas transações PIX. Revisar integração com BACEN e timeout de confirmação.
 
 ---
@@ -124,6 +136,7 @@ Este relatório apresenta a priorização de funcionalidades do aplicativo banc�
 ### 8. Empréstimos/Crédito (Prioridade: MÉDIA)
 
 **Métricas:**
+
 - 📊 Frequência: 8 avaliações (4.0% do total)
 - ⭐ Severidade Média: 1.50/5
 - 🎯 Score de Prioridade: 0.44
@@ -135,6 +148,7 @@ Este relatório apresenta a priorização de funcionalidades do aplicativo banc�
 - "Um lixo o nubank foi o único que libera cartão de crédito com limite na hora e não tem essas frescura." (Score: 2/5)
 
 **Ação Recomendada:**
+
 - Melhorar comunicação sobre limites e condições. Revisar fluxo de solicitação.
 
 ---
@@ -142,6 +156,7 @@ Este relatório apresenta a priorização de funcionalidades do aplicativo banc�
 ### 9. Atendimento (Prioridade: MÉDIA)
 
 **Métricas:**
+
 - 📊 Frequência: 9 avaliações (4.5% do total)
 - ⭐ Severidade Média: 1.00/5
 - 🎯 Score de Prioridade: 0.41
@@ -153,6 +168,7 @@ Este relatório apresenta a priorização de funcionalidades do aplicativo banc�
 - "Esse banco é horrível estou tentando quitar um contrato do próprio banco Santander e nao consigo enquanto isso o juros a cada dia aumenta perdi 3 horas em ligações e app e ninguém resolve nada depois ..." (Score: 1/5)
 
 **Ação Recomendada:**
+
 - Treinar equipe de suporte. Melhorar tempo de resposta no chat.
 
 ---
@@ -160,6 +176,7 @@ Este relatório apresenta a priorização de funcionalidades do aplicativo banc�
 ### 5. Cadastro/Conta (Prioridade: MÉDIA)
 
 **Métricas:**
+
 - 📊 Frequência: 5 avaliações (2.5% do total)
 - ⭐ Severidade Média: 1.00/5
 - 🎯 Score de Prioridade: 0.40
@@ -171,6 +188,7 @@ Este relatório apresenta a priorização de funcionalidades do aplicativo banc�
 - "Esse aplicativo é muito ruim não tem nenhuma opção de encerramento de conta e o banco parece q fica obrigando o usuário a ficar com a conta e o usuário fica preso no aplicativo sem saber o q que fazer..." (Score: 1/5)
 
 **Ação Recomendada:**
+
 - Revisar fluxo de abertura de conta. Melhorar validação de documentos.
 
 ---
@@ -178,6 +196,7 @@ Este relatório apresenta a priorização de funcionalidades do aplicativo banc�
 ### 39. Outros (Prioridade: MÉDIA)
 
 **Métricas:**
+
 - 📊 Frequência: 39 avaliações (19.5% do total)
 - ⭐ Severidade Média: 1.51/5
 - 🎯 Score de Prioridade: 0.35
@@ -189,6 +208,7 @@ Este relatório apresenta a priorização de funcionalidades do aplicativo banc�
 - "Ruim demais" (Score: 1/5)
 
 **Ação Recomendada:**
+
 - Analisar casos específicos para identificar padrões.
 
 ---
@@ -196,6 +216,7 @@ Este relatório apresenta a priorização de funcionalidades do aplicativo banc�
 ### 4. Interface/Usabilidade (Prioridade: MÉDIA)
 
 **Métricas:**
+
 - 📊 Frequência: 4 avaliações (2.0% do total)
 - ⭐ Severidade Média: 2.50/5
 - 🎯 Score de Prioridade: 0.34
@@ -207,6 +228,7 @@ Este relatório apresenta a priorização de funcionalidades do aplicativo banc�
 - "Muito funcional. *Atualização 07/2024: Bem ruim esse banner logo na abertura do App hein?!" (Score: 4/5)
 
 **Ação Recomendada:**
+
 - Realizar testes de usabilidade com usuários reais. Revisar arquitetura de informação.
 
 ---
@@ -214,6 +236,7 @@ Este relatório apresenta a priorização de funcionalidades do aplicativo banc�
 ### 3. Saldo/Extrato (Prioridade: MÉDIA)
 
 **Métricas:**
+
 - 📊 Frequência: 3 avaliações (1.5% do total)
 - ⭐ Severidade Média: 2.67/5
 - 🎯 Score de Prioridade: 0.33
@@ -225,6 +248,7 @@ Este relatório apresenta a priorização de funcionalidades do aplicativo banc�
 - "os extratos não atualizam" (Score: 4/5)
 
 **Ação Recomendada:**
+
 - Otimizar carregamento de histórico. Implementar cache local.
 
 ---
@@ -232,6 +256,7 @@ Este relatório apresenta a priorização de funcionalidades do aplicativo banc�
 ### 4. Notificações (Prioridade: BAIXA)
 
 **Métricas:**
+
 - 📊 Frequência: 4 avaliações (2.0% do total)
 - ⭐ Severidade Média: 2.50/5
 - 🎯 Score de Prioridade: 0.25
@@ -243,6 +268,7 @@ Este relatório apresenta a priorização de funcionalidades do aplicativo banc�
 - "Muito fraco não dá alerta de pix" (Score: 1/5)
 
 **Ação Recomendada:**
+
 - Revisar sistema de notificações push. Melhorar configurações de alertas.
 
 ---
@@ -250,6 +276,7 @@ Este relatório apresenta a priorização de funcionalidades do aplicativo banc�
 ### 2. Investimentos (Prioridade: BAIXA)
 
 **Métricas:**
+
 - 📊 Frequência: 2 avaliações (1.0% do total)
 - ⭐ Severidade Média: 3.50/5
 - 🎯 Score de Prioridade: 0.21
@@ -260,6 +287,7 @@ Este relatório apresenta a priorização de funcionalidades do aplicativo banc�
 - "o extrato de investimento não atende as minhas expectativas" (Score: 4/5)
 
 **Ação Recomendada:**
+
 - Melhorar interface de investimentos. Revisar comunicação de rendimentos.
 
 ---

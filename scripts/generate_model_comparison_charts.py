@@ -4,11 +4,15 @@ Script para gerar gráficos comparativos de modelos
 2. Comparação de modelos GPT para categorização (4 modelos)
 """
 
-import matplotlib.pyplot as plt
-import seaborn as sns
-import numpy as np
-from pathlib import Path
 import json
+import matplotlib as mpl
+import matplotlib.pyplot as plt
+import numpy as np
+import seaborn as sns
+from pathlib import Path
+
+_REPO_ROOT = Path(__file__).resolve().parents[1]
+_CONFUSION_JSON = _REPO_ROOT / "data" / "confusion_matrices_sentiment.json"
 
 # Configuração de estilo
 plt.style.use('seaborn-v0_8-darkgrid')
@@ -33,296 +37,419 @@ def criar_diretorio_imagens():
     dir_imagens.mkdir(exist_ok=True)
     return dir_imagens
 
+def _curva_roc_esquematica(auc: float, n: int = 100) -> tuple[np.ndarray, np.ndarray]:
+    """Curva ROC suave só para ilustração (AUC alvo aproximado); sem probabilidades por classe."""
+    auc = float(np.clip(auc, 0.5, 1.0))
+    fpr = np.linspace(0, 1, n)
+    beta = (2 * auc - 1) / (2 * (1 - auc) + 1e-9)
+    beta = float(np.clip(beta, 0.05, 15))
+    tpr = fpr ** (1 / beta)
+    return fpr, tpr
+
+
 def grafico_comparacao_sentimentos(output_dir):
-    """Gera gráficos comparativos para modelos de sentimentos"""
-    
-    # Dados dos modelos (do model_comparison_final.md)
-    modelos = {
-        'DistilBERT Multilíngue': {
-            'accuracy': 74.32,
-            'precision': 76.43,
-            'recall': 74.32,
-            'f1_score': 75.26,
-            'roc_auc': 78.98,
-            'color': CORES['distilbert']
-        },
-        'BERTweet (Twitter XLM-RoBERTa)': {
-            'accuracy': 96.17,
-            'precision': 98.17,
-            'recall': 96.17,
-            'f1_score': 96.92,
-            'roc_auc': 98.97,
-            'color': CORES['bertweet']
-        }
+    """
+    Três painéis (A/B/C), normas Tabela 8: sem grade, sem preenchimento de fundo,
+    eixos pretos 1,5 pt, Arial 11, barras em tons de cinza (anexo).
+    Métricas alinhadas às matrizes n=1000 em data/confusion_matrices_sentiment.json.
+    """
+    _, _, meta = _carregar_matrizes_confusao()
+    md = meta["distilbert"]["chart_metrics"]
+    mb = meta["bertweet"]["chart_metrics"]
+
+    cinza_claro = "#BCBCBC"
+    cinza_escuro = "#6E6E6E"
+
+    rc = {
+        "figure.facecolor": "white",
+        "axes.facecolor": "white",
+        "savefig.facecolor": "white",
+        "font.size": 11,
+        "font.family": "sans-serif",
+        "font.sans-serif": ["Arial", "Helvetica", "DejaVu Sans"],
+        "text.color": "black",
     }
-    
-    # Criar figura com 3 subplots
-    fig, axes = plt.subplots(1, 3, figsize=(18, 6))
-    
-    # 1. ROC Curve Comparison (simulado - não temos dados reais de ROC)
-    ax1 = axes[0]
-    
-    # Simular curvas ROC (em produção, viriam dos dados reais)
-    fpr_distil = np.linspace(0, 1, 100)
-    tpr_distil = 0.79 * fpr_distil + 0.21 * np.sqrt(fpr_distil)  # Aproximação
-    fpr_bertweet = np.linspace(0, 1, 100)
-    tpr_bertweet = 0.99 * fpr_bertweet + 0.01 * np.sqrt(fpr_bertweet)  # Aproximação
-    
-    ax1.plot(fpr_distil, tpr_distil, color=CORES['distilbert'], linewidth=3, 
-             label=f"DistilBERT Multilíngue (AUC = {modelos['DistilBERT Multilíngue']['roc_auc']/100:.3f})")
-    ax1.plot(fpr_bertweet, tpr_bertweet, color=CORES['bertweet'], linewidth=3,
-             label=f"BERTweet (Twitter XLM-RoBERTa) (AUC = {modelos['BERTweet (Twitter XLM-RoBERTa)']['roc_auc']/100:.3f})")
-    ax1.plot([0, 1], [0, 1], 'k--', linewidth=2, label='Random Classifier')
-    
-    ax1.set_xlabel('False Positive Rate', fontsize=12, fontweight='bold')
-    ax1.set_ylabel('True Positive Rate', fontsize=12, fontweight='bold')
-    ax1.set_title('ROC Curve Comparison', fontsize=14, fontweight='bold', pad=15)
-    ax1.legend(loc='lower right', fontsize=10)
-    ax1.grid(alpha=0.3)
-    ax1.set_xlim([0, 1])
-    ax1.set_ylim([0, 1])
-    
-    # 2. Metrics Comparison
-    ax2 = axes[1]
-    
-    metricas = ['ROC AUC', 'Precision', 'Recall', 'F1-Score']
-    distil_values = [
-        modelos['DistilBERT Multilíngue']['roc_auc']/100,
-        modelos['DistilBERT Multilíngue']['precision']/100,
-        modelos['DistilBERT Multilíngue']['recall']/100,
-        modelos['DistilBERT Multilíngue']['f1_score']/100
-    ]
-    bertweet_values = [
-        modelos['BERTweet (Twitter XLM-RoBERTa)']['roc_auc']/100,
-        modelos['BERTweet (Twitter XLM-RoBERTa)']['precision']/100,
-        modelos['BERTweet (Twitter XLM-RoBERTa)']['recall']/100,
-        modelos['BERTweet (Twitter XLM-RoBERTa)']['f1_score']/100
-    ]
-    
-    x = np.arange(len(metricas))
-    width = 0.35
-    
-    bars1 = ax2.bar(x - width/2, distil_values, width, label='DistilBERT Multilíngue', 
-                    color=CORES['distilbert'], alpha=0.8)
-    bars2 = ax2.bar(x + width/2, bertweet_values, width, label='BERTweet (Twitter XLM-RoBERTa)', 
-                    color=CORES['bertweet'], alpha=0.8)
-    
-    # Calcular altura máxima para ajustar ylim dinamicamente
-    max_height = max(max(distil_values), max(bertweet_values))
-    
-    ax2.set_xlabel('Metrics', fontsize=12, fontweight='bold', labelpad=8)
-    ax2.set_ylabel('Score', fontsize=12, fontweight='bold', labelpad=8)
-    ax2.set_title('Metrics Comparison', fontsize=14, fontweight='bold', pad=15)
-    ax2.set_xticks(x)
-    ax2.set_xticklabels(metricas, rotation=0, ha='center')
-    # Ylim ajustado dinamicamente: altura máxima + 15% de espaço
-    ax2.set_ylim([0, max_height * 1.15])
-    ax2.legend(fontsize=9, loc='upper left', framealpha=0.9)
-    ax2.grid(axis='y', alpha=0.3)
-    ax2.tick_params(axis='x', pad=5)
-    
-    # Adicionar valores nas barras - bem próximo mas sem sobrepor
-    for bars in [bars1, bars2]:
-        for bar in bars:
-            height = bar.get_height()
-            # Offset mínimo: 1% da altura máxima para ficar bem próximo
-            offset = max_height * 0.015
-            ax2.text(bar.get_x() + bar.get_width()/2., height + offset,
-                    f'{height:.2f}', ha='center', va='bottom', fontsize=9, fontweight='bold')
-    
-    # 3. Accuracy Comparison
-    ax3 = axes[2]
-    
-    modelos_nomes = ['DistilBERT\nMultilíngue', 'BERTweet\n(Twitter XLM-RoBERTa)']
-    accuracies = [
-        modelos['DistilBERT Multilíngue']['accuracy']/100,
-        modelos['BERTweet (Twitter XLM-RoBERTa)']['accuracy']/100
-    ]
-    cores_acc = [CORES['distilbert'], CORES['bertweet']]
-    
-    bars = ax3.bar(modelos_nomes, accuracies, color=cores_acc, alpha=0.8)
-    
-    # Calcular altura máxima para ajustar ylim dinamicamente
-    max_acc = max(accuracies)
-    
-    ax3.set_ylabel('Accuracy', fontsize=12, fontweight='bold', labelpad=8)
-    ax3.set_title('Accuracy Comparison', fontsize=14, fontweight='bold', pad=15)
-    # Ylim ajustado dinamicamente: altura máxima + 15% de espaço
-    ax3.set_ylim([0, max_acc * 1.15])
-    ax3.grid(axis='y', alpha=0.3)
-    ax3.tick_params(axis='x', pad=5)
-    
-    # Adicionar valores nas barras - bem próximo mas sem sobrepor
-    for bar, acc in zip(bars, accuracies):
-        height = bar.get_height()
-        # Offset mínimo: 1.5% da altura máxima para ficar bem próximo
-        offset = max_acc * 0.015
-        ax3.text(bar.get_x() + bar.get_width()/2., height + offset,
-                f'{acc*100:.2f}%', ha='center', va='bottom', fontsize=11, fontweight='bold')
-    
-    plt.tight_layout(pad=2.0)
-    plt.savefig(output_dir / 'comparacao_modelos_sentimentos.png', dpi=300, bbox_inches='tight', pad_inches=0.15)
-    plt.close()
-    
+    with plt.rc_context(rc):
+        fig, axes = plt.subplots(1, 3, figsize=(16, 5.2), facecolor="white")
+
+        # --- A: ROC (esquemático; AUC coerente com métricas do JSON) ---
+        ax1 = axes[0]
+        auc_d = md["roc_auc_weighted_ovr_pct"] / 100.0
+        auc_b = mb["roc_auc_weighted_ovr_pct"] / 100.0
+        fpr_d, tpr_d = _curva_roc_esquematica(auc_d)
+        fpr_b, tpr_b = _curva_roc_esquematica(auc_b)
+        ax1.plot(
+            fpr_d,
+            tpr_d,
+            color=cinza_escuro,
+            linewidth=1.5,
+            label=f"DistilBERT Multilíngue (AUC = {auc_d:.3f})",
+        )
+        ax1.plot(
+            fpr_b,
+            tpr_b,
+            color="#333333",
+            linewidth=1.5,
+            label=f"BERTweet (Twitter XLM-RoBERTa) (AUC = {auc_b:.3f})",
+        )
+        ax1.plot([0, 1], [0, 1], linestyle="--", color="#888888", linewidth=1.2, label="Classificador aleatório")
+        ax1.set_xlabel("Taxa de falsos positivos", fontsize=11, fontweight="normal", labelpad=6)
+        ax1.set_ylabel("Taxa de verdadeiros positivos", fontsize=11, fontweight="normal", labelpad=6)
+        ax1.set_xlim(0, 1)
+        ax1.set_ylim(0, 1)
+        _esalq_axes_style(ax1, linewidth=1.5)
+        _painel_letra_manual(ax1, "A")
+        ax1.legend(loc="lower right", fontsize=9, frameon=True, edgecolor="0.5")
+
+        # --- B: métricas ---
+        ax2 = axes[1]
+        metricas = ["ROC AUC", "Precisão", "Recall", "F1-Score"]
+        distil_values = [
+            md["roc_auc_weighted_ovr_pct"] / 100.0,
+            md["precision_weighted_pct"] / 100.0,
+            md["recall_weighted_pct"] / 100.0,
+            md["f1_weighted_pct"] / 100.0,
+        ]
+        bertweet_values = [
+            mb["roc_auc_weighted_ovr_pct"] / 100.0,
+            mb["precision_weighted_pct"] / 100.0,
+            mb["recall_weighted_pct"] / 100.0,
+            mb["f1_weighted_pct"] / 100.0,
+        ]
+        x = np.arange(len(metricas))
+        width = 0.35
+        bars1 = ax2.bar(
+            x - width / 2,
+            distil_values,
+            width,
+            label="DistilBERT Multilíngue",
+            color=cinza_claro,
+            edgecolor="black",
+            linewidth=0.6,
+        )
+        bars2 = ax2.bar(
+            x + width / 2,
+            bertweet_values,
+            width,
+            label="BERTweet (Twitter XLM-RoBERTa)",
+            color=cinza_escuro,
+            edgecolor="black",
+            linewidth=0.6,
+        )
+        max_height = max(max(distil_values), max(bertweet_values))
+        ax2.set_ylabel("Valor (%)", fontsize=11, fontweight="normal", labelpad=6)
+        ax2.set_xticks(x)
+        ax2.set_xticklabels(metricas, fontsize=11, fontweight="normal")
+        ax2.set_ylim(0, min(1.0, max_height * 1.18))
+        ax2.yaxis.set_major_formatter(mpl.ticker.FuncFormatter(lambda v, _: f"{v*100:.0f}"))
+        _esalq_axes_style(ax2, linewidth=1.5)
+        _painel_letra_manual(ax2, "B")
+        ax2.legend(fontsize=8, loc="upper left", frameon=True, edgecolor="0.5")
+        for bars in (bars1, bars2):
+            for bar in bars:
+                h = bar.get_height()
+                ax2.text(
+                    bar.get_x() + bar.get_width() / 2.0,
+                    h + max_height * 0.02,
+                    f"{h*100:.1f}",
+                    ha="center",
+                    va="bottom",
+                    fontsize=9,
+                    fontweight="normal",
+                )
+
+        # --- C: acurácia ---
+        ax3 = axes[2]
+        nomes = ["DistilBERT\nMultilíngue", "BERTweet\n(Twitter XLM-RoBERTa)"]
+        accuracies = [md["accuracy_pct"] / 100.0, mb["accuracy_pct"] / 100.0]
+        bars = ax3.bar(
+            nomes,
+            accuracies,
+            color=[cinza_claro, cinza_escuro],
+            edgecolor="black",
+            linewidth=0.6,
+        )
+        max_acc = max(accuracies)
+        ax3.set_ylabel("Acurácia (%)", fontsize=11, fontweight="normal", labelpad=6)
+        ax3.set_ylim(0, max_acc * 1.2)
+        ax3.yaxis.set_major_formatter(mpl.ticker.FuncFormatter(lambda v, _: f"{v*100:.0f}"))
+        _esalq_axes_style(ax3, linewidth=1.5)
+        _painel_letra_manual(ax3, "C")
+        for bar, acc in zip(bars, accuracies):
+            h = bar.get_height()
+            ax3.text(
+                bar.get_x() + bar.get_width() / 2.0,
+                h + max_acc * 0.02,
+                f"{acc*100:.2f}",
+                ha="center",
+                va="bottom",
+                fontsize=11,
+                fontweight="normal",
+            )
+
+        plt.tight_layout(pad=1.8)
+        plt.savefig(
+            output_dir / "comparacao_modelos_sentimentos.png",
+            dpi=300,
+            bbox_inches="tight",
+            pad_inches=0.12,
+            facecolor="white",
+            edgecolor="none",
+        )
+        plt.close()
+
     print(f"Grafico salvo: {output_dir / 'comparacao_modelos_sentimentos.png'}")
 
+def _annotate_confusion_matrix(ax, cm, cmap, vmax):
+    """Números nas células com cor de texto contrastante (legibilidade em tons escuros)."""
+    for i in range(cm.shape[0]):
+        for j in range(cm.shape[1]):
+            val = int(cm[i, j])
+            t = (val / vmax) if vmax > 0 else 0.0
+            rgba = cmap(np.clip(t, 0, 1))
+            luminance = 0.299 * rgba[0] + 0.587 * rgba[1] + 0.114 * rgba[2]
+            color = "#ffffff" if luminance < 0.52 else "#111111"
+            ax.text(
+                j, i, str(val),
+                ha="center", va="center",
+                color=color, fontsize=12, fontweight="normal",
+            )
+
+
+def _esalq_axes_style(ax, linewidth=1.5):
+    """Tabela 8: eixos principais em preto 1,5 pt; sem grade; sem borda extra."""
+    ax.grid(False)
+    ax.set_axisbelow(False)
+    for s in ("top", "right"):
+        ax.spines[s].set_visible(False)
+    for s in ("bottom", "left"):
+        ax.spines[s].set_visible(True)
+        ax.spines[s].set_color("black")
+        ax.spines[s].set_linewidth(linewidth)
+
+
+def _painel_letra_manual(ax, letra: str):
+    """Item figuras multipainel: letra maiúscula, canto superior esquerdo, sem parênteses nem ponto."""
+    ax.text(
+        0.02, 0.98, letra,
+        transform=ax.transAxes,
+        fontsize=12,
+        fontweight="normal",
+        color="black",
+        ha="left",
+        va="top",
+    )
+
+
+def _carregar_matrizes_confusao():
+    """Lê data/confusion_matrices_sentiment.json (gerado por build_confusion_matrices_gt1000.py)."""
+    if not _CONFUSION_JSON.is_file():
+        raise FileNotFoundError(
+            f"Arquivo ausente: {_CONFUSION_JSON}. Rode: python scripts/build_confusion_matrices_gt1000.py"
+        )
+    data = json.loads(_CONFUSION_JSON.read_text(encoding="utf-8"))
+    distil = np.array(data["distilbert"]["matrix"], dtype=int)
+    bert = np.array(data["bertweet"]["matrix"], dtype=int)
+    return distil, bert, data
+
+
 def grafico_matriz_confusao_sentimentos(output_dir):
-    """Gera matrizes de confusão para modelos de sentimentos"""
-    
-    # Dados simulados baseados nas informações do relatório
-    # Em produção, esses dados viriam dos resultados reais
-    
-    # DistilBERT - valores aproximados baseados no relatório
-    distil_matrix = np.array([
-        [177, 48, 0],   # positive: predito como positive, negative, neutral
-        [26, 94, 14],   # negative: predito como positive, negative, neutral
-        [6, 0, 1]       # neutral: predito como positive, negative, neutral
-    ])
-    
-    # BERTweet - valores aproximados baseados no relatório
-    bertweet_matrix = np.array([
-        [218, 0, 7],    # positive: predito como positive, negative, neutral
-        [1, 128, 5],    # negative: predito como positive, negative, neutral
-        [1, 0, 6]       # neutral: predito como positive, negative, neutral
-    ])
-    
-    fig, axes = plt.subplots(1, 2, figsize=(16, 6))
-    
-    labels = ['positive', 'negative', 'neutral']
-    
-    # Matriz DistilBERT
-    sns.heatmap(distil_matrix, annot=True, fmt='d', cmap='Blues', 
-                xticklabels=labels, yticklabels=labels,
-                ax=axes[0], cbar_kws={'label': 'Quantidade'}, vmin=0, vmax=220)
-    axes[0].set_title('Matriz de Confusão - DistilBERT Multilíngue', 
-                      fontsize=14, fontweight='bold', pad=15)
-    axes[0].set_xlabel('Predito pelo Modelo', fontsize=11, fontweight='bold')
-    axes[0].set_ylabel('Esperado (Ground Truth)', fontsize=11, fontweight='bold')
-    
-    # Matriz BERTweet
-    sns.heatmap(bertweet_matrix, annot=True, fmt='d', cmap='Greens',
-                xticklabels=labels, yticklabels=labels,
-                ax=axes[1], cbar_kws={'label': 'Quantidade'}, vmin=0, vmax=220)
-    axes[1].set_title('Matriz de Confusão - BERTweet (Twitter XLM-RoBERTa)', 
-                      fontsize=14, fontweight='bold', pad=15)
-    axes[1].set_xlabel('Predito pelo Modelo', fontsize=11, fontweight='bold')
-    axes[1].set_ylabel('Esperado (Ground Truth)', fontsize=11, fontweight='bold')
-    
-    plt.tight_layout()
-    plt.savefig(output_dir / 'matriz_confusao_sentimentos.png', dpi=300, bbox_inches='tight')
-    plt.close()
-    
+    """
+    Matrizes de confusão n=1000 (ground truth): paleta em tons de cinza (anexo),
+    Arial 11 preto, sem título interno; painéis A e B conforme manual (sem parênteses).
+    """
+    distil_matrix, bertweet_matrix, meta = _carregar_matrizes_confusao()
+    labels = ["Negativo", "Neutro", "Positivo"]
+    vmax = float(max(distil_matrix.max(), bertweet_matrix.max()))
+    cmap = mpl.colormaps["Greys"].copy()
+    cmap.set_bad(color="white")
+
+    rc = {
+        "figure.facecolor": "white",
+        "axes.facecolor": "white",
+        "savefig.facecolor": "white",
+        "font.size": 11,
+        "font.family": "sans-serif",
+        "font.sans-serif": ["Arial", "Helvetica", "DejaVu Sans"],
+        "axes.edgecolor": "black",
+        "axes.linewidth": 1.5,
+        "text.color": "black",
+    }
+    with plt.rc_context(rc):
+        fig, axes = plt.subplots(1, 2, figsize=(11.5, 5.0), facecolor="white")
+        for ax, cm, letter in (
+            (axes[0], distil_matrix, "A"),
+            (axes[1], bertweet_matrix, "B"),
+        ):
+            im = ax.imshow(cm, cmap=cmap, vmin=0, vmax=vmax, interpolation="nearest", aspect="equal")
+            _annotate_confusion_matrix(ax, cm, cmap, vmax)
+            ax.set_xticks(np.arange(cm.shape[1]))
+            ax.set_yticks(np.arange(cm.shape[0]))
+            ax.set_xticklabels(labels, rotation=35, ha="right", fontsize=11, fontweight="normal")
+            ax.set_yticklabels(labels, fontsize=11, fontweight="normal")
+            ax.set_xlabel("Classe Predita", fontsize=11, labelpad=8, fontweight="normal")
+            ax.set_ylabel("Classe Verdadeira", fontsize=11, labelpad=8, fontweight="normal")
+            _esalq_axes_style(ax, linewidth=1.5)
+            _painel_letra_manual(ax, letter)
+            cbar = fig.colorbar(im, ax=ax, fraction=0.046, pad=0.04)
+            cbar.set_label("Número de Comentários", fontsize=11, fontweight="normal")
+            cbar.ax.tick_params(labelsize=10)
+        plt.tight_layout()
+        out = output_dir / "matriz_confusao_sentimentos.png"
+        plt.savefig(out, dpi=300, bbox_inches="tight", facecolor="white", edgecolor="none")
+        plt.close()
+
     print(f"Grafico salvo: {output_dir / 'matriz_confusao_sentimentos.png'}")
+    print(
+        f"  (matrizes n={meta.get('n_samples')}, "
+        f"acurácias JSON DistilBERT={meta['distilbert']['accuracy']}, BERTweet={meta['bertweet']['accuracy']})"
+    )
 
 def grafico_comparacao_gpt_models(output_dir):
-    """Gera gráficos comparativos para modelos GPT"""
-    
-    # Dados dos modelos GPT (do model_accuracy_comparison.txt)
+    """Duas figuras separadas (normas TCC): acurácia e distribuição — tons de cinza, sem grade."""
+    try:
+        from scripts.tcc_chart_style import (
+            CINZA_CLARO,
+            CINZA_ESCURO,
+            CINZA_MEDIO,
+            aplicar_eixos_principais,
+            contexto,
+            formatador_eixo_percent,
+        )
+    except ImportError:
+        from tcc_chart_style import (
+            CINZA_CLARO,
+            CINZA_ESCURO,
+            CINZA_MEDIO,
+            aplicar_eixos_principais,
+            contexto,
+            formatador_eixo_percent,
+        )
+
     modelos_gpt = {
-        'GPT-4o-2024-08-06': {
-            'accuracy': 63.6,
-            'corretos': 14,
-            'incorretos': 0,
-            'nao_encontrados': 8,
-            'color': CORES['gpt4o']
+        "GPT-4o-2024-08-06": {
+            "accuracy": 63.6,
+            "corretos": 14,
+            "incorretos": 0,
+            "nao_encontrados": 8,
         },
-        'GPT-5.2-2025-12-11': {
-            'accuracy': 63.6,
-            'corretos': 14,
-            'incorretos': 0,
-            'nao_encontrados': 8,
-            'color': CORES['gpt52']
+        "GPT-5.2-2025-12-11": {
+            "accuracy": 63.6,
+            "corretos": 14,
+            "incorretos": 0,
+            "nao_encontrados": 8,
         },
-        'GPT-OSS-20B': {
-            'accuracy': 59.1,
-            'corretos': 13,
-            'incorretos': 0,
-            'nao_encontrados': 9,
-            'color': CORES['gptoss']
+        "GPT-OSS-20B": {
+            "accuracy": 59.1,
+            "corretos": 13,
+            "incorretos": 0,
+            "nao_encontrados": 9,
         },
-        'GPT-4o-mini': {
-            'accuracy': 54.5,
-            'corretos': 12,
-            'incorretos': 0,
-            'nao_encontrados': 10,
-            'color': CORES['gptmini']
-        }
+        "GPT-4o-mini": {
+            "accuracy": 54.5,
+            "corretos": 12,
+            "incorretos": 0,
+            "nao_encontrados": 10,
+        },
     }
-    
-    # Criar figura com 2 subplots
-    fig, axes = plt.subplots(1, 2, figsize=(16, 6))
-    
-    # 1. Accuracy Comparison
-    ax1 = axes[0]
-    
     modelos_nomes = list(modelos_gpt.keys())
-    accuracies = [m['accuracy']/100 for m in modelos_gpt.values()]
-    cores = [m['color'] for m in modelos_gpt.values()]
-    
-    bars = ax1.bar(range(len(modelos_nomes)), accuracies, color=cores, alpha=0.8)
-    
-    # Calcular altura máxima para ajustar ylim dinamicamente
-    max_acc = max(accuracies)
-    
-    ax1.set_xticks(range(len(modelos_nomes)))
-    ax1.set_xticklabels(modelos_nomes, rotation=15, ha='right', fontsize=9)
-    ax1.set_ylabel('Accuracy', fontsize=12, fontweight='bold', labelpad=8)
-    ax1.set_title('Comparação de Acurácia - Modelos GPT', fontsize=14, fontweight='bold', pad=18)
-    # Ylim ajustado dinamicamente: altura máxima + 15% de espaço
-    ax1.set_ylim([0, max_acc * 1.15])
-    ax1.grid(axis='y', alpha=0.3)
-    # Ajustar margem inferior para dar espaço aos labels rotacionados
-    ax1.tick_params(axis='x', pad=12)
-    
-    # Adicionar valores nas barras - bem próximo mas sem sobrepor
-    for bar, acc in zip(bars, accuracies):
-        height = bar.get_height()
-        # Offset mínimo: 1.5% da altura máxima para ficar bem próximo
-        offset = max_acc * 0.015
-        ax1.text(bar.get_x() + bar.get_width()/2., height + offset,
-                f'{acc*100:.1f}%', ha='center', va='bottom', fontsize=10, fontweight='bold')
-    
-    # 2. Métricas Detalhadas (Corretos, Incorretos, Não Encontrados)
-    ax2 = axes[1]
-    
-    x = np.arange(len(modelos_nomes))
-    width = 0.25
-    
-    corretos = [m['corretos'] for m in modelos_gpt.values()]
-    incorretos = [m['incorretos'] for m in modelos_gpt.values()]
-    nao_encontrados = [m['nao_encontrados'] for m in modelos_gpt.values()]
-    
-    bars1 = ax2.bar(x - width, corretos, width, label='Corretos', color='#2ecc71', alpha=0.8)
-    bars2 = ax2.bar(x, incorretos, width, label='Incorretos', color='#e74c3c', alpha=0.8)
-    bars3 = ax2.bar(x + width, nao_encontrados, width, label='Não Encontrados', color='#f39c12', alpha=0.8)
-    
-    ax2.set_xticks(x)
-    ax2.set_xticklabels(modelos_nomes, rotation=15, ha='right', fontsize=9)
-    ax2.set_ylabel('Quantidade', fontsize=12, fontweight='bold', labelpad=10)
-    ax2.set_title('Distribuição de Resultados - Modelos GPT', fontsize=14, fontweight='bold', pad=25)
-    ax2.legend(fontsize=10, loc='upper left', bbox_to_anchor=(0, 1))
-    ax2.grid(axis='y', alpha=0.3)
-    # Ajustar margem inferior para dar espaço aos labels rotacionados
-    ax2.tick_params(axis='x', pad=15)
-    # Aumentar ylim para dar espaço para os valores acima das barras
-    max_value = max(max(corretos), max(incorretos), max(nao_encontrados))
-    ax2.set_ylim([0, max_value * 1.3])
-    
-    # Adicionar valores nas barras
-    for bars in [bars1, bars2, bars3]:
-        for bar in bars:
-            height = bar.get_height()
-            if height > 0:
-                # Adicionar offset para não sobrepor
-                offset = 2 if height < 90 else 3
-                ax2.text(bar.get_x() + bar.get_width()/2., height + offset,
-                        f'{int(height)}', ha='center', va='bottom', fontsize=9, fontweight='bold')
-    
-    plt.tight_layout(pad=2.5)
-    plt.savefig(output_dir / 'comparacao_modelos_gpt.png', dpi=300, bbox_inches='tight', pad_inches=0.15)
-    plt.close()
-    
-    print(f"Grafico salvo: {output_dir / 'comparacao_modelos_gpt.png'}")
+    cinzas = [CINZA_ESCURO, CINZA_MEDIO, CINZA_CLARO, "#6E6E6E"]
+
+    with contexto():
+        # Figura única: acurácia
+        fig1, ax1 = plt.subplots(figsize=(10, 4.8), facecolor="white")
+        accuracies = [m["accuracy"] / 100 for m in modelos_gpt.values()]
+        bars = ax1.bar(
+            range(len(modelos_nomes)),
+            accuracies,
+            color=cinzas[: len(modelos_nomes)],
+            edgecolor="black",
+            linewidth=0.6,
+        )
+        ax1.set_xticks(range(len(modelos_nomes)))
+        ax1.set_xticklabels(modelos_nomes, rotation=18, ha="right", fontsize=9)
+        ax1.set_ylabel("Acurácia (%)", fontsize=11, fontweight="normal", labelpad=6)
+        max_acc = max(accuracies)
+        ax1.set_ylim(0, max_acc * 1.22)
+        formatador_eixo_percent(ax1, "y")
+        aplicar_eixos_principais(ax1)
+        for bar, acc in zip(bars, accuracies):
+            h = bar.get_height()
+            ax1.text(
+                bar.get_x() + bar.get_width() / 2,
+                h + max_acc * 0.02,
+                f"{acc*100:.1f}",
+                ha="center",
+                va="bottom",
+                fontsize=10,
+                fontweight="normal",
+            )
+        plt.tight_layout()
+        p1 = output_dir / "figura3A_gpt_accuracy.png"
+        fig1.savefig(p1, dpi=300, bbox_inches="tight", facecolor="white", edgecolor="none")
+        plt.close(fig1)
+
+        # Figura única: distribuição
+        fig2, ax2 = plt.subplots(figsize=(11, 5.0), facecolor="white")
+        x = np.arange(len(modelos_nomes))
+        width = 0.24
+        corretos = [m["corretos"] for m in modelos_gpt.values()]
+        incorretos = [m["incorretos"] for m in modelos_gpt.values()]
+        nao_encontrados = [m["nao_encontrados"] for m in modelos_gpt.values()]
+        ax2.bar(
+            x - width,
+            corretos,
+            width,
+            label="Corretos",
+            color=CINZA_ESCURO,
+            edgecolor="black",
+            linewidth=0.5,
+        )
+        ax2.bar(
+            x,
+            incorretos,
+            width,
+            label="Incorretos",
+            color=CINZA_MEDIO,
+            edgecolor="black",
+            linewidth=0.5,
+        )
+        ax2.bar(
+            x + width,
+            nao_encontrados,
+            width,
+            label="Não encontrados",
+            color=CINZA_CLARO,
+            edgecolor="black",
+            linewidth=0.5,
+        )
+        ax2.set_xticks(x)
+        ax2.set_xticklabels(modelos_nomes, rotation=18, ha="right", fontsize=9)
+        ax2.set_ylabel("Quantidade (n)", fontsize=11, fontweight="normal", labelpad=6)
+        max_value = max(max(corretos), max(incorretos), max(nao_encontrados))
+        ax2.set_ylim(0, max_value * 1.35)
+        aplicar_eixos_principais(ax2)
+        ax2.legend(fontsize=9, loc="upper left", frameon=True, edgecolor="0.5")
+        for bars in ax2.containers:
+            for bar in bars:
+                h = bar.get_height()
+                if h > 0:
+                    ax2.text(
+                        bar.get_x() + bar.get_width() / 2,
+                        h + 0.35,
+                        f"{int(h)}",
+                        ha="center",
+                        va="bottom",
+                        fontsize=8,
+                        fontweight="normal",
+                    )
+        plt.tight_layout()
+        p2 = output_dir / "figura3B_gpt_distribuicao.png"
+        fig2.savefig(p2, dpi=300, bbox_inches="tight", facecolor="white", edgecolor="none")
+        plt.close(fig2)
+
+    # Legado: uma figura combinada opcional
+    print(f"Graficos salvos: {p1} e {p2}")
 
 def gerar_todos_graficos():
     """Gera todos os gráficos comparativos"""

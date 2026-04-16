@@ -12,21 +12,23 @@ Priorização de funcionalidades baseada em 200 avaliações negativas de usuár
 
 ### Distribuição de Categorias
 
-| Categoria | Quantidade | Porcentagem | Severidade Média | Prioridade |
-|:----------|:-----------|:------------|:-----------------|:-----------|
-| Performance | 88 | 44.0% | 1.86/5 | ALTA |
-| Login/Autenticação | 28 | 14.0% | 1.79/5 | ALTA |
-| Segurança | 4 | 2.0% | 1.00/5 | ALTA |
-| Pagamentos/Boletos | 2 | 1.0% | 1.50/5 | MEDIA |
-| PIX | 4 | 2.0% | 2.75/5 | MEDIA |
-| Empréstimos/Crédito | 8 | 4.0% | 1.50/5 | MEDIA |
-| Atendimento | 9 | 4.5% | 1.00/5 | MEDIA |
-| Cadastro/Conta | 5 | 2.5% | 1.00/5 | MEDIA |
-| Outros | 39 | 19.5% | 1.51/5 | MEDIA |
-| Interface/Usabilidade | 4 | 2.0% | 2.50/5 | MEDIA |
-| Saldo/Extrato | 3 | 1.5% | 2.67/5 | MEDIA |
-| Notificações | 4 | 2.0% | 2.50/5 | BAIXA |
-| Investimentos | 2 | 1.0% | 3.50/5 | BAIXA |
+
+| Categoria             | Quantidade | Porcentagem | Severidade Média | Prioridade |
+| --------------------- | ---------- | ----------- | ---------------- | ---------- |
+| Performance           | 88         | 44.0%       | 1.86/5           | ALTA       |
+| Login/Autenticação    | 28         | 14.0%       | 1.79/5           | ALTA       |
+| Segurança             | 4          | 2.0%        | 1.00/5           | ALTA       |
+| Pagamentos/Boletos    | 2          | 1.0%        | 1.50/5           | MEDIA      |
+| PIX                   | 4          | 2.0%        | 2.75/5           | MEDIA      |
+| Empréstimos/Crédito   | 8          | 4.0%        | 1.50/5           | MEDIA      |
+| Atendimento           | 9          | 4.5%        | 1.00/5           | MEDIA      |
+| Cadastro/Conta        | 5          | 2.5%        | 1.00/5           | MEDIA      |
+| Outros                | 39         | 19.5%       | 1.51/5           | MEDIA      |
+| Interface/Usabilidade | 4          | 2.0%        | 2.50/5           | MEDIA      |
+| Saldo/Extrato         | 3          | 1.5%        | 2.67/5           | MEDIA      |
+| Notificações          | 4          | 2.0%        | 2.50/5           | BAIXA      |
+| Investimentos         | 2          | 1.0%        | 3.50/5           | BAIXA      |
+
 
 ---
 
@@ -35,6 +37,7 @@ Priorização de funcionalidades baseada em 200 avaliações negativas de usuár
 ### 88. Performance (Prioridade: ALTA)
 
 **Métricas:**
+
 - Frequência: 88 avaliações (44.0% do total)
 - Severidade Média: 1.86/5
 - Score de Prioridade: 0.63
@@ -46,6 +49,7 @@ Priorização de funcionalidades baseada em 200 avaliações negativas de usuár
 - "Não fecha. Que saco" (Score: 2/5)
 
 **Recomendações:**
+
 - Executar profiling do app. Otimizar tempo de inicialização e identificar memory leaks.
 
 ---
@@ -53,6 +57,7 @@ Priorização de funcionalidades baseada em 200 avaliações negativas de usuár
 ### 28. Login/Autenticação (Prioridade: ALTA)
 
 **Métricas:**
+
 - Frequência: 28 avaliações (14.0% do total)
 - Severidade Média: 1.79/5
 - Score de Prioridade: 0.55
@@ -64,6 +69,7 @@ Priorização de funcionalidades baseada em 200 avaliações negativas de usuár
 - "Não estou conseguindo acessar a minha conta está horrível" (Score: 3/5)
 
 **Recomendações:**
+
 - Analisar taxa de falha no login. Revisar fluxo de recuperação de senha e biometria.
 
 ---
@@ -71,6 +77,7 @@ Priorização de funcionalidades baseada em 200 avaliações negativas de usuár
 ### 4. Segurança (Prioridade: ALTA)
 
 **Métricas:**
+
 - Frequência: 4 avaliações (2.0% do total)
 - Severidade Média: 1.00/5
 - Score de Prioridade: 0.55
@@ -82,6 +89,7 @@ Priorização de funcionalidades baseada em 200 avaliações negativas de usuár
 - "O pior está roubando meu dinheiro cobrando oq eu não devo esse AP e um roubo" (Score: 1/5)
 
 **Recomendações:**
+
 - Revisar políticas de bloqueio. Implementar notificações proativas de segurança.
 
 ---
@@ -89,6 +97,7 @@ Priorização de funcionalidades baseada em 200 avaliações negativas de usuár
 ### 2. Pagamentos/Boletos (Prioridade: MÉDIA)
 
 **Métricas:**
+
 - Frequência: 2 avaliações (1.0% do total)
 - Severidade Média: 1.50/5
 - Score de Prioridade: 0.45
@@ -99,6 +108,7 @@ Priorização de funcionalidades baseada em 200 avaliações negativas de usuár
 - "Agora mesmo estou precisando efetuar o pagamento e não estou conseguindo isso vêm acontecendo toda noite" (Score: 1/5)
 
 **Recomendações:**
+
 - Revisar lógica de exclusão de boletos pagos no DDA. Implementar confirmação antes de pagamentos.
 
 ---
@@ -106,6 +116,7 @@ Priorização de funcionalidades baseada em 200 avaliações negativas de usuár
 ### 4. PIX (Prioridade: MÉDIA)
 
 **Métricas:**
+
 - Frequência: 4 avaliações (2.0% do total)
 - Severidade Média: 2.75/5
 - Score de Prioridade: 0.44
@@ -117,6 +128,7 @@ Priorização de funcionalidades baseada em 200 avaliações negativas de usuár
 - "As vezes que mais preciso fazer um pix está fora do ar" (Score: 3/5)
 
 **Recomendações:**
+
 - Investigar logs de erro nas transações PIX. Revisar integração com BACEN e timeout de confirmação.
 
 ---
@@ -129,3 +141,4 @@ Priorização de funcionalidades baseada em 200 avaliações negativas de usuár
 4. Comunicação com usuários sobre correções
 
 ---
+

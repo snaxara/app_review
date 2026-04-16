@@ -1,0 +1,65 @@
+{
+  "n_samples": 1000,
+  "labels_order": [
+    "negative",
+    "neutral",
+    "positive"
+  ],
+  "distilbert": {
+    "matrix": [
+      [
+        187,
+        33,
+        73
+      ],
+      [
+        3,
+        1,
+        23
+      ],
+      [
+        142,
+        2,
+        536
+      ]
+    ],
+    "accuracy": 0.724,
+    "n_evaluated": 1000,
+    "chart_metrics": {
+      "accuracy_pct": 72.4,
+      "precision_weighted_pct": 74.25,
+      "recall_weighted_pct": 72.4,
+      "f1_weighted_pct": 73.18,
+      "roc_auc_weighted_ovr_pct": 72.95
+    }
+  },
+  "bertweet": {
+    "matrix": [
+      [
+        264,
+        27,
+        2
+      ],
+      [
+        0,
+        23,
+        4
+      ],
+      [
+        3,
+        30,
+        647
+      ]
+    ],
+    "accuracy": 0.934,
+    "n_evaluated": 1000,
+    "chart_metrics": {
+      "accuracy_pct": 93.4,
+      "precision_weighted_pct": 97.12,
+      "recall_weighted_pct": 93.4,
+      "f1_weighted_pct": 94.8,
+      "roc_auc_weighted_ovr_pct": 95.92
+    }
+  },
+  "notes": "Matrizes no sklearn: linha=classe verdadeira, coluna=classe predita; ordem negative, neutral, positive"
+}
