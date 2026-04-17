@@ -8,27 +8,25 @@ import json
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 import numpy as np
-import seaborn as sns
 from pathlib import Path
 
 _REPO_ROOT = Path(__file__).resolve().parents[1]
 _CONFUSION_JSON = _REPO_ROOT / "data" / "confusion_matrices_sentiment.json"
 
 # Configuração de estilo
-plt.style.use('seaborn-v0_8-darkgrid')
-sns.set_palette("husl")
+plt.style.use("default")
 plt.rcParams['figure.figsize'] = (16, 6)
 plt.rcParams['font.size'] = 10
 plt.rcParams['font.family'] = 'DejaVu Sans'
 
-# Cores para gráficos
+# Cores para gráficos (pastel discreto)
 CORES = {
-    'distilbert': '#2E86AB',  # Azul
-    'bertweet': '#06A77D',   # Verde
-    'gpt4o': '#2E86AB',      # Azul
-    'gpt52': '#A23B72',      # Roxo
-    'gptoss': '#F18F01',     # Laranja
-    'gptmini': '#C73E1D',    # Vermelho
+    'distilbert': '#BFD8B8',  # Verde sálvia
+    'bertweet': '#9BB7D4',    # Azul pastel
+    'gpt4o': '#9BB7D4',
+    'gpt52': '#C9B6D8',       # Lilás pastel
+    'gptoss': '#E8CFAF',      # Bege pastel
+    'gptmini': '#D9A5A5',     # Rosa queimado suave
 }
 
 def criar_diretorio_imagens():
@@ -50,15 +48,15 @@ def _curva_roc_esquematica(auc: float, n: int = 100) -> tuple[np.ndarray, np.nda
 def grafico_comparacao_sentimentos(output_dir):
     """
     Três painéis (A/B/C), normas Tabela 8: sem grade, sem preenchimento de fundo,
-    eixos pretos 1,5 pt, Arial 11, barras em tons de cinza (anexo).
+    eixos pretos 1,5 pt, Arial 11, barras em paleta pastel discreta.
     Métricas alinhadas às matrizes n=1000 em data/confusion_matrices_sentiment.json.
     """
     _, _, meta = _carregar_matrizes_confusao()
     md = meta["distilbert"]["chart_metrics"]
     mb = meta["bertweet"]["chart_metrics"]
 
-    cinza_claro = "#BCBCBC"
-    cinza_escuro = "#6E6E6E"
+    cinza_claro = "#BFD8B8"
+    cinza_escuro = "#9BB7D4"
 
     rc = {
         "figure.facecolor": "white",
@@ -88,11 +86,11 @@ def grafico_comparacao_sentimentos(output_dir):
         ax1.plot(
             fpr_b,
             tpr_b,
-            color="#333333",
+            color="#7F95AD",
             linewidth=1.5,
             label=f"BERTweet (Twitter XLM-RoBERTa) (AUC = {auc_b:.3f})",
         )
-        ax1.plot([0, 1], [0, 1], linestyle="--", color="#888888", linewidth=1.2, label="Classificador aleatório")
+        ax1.plot([0, 1], [0, 1], linestyle="--", color="#B8B8B8", linewidth=1.2, label="Classificador aleatório")
         ax1.set_xlabel("Taxa de falsos positivos", fontsize=11, fontweight="normal", labelpad=6)
         ax1.set_ylabel("Taxa de verdadeiros positivos", fontsize=11, fontweight="normal", labelpad=6)
         ax1.set_xlim(0, 1)
@@ -255,13 +253,16 @@ def _carregar_matrizes_confusao():
 
 def grafico_matriz_confusao_sentimentos(output_dir):
     """
-    Matrizes de confusão n=1000 (ground truth): paleta em tons de cinza (anexo),
+    Matrizes de confusão n=1000 (ground truth): paleta pastel suave,
     Arial 11 preto, sem título interno; painéis A e B conforme manual (sem parênteses).
     """
     distil_matrix, bertweet_matrix, meta = _carregar_matrizes_confusao()
     labels = ["Negativo", "Neutro", "Positivo"]
     vmax = float(max(distil_matrix.max(), bertweet_matrix.max()))
-    cmap = mpl.colormaps["Greys"].copy()
+    cmap = mpl.colors.LinearSegmentedColormap.from_list(
+        "pastel_blues",
+        ["#FFFFFF", "#DCE8F6", "#9BB7D4"],
+    )
     cmap.set_bad(color="white")
 
     rc = {
@@ -306,7 +307,7 @@ def grafico_matriz_confusao_sentimentos(output_dir):
     )
 
 def grafico_comparacao_gpt_models(output_dir):
-    """Duas figuras separadas (normas TCC): acurácia e distribuição — tons de cinza, sem grade."""
+    """Duas figuras separadas (normas TCC): acurácia e distribuição em paleta pastel, sem grade."""
     try:
         from scripts.tcc_chart_style import (
             CINZA_CLARO,

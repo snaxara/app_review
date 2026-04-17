@@ -1,4 +1,4 @@
-"""Estilo de figuras alinhado às normas do TCC ESALQ (Tabela 8): fundo branco, sem grade, eixos 1,5 pt."""
+"""Estilo de figuras do TCC: fundo branco, eixos 1,5 pt e paleta pastel discreta."""
 
 from __future__ import annotations
 
@@ -15,9 +15,11 @@ RC_ESALQ = {
     "text.color": "black",
 }
 
-CINZA_CLARO = "#BCBCBC"
-CINZA_MEDIO = "#8C8C8C"
-CINZA_ESCURO = "#4A4A4A"
+# Mantemos os nomes por compatibilidade com scripts existentes,
+# mas agora aplicando tons pastel suaves (não chamativos).
+CINZA_CLARO = "#E8CFAF"   # bege pastel
+CINZA_MEDIO = "#BFD8B8"   # verde sálvia pastel
+CINZA_ESCURO = "#9BB7D4"  # azul pastel
 
 
 def aplicar_eixos_principais(ax, linewidth: float = 1.5) -> None:

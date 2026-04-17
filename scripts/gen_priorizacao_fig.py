@@ -9,7 +9,10 @@ plt.rcParams["font.family"] = "sans-serif"
 plt.rcParams["font.sans-serif"] = ["Arial", "DejaVu Sans", "Helvetica"]
 
 root = Path(__file__).resolve().parents[1]
-md_path = root / "Documentos" / "backlog_priorizado.md"
+md_candidates = [
+    root / "Documentos" / "backlog_priorizado.md",
+    root / "Documentos" / "Backlog Priorizado - Aplicativo Bancário.md",
+]
 out = root / "Documentos" / "imagens_tcc" / "exemplo_documento_priorizacao_backlog.png"
 
 
@@ -18,11 +21,12 @@ def parse_resumo_table(text: str) -> list[list[str]]:
     rows_out: list[list[str]] = []
     in_table = False
     for line in lines:
-        if line.strip().startswith("| Categoria |"):
+        line_strip = line.strip()
+        if line_strip.startswith("| Categoria"):
             in_table = True
             continue
         if in_table:
-            if not line.strip().startswith("|"):
+            if not line_strip.startswith("|"):
                 break
             if re.match(r"^\|[\s:-]+\|", line):
                 continue
@@ -33,8 +37,19 @@ def parse_resumo_table(text: str) -> list[list[str]]:
 
 
 def main() -> None:
+    md_path = next((p for p in md_candidates if p.exists()), None)
+    if md_path is None:
+        raise FileNotFoundError(
+            "Nenhum arquivo de backlog encontrado em: "
+            + ", ".join(str(p) for p in md_candidates)
+        )
+
     raw = md_path.read_text(encoding="utf-8")
     data = parse_resumo_table(raw)
+    if not data:
+        raise ValueError(
+            f"Tabela 'Distribuição de Categorias' não encontrada em {md_path}"
+        )
     # Ordenar por quantidade (col1 int) e manter top 8 para caber na figura
     def qtd(row: list[str]) -> int:
         try:
@@ -60,15 +75,15 @@ def main() -> None:
         colLabels=cols,
         loc="center",
         cellLoc="left",
-        colColours=["#e8e8e8"] * len(cols),
+        colColours=["#DCE8F6"] * len(cols),
     )
     table.auto_set_font_size(False)
     table.set_fontsize(8)
     table.scale(1.05, 1.35)
 
-    meta = re.search(r"Data:\s*(.+)", raw)
-    total = re.search(r"Total de Avaliações:\s*(\d+)", raw)
-    modelo = re.search(r"Modelo:\s*(.+)", raw)
+    meta = re.search(r"(?:Data|Data de Geração):\**\s*(.+)", raw)
+    total = re.search(r"(?:Total de Avaliações|Total de Avaliações Analisadas):\**\s*(\d+)", raw)
+    modelo = re.search(r"(?:Modelo|Modelo LLM Utilizado):\**\s*(.+)", raw)
     foot = "Fonte dos dados: arquivo backlog_priorizado.md"
     if meta:
         foot += f" ({meta.group(1).strip()})"

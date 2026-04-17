@@ -1,5 +1,5 @@
 """
-Script para gerar visualizações de métricas SNA (normas TCC: fundo branco, sem grade, cinzas).
+Script para gerar visualizações de métricas SNA (normas TCC: fundo branco, sem grade, paleta pastel discreta).
 """
 
 import json
