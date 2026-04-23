@@ -16,6 +16,7 @@ try:
         CINZA_MEDIO,
         aplicar_eixos_principais,
         contexto,
+        painel_letra,
     )
 except ImportError:
     from tcc_chart_style import (
@@ -24,6 +25,7 @@ except ImportError:
         CINZA_MEDIO,
         aplicar_eixos_principais,
         contexto,
+        painel_letra,
     )
 
 def carregar_dados_metricas():
@@ -67,7 +69,6 @@ def grafico_distribuicao_issues_por_capability(dados, output_dir):
             linewidth=0.5,
         )
         ax1.set_xlabel("Quantidade de issues (n)", fontsize=11, fontweight="normal", labelpad=6)
-        ax1.set_title("Issues por BusinessCapability", fontsize=11, fontweight="normal", pad=12)
         aplicar_eixos_principais(ax1)
         xmax = df["Issues"].max()
         ax1.set_xlim(0, xmax * 1.12 + 0.5)
@@ -82,7 +83,6 @@ def grafico_distribuicao_issues_por_capability(dados, output_dir):
             linewidth=0.5,
         )
         ax2.set_xlabel("Quantidade de episódios (n)", fontsize=11, fontweight="normal", labelpad=6)
-        ax2.set_title("Episódios por BusinessCapability", fontsize=11, fontweight="normal", pad=12)
         aplicar_eixos_principais(ax2)
         xmax2 = df["Episódios"].max()
         ax2.set_xlim(0, xmax2 * 1.12 + 0.5)
@@ -130,7 +130,6 @@ def grafico_top_10_issues(dados, output_dir):
         ax.set_yticks(range(len(df)))
         ax.set_yticklabels(df["Issue"], fontsize=9)
         ax.set_xlabel("Número de episódios (n)", fontsize=11, fontweight="normal", labelpad=6)
-        ax.set_title("Dez issues mais frequentes", fontsize=11, fontweight="normal", pad=12)
         aplicar_eixos_principais(ax)
         xmax = df["Episódios"].max()
         ax.set_xlim(0, xmax * 1.15 + 0.3)
@@ -180,7 +179,8 @@ def grafico_distribuicao_por_nivel_tipo(dados, output_dir):
             colors=[CINZA_ESCURO, CINZA_CLARO],
             **pie_kw,
         )
-        axes[0].set_title("Por nível hierárquico", fontsize=11, fontweight="normal", pad=12)
+        axes[0].set_title("Nível hierárquico", fontsize=11, fontweight="normal", pad=12)
+        painel_letra(axes[0], "A")
 
         tipo_labels = [k for k, v in tipo_stats.items() if v > 0]
         tipo_values = [tipo_stats[k] for k in tipo_labels]
@@ -192,7 +192,8 @@ def grafico_distribuicao_por_nivel_tipo(dados, output_dir):
             colors=cinzas_tipo,
             **pie_kw,
         )
-        axes[1].set_title("Por tipo de capability", fontsize=11, fontweight="normal", pad=12)
+        axes[1].set_title("Tipo de BusinessCapability", fontsize=11, fontweight="normal", pad=12)
+        painel_letra(axes[1], "B")
 
         valor_labels = [k for k, v in valor_stats.items() if v > 0]
         valor_values = [valor_stats[k] for k in valor_labels]
@@ -204,7 +205,8 @@ def grafico_distribuicao_por_nivel_tipo(dados, output_dir):
             colors=cinzas_val,
             **pie_kw,
         )
-        axes[2].set_title("Por valor de negócio", fontsize=11, fontweight="normal", pad=12)
+        axes[2].set_title("Valor de negócio", fontsize=11, fontweight="normal", pad=12)
+        painel_letra(axes[2], "C")
 
         plt.tight_layout()
         plt.savefig(
